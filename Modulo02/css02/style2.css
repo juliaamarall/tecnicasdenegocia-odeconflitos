@@ -1,0 +1,31 @@
+/*ESTILIZAÇÃO PARA A LISTA NO MODULO02 */
+.icon-green{
+    color: green;
+}
+/* FIM DA ESTILIZAÇÃO DA LISTA */
+
+/* ESTILIZAÇÃO PARA OS ACCORDIONS (SEM ANIMAÇÃO) */
+.accordion-body {
+    background-color: rgb(240, 238, 238);
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30px;
+    margin-left: 5px;
+    border: none;
+}
+
+
+.accordion-button {
+    background-color: #e5e7e7;
+    --bs-accordion-active-bg: #10ac44;
+    --bs-accordion-btn-icon-bg: var(--white);
+}
+
+.sem-borda{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+/* FIM DA ESTILIZAÇÃO DO ACCORDION (SEM ANIMAÇÃO) */

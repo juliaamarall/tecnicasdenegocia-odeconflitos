@@ -1,0 +1,89 @@
+/* estilização para o footer da página index */
+footer{
+    margin-top: 10vh;
+}
+
+.none{
+    margin-top: 1.5em;
+}
+
+/* estilização para textos que não ficaram alinhados na esquerda */
+.text-left{
+    text-align: left;
+}
+
+/* estilização para ul que precisam de decoração */
+.text-dec > li{
+    list-style: disc;
+}
+
+ul li.menu a > #menu-big {
+   border: 2px solid red;
+   height: 80px;
+   padding-bottom: 1em;
+
+}
+
+/* ESTILIZAÇÃO PARA OS ACCORDIONS (SEM ANIMAÇÃO) */
+.accordion-body {
+    background-color: rgb(240, 238, 238);
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    margin-left: 5px;
+    border: none;
+}
+
+.accordion-button {
+    background-color: #e5e7e7;
+    --bs-accordion-active-bg: #10ac44;
+    --bs-accordion-btn-icon-bg: var(--white);
+}
+
+.sem-borda{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+/* FIM DA ESTILIZAÇÃO DOS ACCORDIONS SEM ANIMAÇÃO */
+
+ /* DARK MODE DA PÁGINA DO CURSO */
+
+[data-theme="dark"] #obj > h3 {
+   color: white;
+}
+
+[data-theme="dark"] .alert {
+    background-color: #3be3e2;
+    border: #3be3e2;
+ }
+
+ [data-theme="dark"] .text-dec {
+   color: white;
+ }
+
+ [data-theme="dark"] #list-color li {
+   color: black;
+  }
+ 
+
+  [data-theme="dark"] .sem-borda > p {
+    color: black;
+   }
+
+   [data-theme="dark"] .accordion-body {
+    background-color: #ccc;
+   }
+   /* FIM DO ESTILO MODO ESCURO */
+
+/* ESTILIZAÇÃO ÉTICA E SERVIÇO PÚBLICO */
+
+#teste-border{
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+
+
