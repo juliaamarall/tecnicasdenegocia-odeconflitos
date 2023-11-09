@@ -26,12 +26,7 @@ include('layout/header.php');
                     <div class="col-md-10 col-sm-8 container-fluid">
 
                         <h2 class="Titulo fw-bolder">Apresentação</h2>
-                        <!-- IMAGEM 01 DO TÓPICO DE APRESENTAÇÃO -->
-                            <div class="container">
-                                <img src="imgs/Figura01.png" alt="Imagem da capa do curso com o títilo ÉTICA E SERVIÇO PÚBLICO" class="img-fluid">
-                            </div>
-                        <!-- FIM DA IMAGEM DE APRESENTAÇÃO   -->
-
+                
                         <div class="text-left">
                             <p>Nesta aula, vamos tratar da qualidade do atendimento ao público: um dos principais diferenciais para a sobrevivência de qualquer instituição e um dos fatores de grande importância para definir o nível do atendimento e a satisfação do usuário. Nesse sentido, abordaremos aspectos essenciais para essa qualidade: o atendimento de reclamações ou de situações extraordinárias, e também o papel do servidor para se alcançar a qualidade do atendimento.</p>
                         </div>
