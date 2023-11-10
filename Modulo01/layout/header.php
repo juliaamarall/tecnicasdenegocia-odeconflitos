@@ -25,5 +25,5 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="http://ava.egp.ce.gov.br/2018/desv/logo/favicon.png" />
 
-    <title>EGPCE | Atendimento ao Público - Módulo 01</title>
+    <title>EGPCE | Técnicas de Negociação de Conflitos - Módulo 02 </title>
 </head>

@@ -17,12 +17,7 @@ footer{
     list-style: disc;
 }
 
-ul li.menu a > #menu-big {
-   border: 2px solid red;
-   height: 80px;
-   padding-bottom: 1em;
 
-}
 
 /* ESTILIZAÇÃO PARA OS ACCORDIONS (SEM ANIMAÇÃO) */
 .accordion-body {

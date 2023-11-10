@@ -26,34 +26,29 @@ include('layout/header.php');
                     <div class="col-md-10 col-sm-8 container-fluid">
 
                         <h2 class="Titulo fw-bolder">Apresentação</h2>
-                        <!-- IMAGEM 01 DO TÓPICO DE APRESENTAÇÃO -->
-                            <div class="container">
-                                <img src="imgs/Figura01.png" alt="Imagem da capa do curso com o títilo ÉTICA E SERVIÇO PÚBLICO" class="img-fluid">
-                            </div>
-                        <!-- FIM DA IMAGEM DE APRESENTAÇÃO   -->
 
                         <div class="text-left">
-                            <p>Nesta aula, vamos tratar da qualidade do atendimento ao público: um dos principais diferenciais para a sobrevivência de qualquer instituição e um dos fatores de grande importância para definir o nível do atendimento e a satisfação do usuário. Nesse sentido, abordaremos aspectos essenciais para essa qualidade: o atendimento de reclamações ou de situações extraordinárias, e também o papel do servidor para se alcançar a qualidade do atendimento.</p>
+                            <p>Olá pessoal, nesta segunda parte do Curso apresentaremos uma seleção de algumas técnicas de mediação de conflitos mais utilizadas nas organizações atuais.</p>
+
+                            <p> Você perceberá que muitos pontos se repetem no material aqui disponibilizado, e assim entendemos que alguns pontos fazem parte de uma prática que parece que está surtindo efeito. </p>
+
+                            <p> O material é facilmente encontrado em sites específicos da área de Gestão de Pessoas, mostrando assim uma vasta literatura em relação às técnicas de mediação e resolução de conflitos nas Organizações, sejam estas do âmbito da Gestão, do Direito ou da Educação. </p>
+
+                            <p> Antes de prosseguirmos com a leitura do material, assista ao vídeo e entenda o significado de MEDIAÇÃO. </p>
                         </div>
 
-                        <h2 class="Titulo fw-bolder">Objetivo</h2>
-                        <p><i class="fa fa-dot-circle text-success"></i> Apresentar aspectos fundamentais para a qualidade do atendimento, buscando promover reflexão e favorecer, consequentemente, ações para a melhoria do atendimento e a satisfação do usuário-cidadão.</p>
+                         <!-- Iframe - video -->
+  <div class="container iframe-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Kr13qBAPA9k?si=uS_6T6op79MdwTr6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  <!-- fim do iframe -->
 
-                    
+<div class="text-left">
+    <p> <strong>Bem, esperamos que você tenha compreendido o que significa mediação e agora então iremos nos apropriar do material abaixo e ao final de cada bloco responda as questões propostas.</strong></p>
+    <p> <strong>Bons estudos!</strong></p>
+</div>
+
                         
-
-                        <ul class="none">
-                            <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i></i>
-                                <h4>
-                                    Olá, Nome_Completo bem-vindo ao módulo 01 do curso de Gestão do tempo. Bons estudos!
-                                </h4>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-
-            </div>
         </section>
 
 

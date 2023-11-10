@@ -25,163 +25,166 @@ include( 'layout/menu.php' );
 <div class = 'col-md-10 col-sm-8 container-fluid'>
 
 <h2 class = 'Titulo fw-bolder'>
-Conceitos Básicos</h2>
+Gestão de Conflitos na Equipe: Nove Técnicas Eficazes</h2>
 <!-- tirei o hr por que o menu não estava ficando sobreposto -->
 <!-- <hr> -->
 
-<div class = 'm-4' id="obj">
-<h3 class = 'Titulo fw-semibold'> 02 - Objetivos</h3>
-<p><i class = 'fa fa-dot-circle text-success me-2'></i>Apresentar uma breve etimologia do termo ética; expor definição de ética e moral; demonstrar sua relação com a vida prática do ser humano.
-</p>
-</div>
 
 <!-- primeiro bloco do tópico 02 ( RESUMO ) -->
     <div class="text-left">
-        <p> <strong>Ética</strong> é derivada da palavra grega ethos (έθος), que pode assumir uma diversidade de sentidos. O modo mais usual de emprego desse termo tem sido para indicar “modo de ser”, “caráter”. De modo que caráter pretende significar o conjunto de qualidades e disposições que definem uma pessoa e, ao mesmo tempo, a diferencia das demais. O caráter é adquirido pelo hábito. O hábito, por sua vez, nasce da repetição de atos iguais. Assim, pode-se dizer que das ações passam-se aos hábitos e dos hábitos à vida real. Desse modo, surge o <strong>ethos, o modo de ser e agir</strong>, que é definido pelas características que os hábitos deixaram marcados no ser. O ser humano, constantemente, está construindo seu próprio modo de ser e agir, seu caráter, que vai se transformando no ethos, na <strong>morada</strong> habitual do ser.</p>
+        <p> Eventualmente, <strong>um conflito é uma situação em que duas pessoas ou partes não concordam sobre algo. Em outras palavras, o conflito surge principalmente por causa das diferenças de opiniões ou perspectivas</strong>.</p>
+
+        <p> <span class="fst-italic">"A única forma de vencer uma discussão é evitá-la”</span> , essa famosa máxima de Dale Carnegie é um conselho infalível quando a pauta é evitar conflitos. Mas, algumas vezes, conflitos são inevitáveis. </p>
+
+        <p>Quando se trabalha com outras pessoas e, principalmente, quando se ocupa um cargo de liderança, dominar técnicas de gestão de conflitos é algo fundamental para um líder que deseja construir equipes mais fortes.</p>
     </div>
+       
 
-    <!-- CAIXA DE TEXTO CURIOSIDADE -->
-  <section class="container">
-    <div class="accordion ">
-      <section id="content">
-        <div class="caixaprincipal" id="tituloCuriosidade">
-          <div class="div_teste">
-            <div><i class="fa-solid fa-question"></i> CURIOSIDADE </div>
+    <div class="text-left">
+  <p> <strong>AS PRINCIPAIS RAZÕES OU FONTES DE CONFLITOS EM EQUIPES. QUAIS SÃO:</strong> </p>
 
-            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-          </div>
-        </div> <!--caixa Principal-->
-        <div class="accordion-content" id="Curiosidade">
-          <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
-                Passe o mouse acima
-              </strong></strong></p>
-          <p class="txt-caixasecundaria">“<strong>Morada</strong>” é uma outra possível tradução da palavra ethos.
-          </p><!--caixa secundaria-->
-        </div>
-      </section>
-  </section>
- <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
+  <p> Mas, antes de abordarmos as técnicas aprenda a identificar quais são as principais razões para a geração de conflitos em equipes: </p>
 
- <div class="text-left">
-    <p>Já a palavra <strong>moral</strong> é proveniente do latim moralis, ou ainda, mor-moris, que quer dizer “costume”, “maneira”, “comportamento próprio”. Ela está relacionada com o ethos no sentido de que é um modo de ser que pode ser adquirido gradualmente, que tem diversas fases de desenvolvimento. Resumidamente, podemos dizer que moris significa, a exemplo do ethos, o modo de ser ou o caráter. No entanto, ao passo que o caráter é adquirido pelo hábito (portanto, no ato de viver), o costume se adquire por repetições não necessariamente intencionais. Desse modo, que a ética tem a ver com o campo de investigação do agir humano, enquanto a moral está relacionada ao objeto dessa investigação. Conforme Adela Cortina (1995),</p>
+  <p> Conflitos de recursos – as pessoas da equipe podem precisar do mesmo recurso;
+Conflitos prioritários – prioridades conflitantes entre pessoas ou partes da equipe;
+Horários – semelhantes às prioridades. Mas isso surge quando algumas perguntas sobre cronogramas e por que uma entrega não é concluída a tempo, etc;
+Outras causas – personalidades e opiniões técnicas muito contrastantes, por exemplo, também causam conflitos em equipes. </p>
+    </div>
+<hr>
+<div class="text-left"> 
+  <p><strong>TÉCNICAS DE RESOLUÇÃO DE CONFLITOS DE EQUIPES:</strong></p>
+  <p>Conflitos no local de trabalho surgem devido a muitas razões. Confira algumas estratégias de resolução de conflitos e saiba como resolver com eficácia quando eles surgirem:</p>
+</div>
 
-                         <!-- Citação com borda verde (esquerda) -->
-  <div class="bd-callout bd-callout-success m-3">
-
-    <!-- blockquote do bootstrap -->
-    <figure>
-      <blockquote class="blockquote">
-        <p>"a moral está ligada imediatamente à ação e prescreve a conduta, enquanto que a ética (filosofia moral) se pronuncia canonicamente, isto é, conforme as regras."
-       </p>
-      </blockquote>
-      <figcaption class="blockquote-footer">
-        <cite title="Source Title">- (CORTINA, 1995, p. 29.)
-
-     </cite>
-      </figcaption>
-    </figure>
+<!-- ACCORDION SEM ANIMAÇÃO HTML-->
+<div class="container">
+     <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Entendendo o Conflito em Profundidade
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body sem-borda">
+        <p>Este é o primeiro passo para resolver o conflito em uma equipe: o líder deve procurar esclarecer e compreender a causa do conflito com profundidade, de modo que entenda a razão por trás do assunto. A liderança deve discutir o assunto com outros membros da equipe e, depois de uma discussão aprofundada, iniciar o processo de resolução. Gerenciar um conflito no trabalho significa ter uma visão geral do que exatamente aconteceu. Isso deve ser feito o mais rápido possível, porque se a questão não for vista ou levada em consideração dentro de um período razoável, o conflito aumenta gerando prejuízos para o time. Afinal, conflitos inibem a produtividade e geram distrações — isso afeta o trabalho, o ritmo e a organização como um todo. </p>
+      </div>
+    </div>
   </div>
-  <!-- Citação com borda verde (esquerda) -->
- </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Entendendo o Impacto e a Cooperação Necessária
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body sem-borda">
+        <p>Depois de compreender o conflito em si, veja seu impacto no trabalho. Em seguida, discuta-o com os membros da equipe. Depois que eles compreenderem, devem iniciar o processo de resolvê-lo após chegar ao consenso. Neste ponto, a necessidade de cooperação é vital, porque se todos os membros da equipe cooperarem, o trabalho na resolução do conflito começará. Analisar o impacto ajudará os membros a saberem de que maneira o problema deve ser resolvido e qual a melhor estratégia. Às vezes, a questão é pequena e seu impacto também, mas a estratégia usada para resolver o problema é demorada, e então gasta-se tempo (que é dinheiro!) dos colaboradores. Assim, para evitar esse desperdício de tempo e dinheiro, deve-se avaliar o impacto adequadamente.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Comunicação com Clareza
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body sem-borda">
+        <p>Garantir a boa comunicação ao longo da resolução de um conflito é fundamental. A comunicação deve ser mantida aberta e clara — isso significa evitar ironias, ambiguidades e explicações insuficientes, tudo o que produz desentendimentos e atrapalha a resolução de um conflito. Os membros da equipe devem falar sobre o assunto abertamente também com participação ativa. E, para se comunicar bem, é preciso ser um bom ouvinte, como recomendava Dale Carnegie: “Seja um bom ouvinte, incentive as pessoas a falar sobre elas mesmas.” Ouça o que os outros dizem e depois responda de acordo, mas de acordo com o que foi discutido. O modo em que ouvimos reflete na forma em que pensamos. Esteja focado, engaje-se e seja sincero! Uma boa cultura de comunicação ajudará todos os membros a evitar e resolver conflitos com mais rapidez.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        Ampliando a Situação
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body sem-borda">
+        <p>O próximo passo é ampliar e entender a situação. Cada membro da equipe deve discutir seu ponto de vista, para que a visão e o ponto de todos sejam ouvidos. Lembre se, enquanto o conflito está sendo discutido, as emoções devem ser mantidas de lado e a questão real deve ser levada em consideração. Se as emoções não forem mantidas de lado, o conflito pode não ser resolvido. Então, melhor entender bem a situação no âmbito profissional, a fim de obter bons resultados.</p>
+      </div>
+    </div>
+  </div>
 
 
-        <!-- TABELA DO SEGUNDO TÓPICO DO CURSO DE ÉTICA E SERVIÇO PÚBLICO -->
-            <div class="text-left">
-                <p>Portanto, a moral é objeto de estudo da ética.</p>
-                <br>
-                <p>Vejamos, a seguir, um breve quadro de conteúdos da ética e da moral:</p>
-            </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+        Esclarecendo as Posições
+      </button>
+    </h2>
+    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body sem-borda">
+        <p>Cada membro terá um ponto de vista diferente, por isso pode levar a conflitos. Para evitar discordância, cada membro deve explicar com suas posições reais, a fim de identificar e articular o assunto corretamente. Portanto, conte com a cooperação de cada membro da equipe, isso ajudará a esclarecer o problema de uma maneira muito melhor.</p>
+      </div>
+    </div>
+  </div>
 
-            <table class="table table-striped">
-                            <thead>
-                                <tr class="text-white text-center">
-                                    <th colspan="2" class="bg-success-subtle" id="teste-border">QUADRO DE CONTEÚDOS</th>
-                                </tr>
-                            </thead>
-                            <thead>
-                                <tr class="text-white text-center bg-green">
-                                    <th scope="col" class="bg-success-subtle">ÉTICA</th>
-                                    <th scope="col" class="bg-success-subtle">MORAL</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <ul class="list-unstyled">
-                                            <li><i class="fa fa-dot-circle CorVerdeClaroEstado"></i> Pensamento filosófico;</li>
-                                            <li><i class="fa fa-dot-circle CorVerdeClaroEstado"></i> Ciência;</li>
-                                            <li><i class="fa fa-dot-circle CorVerdeClaroEstado"></i> É teórica, contemplativa, abstrata;</li>
-                                            <li><i class="fa fa-dot-circle CorVerdeClaroEstado"></i> Busca a universalidade.</li>
-                                        </ul>
-                                    </td>
-                                    <td>
-                                        <ul class="list-unstyled">
-                                            <li><i class="fa fa-dot-circle CorVerdeClaroEstado"></i> Objeto de estudo do pensamento filosófico (deontologia ou teoria dos deveres);</li>
-                                            <li><i class="fa fa-dot-circle CorVerdeClaroEstado"></i> Objeto de estudo da ciência ética;</li>
-                                            <li><i class="fa fa-dot-circle CorVerdeClaroEstado"></i> Conjunto de normas, princípios e valores com os quais se regula a conduta humana.</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><i class="fa fa-dot-circle CorVerdeClaroEstado"></i>Busca descrições e explicações gerais para os problemas morais.</td>
-                                    <td>
-                                        <ul class="list-unstyled">
-                                            <li><i class="fa fa-dot-circle CorVerdeClaroEstado"></i> É prática;</li>
-                                            <li><i class="fa fa-dot-circle CorVerdeClaroEstado"></i> Executa-se;</li>
-                                            <li><i class="fa fa-dot-circle CorVerdeClaroEstado"></i> Exerce-se.</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><i class="fa fa-dot-circle CorVerdeClaroEstado"></i>Reflexão teórica.</td>
-                                    <td><i class="fa fa-dot-circle CorVerdeClaroEstado"></i>Modifica a própria vida.</td>
-                                </tr>
-                                <tr>
-                                    <td><i class="fa fa-dot-circle CorVerdeClaroEstado"></i>Conjunto de teorias acerca das obrigações normativas baseadas na observação dos atos reais da conduta.</td>
-                                    <td><i class="fa fa-dot-circle CorVerdeClaroEstado"></i>Conjunto de deveres, normas e valores.</td>
-                                </tr>
-                                <tr>
-                                    <td><i class="fa fa-dot-circle CorVerdeClaroEstado"></i>Seu caráter prático ou normativo é derivado de seu objeto de estudo, ou seja, da moral.</td>
-                                    <td><i class="fa fa-dot-circle CorVerdeClaroEstado"></i>Possui caráter eminentemente normativo e prático.</td>
-                                </tr>
-                                <tr class="text-white text-center">
-                                    <th colspan="2" class="bg-success-subtle">AMBAS REALIDADES SÃO CONCOMITANTES</th>
-                                </tr>
-                            </tbody>
-                        </table>
-        <!-- FIM DA TABELA -->
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseFive">
+        Fazendo Suposições
+      </button>
+    </h2>
+    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body sem-borda">
+        <p>Suposições são as estimativas feitas ao analisar o assunto. É a melhor maneira de saber o que teria acontecido. Elas são a pré-análise feita para resolver bem a situação. As suposições estabelecem um tipo de base para o líder iniciar o processo sem qualquer dificuldade. Fazer suposições pode ser um movimento negativo também, então deve-se expor um ponto de vista de acordo com a situação, caso contrário o problema pode aumentar devido a suposições erradas.</p>
+      </div>
+    </div>
+  </div>
 
-        <div class="text-left">
-            <p>Qualquer tentativa de definição do que venha a ser ética, assim como qualquer outra ciência, é resultado de uma investigação do pensamento sobre um objeto específico. Por isso, a ética é uma ciência normativa da atividade humana ordenada ao bem. Mais que isso, ao bem comum. Ela é uma ciência prática e normativa. Isso quer dizer que se dedica ao estudo dos atos, porém, não no sentido daquilo que estes são, mas como deveriam ser. Por esse motivo, o estudo da ética não ficou restrito ao campo da filosofia, mas dialoga e se faz presente em tantas outras ciências e áreas do saber. Por exemplo, a metafísica, a psicologia, a sociologia, a teologia, a religião e o direito são algumas das ciências e campos do saber afins que se relacionam com a ética, pois cada um desses saberes, a seu modo, refere-se às leis que regem o comportamento humano.</p>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseFive">
+        Criando Grupos Menores
+      </button>
+    </h2>
+    <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body sem-borda">
+        <p>Criar grupos menores facilitará o trabalho do líder na solução do conflito. Isso não só economizará o tempo como também acalmará o processo de solução do problema. Separe as pessoas com uma aliança similar. Em grupos menores, pode-se analisar cada uma das posições. Considerando todos os cargos, o grupo terá uma melhor compreensão do assunto e ajudará no processo posterior de solução do problema dentro da organização..</p>
+      </div>
+    </div>
+  </div>
 
-            <p>Portanto, existe um caráter estritamente antropológico no estudo da ética, uma vez que ela é uma ciência humana, isto é, fundamenta-se no ser humano. Quando se fala em ser humano, é preciso compreender que este é uma totalidade, ou seja, o sujeito da ação moral ou ética é o indivíduo como um todo e não apenas uma parte dele.</p>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsEight" aria-expanded="false" aria-controls="collapseFive">
+        Acomodando
+      </button>
+    </h2>
+    <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body sem-borda">
+        <p>Quando ocorre um conflito, há sempre um lado oposto e um lado concorrente. A estratégia acomodadora, diz que dá o que o lado oposto quer. É um tipo de estratégia em que uma das partes procura perceber a paz e quer resolver a questão sem criar um tumulto. Esta estratégia é uma espécie de compromisso de uma parte, uma vez que concorda em dar tudo o que a parte contrária exige, mas esta estratégia funciona em situações em que são necessários resultados imediatos.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseFive">
+        Colaborando
+      </button>
+    </h2>
+    <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body sem-borda">
+        <p>Significa integrar as ideias de ambas as partes. O principal objetivo é formar uma solução criativa que seja aceitável por todos. Assim, o líder da organização deve colaborar com as ideias, crenças e opiniões de ambas as partes para que cheguem a uma solução comum, então a resolução do conflito será feita. Este processo de colaboração não só ajudará a resolver a questão de forma pacífica, como também não criará nenhum problema interno ao resolver o conflito. <p>
 
-            <!--CAIXA DE TEXTO EXEMPLO-->
-  <section class="container">
-    <div class="accordion ">
-      <section id="content">
-        <div class="caixaprincipal" id="tituloexemplo">
-          <div class="div_teste">
-            <div><i class="fa-regular fa-pen-to-square"></i></i> EXEMPLO </div>
-            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-          </div>
-        </div> <!--caixa Principal-->
-        <div class="accordion-content" id="exemplo"><!--caixa secundaria-->
-          <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
-          <p class="txt-caixasecundaria">
-          Assim, quando alguém comete um roubo ou assassinato, não foi apenas sua mão que praticou tal ato, mas a pessoa em sua integralidade. Isso significa dizer que tantos elementos estão ali presentes: sua vontade, desejo, pensamento, emoções, intencionalidade, motivação, influências, conhecimento e assim por diante.
-          <p>
-        </div>
-      </section>
-  </section>
-  <!-- FIM DA CAIXA EXEMPLO-->
+<p> E lembre-se de algo essencial: se o conflito pode ser resolvido antes que tenha a oportunidade aumentar, a produtividade vai florescer e o ânimo vai permanecer alto. Com um entendimento claro dos problemas e das personalidades envolvidas, um bom gerente consegue resolver um conflito rapidamente. A administração de conflito pronta e eficiente tem um efeito positivo no resultado final. Pois evita desperdiçar a energia do time em discussões, confrontos e “guerras” desnecessárias, já que em uma equipe saudável estamos todos lutando do mesmo lado e não uns contra os outros.</p>
+      </div>
+    </div>
+  </div>
 
-            <p>A conduta é uma expressão da pessoa humana em sua integralidade. Desse modo, quando se julga um ato, é preciso valorá-lo em sua profundidade expressa na pessoa. Ao mesmo tempo, a ética considera o sujeito enquanto indivíduo e enquanto membro de uma sociedade com outros indivíduos.</p>
+</div>
+</div>
 
-            <p>Nesse sentido, as estruturas que caracterizam o homem em seu aspecto individual e social entram no jogo das relações sociais. A pessoa humana é, por um lado, um indivíduo, entendido no sentido pleno. Em outras palavras: não dividido, não diluído. Entretanto, é, também, uma realidade que se “auto-possui”, mas que está aberta ao outro, às demais pessoas, formando, assim, um laço de relações comunitárias com o “nós”. Por isso, a ética – ou as teorias éticas – compreendem que a pessoa é complementada, realizada, com a estrutura da comunidade em que está inserida. Em outras palavras, a relação humana se dá a partir de um “eu” que se abre ao “outro eu”, a um “tu”, que se transforma em um “nós”.</p>
-        </div>
+     <!--  FIM ACCORDION SEM ANIMAÇÃO HTML-->
+
     
-   
         </section>
 
 
