@@ -28,12 +28,38 @@ include('layout/header.php');
                         <h2 class="Titulo fw-bolder">Apresentação</h2>
                 
                         <div class="text-left">
-                            <p>Nesta aula, vamos tratar da qualidade do atendimento ao público: um dos principais diferenciais para a sobrevivência de qualquer instituição e um dos fatores de grande importância para definir o nível do atendimento e a satisfação do usuário. Nesse sentido, abordaremos aspectos essenciais para essa qualidade: o atendimento de reclamações ou de situações extraordinárias, e também o papel do servidor para se alcançar a qualidade do atendimento.</p>
+                            <p>Olá, estamos iniciando o Curso de Técnicas de Negociação de Conflitos, e como bem sabemos por nossas experiências e vivências pessoais e profissionais o campo das relações humanas é de uma complexidade ímpar, permeada por fatores intrapessoais e interpessoais.</p>
+
+                            <p>Faz-se necessário esclarecer que você não estará sozinho(a) nesta trajetória, eu, <span><a href="#" data-bs-toggle="tooltip" data-bs-title="José Edson da Silva: psicólogo e professor universitário há mais de 10 anos dos Cursos de Gestão, Psicologia e Estética. Mestre em Administração e Especialista em Recursos Humanos. Experiência em Consultoria Organizacional na área da Educação e Saúde. Atualmente Coordenador do Curso de Pós-Graduação em Psicologia Organizacional e do Trabalho (UNIFAMETRO) e Avaliador do MEC para autorização dos cursos de Psicologia e Recursos humanos." class="link-tooltip"><strong>Professor José Edson¹</strong></a></span>   , filósofo e psicólogo pretendo partilhar meu conhecimento profissional, tanto no campo Organizacional, como na docência. Saliento que não tenho a voz da verdade e nem pretendo tê-la, mas com a ajuda de alguns teóricos e do material disponível no imenso acervo das redes sociais construiremos novos saberes. Acredito fortemente que não há receita pronta para a resolução ou negociação de conflitos, pois cada experiência é única e a expertise para solucioná-los dependerá da dinâmica e formação de cada indivíduo que tenha comprometimento com o processo de mudança.</p>
                         </div>
 
-                        <h2 class="Titulo fw-bolder">Objetivo</h2>
-                        <p><i class="fa fa-dot-circle text-success"></i> Apresentar aspectos fundamentais para a qualidade do atendimento, buscando promover reflexão e favorecer, consequentemente, ações para a melhoria do atendimento e a satisfação do usuário-cidadão.</p>
+                        <div>
+                        <p class="btn-texto">
+            <button class="btn btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample" >
+               <span class="font-teste"> CLIQUE PARA VER MAIS <i class="fa-regular fa-hand-pointer fa-fade"></i> </span>
+            </button>
+          </p>
+          <div style="min-height: 120px;" id="box-texto">
+            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+              <div class="card card-body" style="width: 800px;">
+               <p>Importante salientar que o processo de mudança não está definido por minha vontade ou a mercê de uma estratégia organizacional, o mesmo dependerá do contexto político, social e econômico no qual nos encontramos, especialmente no que se configura de “novo normal” no atual contexto pandêmico mundial. As relações intra e interpessoais jamais serão as mesmas, o que nos impulsiona a uma nova forma de enxergar as tradicionais estratégias de gestão de uma forma mais crítica.</p>
 
+               <p>Neste sentido, o que significa ser competente neste novo cenário? Quais os conhecimentos, as habilidades e as atitudes a desenvolvermos para a resolução e negociação de conflitos? Não tenhamos dúvidas que neste curso encontraremos algumas possibilidades, mas jamais exauriremos o manancial de potencialidades que ao longo da nossa trajetória humana iremos nos deparar.</p>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="text-left">
+    <p>Por fim, pretendemos no decorrer deste curso que você tenha a oportunidade de conhecer com propriedade os conceitos, os principais tipos de conflitos, o conceito de negociação na visão organizacional e as etapas do Processo de Negociação.</p>
+
+        <p>Seja muito bem vindo(a), acredite no seu potencial de aprendizagem e não esqueça de que estamos juntos no processo.</p>
+    </div>
+                        
+                       
+                        
+
+                        
                     
                         
 

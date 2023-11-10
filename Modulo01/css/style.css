@@ -181,7 +181,7 @@ ul li.menu a {
     margin-bottom: 1rem;
     cursor: pointer;
     transition: 0.1s;
-    height: 60px;
+    height: 4em;
     width: 100%;
 }
 

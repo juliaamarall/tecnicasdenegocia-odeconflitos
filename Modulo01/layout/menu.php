@@ -16,7 +16,7 @@
                 <a href="topico01.php">
                     <span class="icon "><i class="bi bi-1-circle"></i>
                     </span>
-                    <span class="txt">O Atendimento no Serviço Público</i></span>
+                    <span class="txt">Introdução aos Conceitos Básicos: Conflito e Negociação</i></span>
                 </a>
             </li>
 
@@ -24,14 +24,14 @@
                 <a href="topico02.php">
                     <span class="icon "><i class="bi bi-2-circle"></i>
                     </span>
-                    <span class="txt">Visão Sistêmica do Atendimento</i></span>
+                    <span class="txt">Conceituando Negociação</i></span>
                 </a>
             </li>
 
             <li class="menu">
                 <a href="topico03.php">
                     <span class="icon"><i class="bi bi-3-circle"></i></span>
-                    <span class="txt"  id="menu-big">Competências Essênciais do Servidor Público</span>
+                    <span class="txt"  id="menu-big">Técnicas de Negociação e Administração de Conflitos</span>
                 </a>
             </li>
         </ul>
