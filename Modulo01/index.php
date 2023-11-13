@@ -55,6 +55,10 @@ include('layout/header.php');
 
         <p>Seja muito bem vindo(a), acredite no seu potencial de aprendizagem e não esqueça de que estamos juntos no processo.</p>
     </div>
+
+    <div class="text-right">
+    <p><strong>Votos de muito Sucesso!</strong></p>
+    </div>
                         
                        
                         

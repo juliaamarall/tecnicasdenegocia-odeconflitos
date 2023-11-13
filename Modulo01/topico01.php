@@ -26,34 +26,139 @@ include('layout/header.php');
                     <div class="col-md-10 col-sm-8 container-fluid">
 
                         <h2 class="Titulo fw-bolder">Introdução aos Conceitos Básicos: Conflito e Negociação</h2>
-                        <!-- tirei o hr por que o menu não estava ficando sobreposto -->
-                        <!-- <hr> -->
+                        
+                        <!-- imagem com flip -->
+                        <div class="container">
+        <div class="cards">
+          <label id="summary">
+            <input type="checkbox" />
+            <article>
+              <div class="front flip-bordernone" >
+                <header class="flip-h2">
+               
+                </header>
+                
+               <!-- IMAGEM 01 DO TÓPICO DE APRESENTAÇÃO -->
+                            <div class="container img-flip">
+                            <p class = "FonteFigura FonteMenor text-secondary"><strong>Clique!</strong></p>
+                                <img src="imgs/Figura01.png" alt="Imagem da capa do curso com o títilo ÉTICA E SERVIÇO PÚBLICO" class="img-fluid">
+                                <p class = "FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> Estátua do Filósofo grego, Sócrates</p>
+                                </div>
+                        <!-- FIM DA IMAGEM DE APRESENTAÇÃO   -->
+        
+              </div>
+              <div class="back flip-bordernone">
+                <header>
+                  <span class="material-symbols-outlined"> <i class="bi bi-x-lg"></i> </span>
+                </header>
+                <div class="text-left">
+                  <p>Primeiramente, antes de entrarmos nas Técnicas de Negociação de Conflitos propriamente ditas, urge a necessidade de compreendermos o que se entende por conflito e na sequência compreenderemos o conceito de negociação e assim estudaremos as técnicas.</p>
+                </div>
+        
+              </div>
+            </article>
+          </label>
+          </div>
+      </div>
+                        <!-- fim da imagem com flip -->
 
-                        <div class="m-4" id="obj">
-                            <h3 class="Titulo fw-semibold"> 01 - Objetivo</h3>
-                            <p><i class="fa fa-dot-circle text-success me-2"></i> Conceituar atendimento e apresentar características gerais desse processo.</p>
-                           
-                        </div>
+                        
+                       
             <div class="text-left">
-              <p>Para discutirmos o conceito de atendimento, é fundamental tratarmos de duas noções diretamente ligadas ao atendimento no serviço público: a de Sociedade e a de Estado.</p>
+              <p>Segundo Lima (2014), o conflito é algo que se tornou comum em todo e qualquer lugar do mundo, desde o início da humanidade fazem parte da evolução dos seres humanos e são necessários para a evolução e desenvolvimento de qualquer sistema, seja ele, familiar, social, político ou organizacional, eles são inevitáveis nas relações de trabalho, mas precisam ser compreendidos e administrados de forma eficaz, pois podem trazer sérios problemas para a organização, desde simples desentendimentos de colaboradores, até a falta de entrosamento entre áreas que precisam atuar de forma integrada.</p>
 
-                <!-- Citação com borda verde (esquerda) -->
-  <div class="bd-callout bd-callout-success m-3">
+              <p>Sabemos que não são recentes os estudos em relação aos conceitos de conflito na literatura com foco no contexto da vida da sociedade contemporânea.</p>
 
-<!-- blockquote do bootstrap -->
-<figure>
-  <blockquote class="blockquote">
-    <p>"O homem é um ser que não tem garantido de antemão seu próprio ser, mas deve conquistá-lo por empenho de sua própria liberdade."
-   </p>
-  </blockquote>
-  <figcaption class="blockquote-footer">
-    <cite title="Source Title">- (OLIVEIRA, 1993, p.11)
- </cite>
-  </figcaption>
-</figure>
-</div>
-<!-- Citação com borda verde (esquerda) -->
+              <p>Na concepção de Chrispino (2007), o conflito faz parte da vida e do social, seja contemporânea ou antiga, ainda no esforço de entendimento do conceito, podemos dizer que o conflito origina da diferença de interesses, desejos e de aspirações, percebe-se que não existe aqui a noção estrita de erro e de acerto, mas de posições que são defendidas frente a outras, diferentes.</p>
+              
+              <p>Vasconcelos (2018) afirma que o conflito se caracteriza como dissenso: fenômeno inerente às relações humanas. Ele não é algo que deva ser encarado negativamente. Abaixo apresentaremos alguns tipos de conflitos:</p>
+
+               <!-- SUBTÓPICO DO TÓPICO01 -->
+              <div class = "mt-5 text-left">
+              <h3 class = "fw-semibold text-secondary"> 1.1. Os principais tipos de conflitos</h3>
+              <hr>
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12 col-md-6">
+
+                  <div class="container-fluid">
+      <div class="cards">
+        <label id="summary">
+          <input type="checkbox" />
+          <article>
+            <div class="front card-menor">
+              <header>
+                <h2>CLIQUE</h2>
+                <span class="material-symbols-outlined"> <i class="fa-solid fa-hand-pointer fa-beat-fade"></i> </span>
+              </header>
+              
+              <h3> teste</h3>
+      
             </div>
+            <div class="back card-menor">
+              <header>
+                <span class="material-symbols-outlined"> close </span>
+              </header>
+              <div class="text-left">
+                <p>Os conflitos são causados pela falta de comunicação, portanto para administrar e até mesmo prevenir situações conflituosas, é necessário que haja diálogo entre colaboradores, equipes e líderes.</p>
+                <p>Uma cultura de comunicação aberta, com troca de informações de forma transparente já é um primeiro passo para até mesmo prevenir conflitos.</p>
+              </div>
+      
+            </div>
+          </article>
+        </label>
+        </div>
+    </div>
+
+                  </div>
+
+                  <div class="col-sm-12 col-md-6">
+
+                  <div class="container">
+      <div class="cards">
+        <label id="summary">
+          <input type="checkbox" />
+          <article>
+            <div class="front card-menor">
+              <header>
+                <h2>CLIQUE</h2>
+                
+              </header>
+              <h3>teste</h3>
+            </div>
+
+            <div class="back card-menor">
+              <header>
+                <span class="material-symbols-outlined"> close </span>
+              </header>
+              <div class="text-left">
+                <p>Os conflitos são causados pela falta de comunicação, portanto para administrar e até mesmo prevenir situações conflituosas, é necessário que haja diálogo entre colaboradores, equipes e líderes.</p>
+                <p>Uma cultura de comunicação aberta, com troca de informações de forma transparente já é um primeiro passo para até mesmo prevenir conflitos.</p>
+              </div>
+            </div>
+
+          </article>
+        </label>
+        </div>
+    </div>
+
+                  </div>
+                </div>
+              </div>
+             </div>
+             <!-- FIM DO SUBTÓPICO DO TÓPICO01 -->
+
+             <!-- SEGUNDO SUBTÓPICO DO TÓPICO01 -->
+
+             <div class = "mt-5 text-left">
+              <h3 class = "fw-semibold text-secondary"> 1.2. Os estágios dos conflitos</h3>
+              <hr>
+                
+                    </div>
+                  
+             <!-- FIM DO SEGUNDO SUBTÓPICO DO TÓPICO01 -->
+
+
                         
 
   <div class="text-left">

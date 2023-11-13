@@ -12,6 +12,10 @@ footer{
     text-align: left;
 }
 
+.text-right{
+    text-align: right;
+}
+
 /* estilização para ul que precisam de decoração */
 .text-dec > li{
     list-style: disc;
@@ -80,7 +84,7 @@ footer{
    display: flex;
    justify-content: center;
    align-items: center;
-   margin-top: 2.5em;
+   margin-top: 3em;
 }
 
 #box-texto{
@@ -100,6 +104,152 @@ footer{
     border-bottom: 2px solid #10ac44;
 }
 
+
+/* flip-card img */
+
+h2,
+  h3,
+  h4 {
+    margin: 0;
+    font-weight: 500;
+  }
+  
+  
+  
+  .cards {
+    display: flex;
+    gap: 10px;
+   margin-right: 1em;
+  }
+  
+  article {
+    position: relative;
+    perspective: 1000px;
+    width: 100vh;
+    height: 400px;
+  }
+  
+  article header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10px;
+  
+  }
+  
+  article header h2 {
+    font-size: 16px;
+    color: #44833D;
+    border: none;
+    font-weight: 600;
+  }
+
+  .flip-bordernone{
+    height: 300px;
+  }
+
+  .img-flip{
+    width: 500px;
+    height: 350px;
+    border-radius: 1em;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.11) 0px 0px 0px 0px, rgba(0, 0, 0, 0.027) 0px 0px 0px 0px,
+      rgba(0, 0, 0, 0.11) 0px 1px 3px 0px, rgba(0, 0, 0, 0.11) 0px 1px 2px -1px;
+      display: flex;
+      flex-direction: column;
+  }
+
+  article .front,
+  article .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    backface-visibility: hidden;
+    border-radius: 10px;   
+    padding: 24px;
+    transition: 0.6s;
+    cursor: pointer;
+  }
+  
+  .back {
+    transform: rotateY(180deg);
+
+  }
+
+  article .back {
+    background: rgba(16, 172, 68, 0.062);
+  }
+
+  .back > .text-left {
+    margin-top: 2em;
+    color: black;
+  }
+  
+  input {
+    position: absolute;
+    scale: 0;
+  }
+  
+  input:checked ~ article .back {
+    transform: rotateY(0);
+  }
+  
+  input:checked ~ article .front {
+    transform: rotateY(-180deg);
+  }
+  
+  article var {
+    font-style: normal;
+    font-size: 80px;
+    line-height: 1;
+  }
+  
+  article h3 {
+    margin: 3.5em 0 30px;
+    font-weight: 500;
+   
+  }
+  
+  #summary :is(var, h3) {
+    color: #3b82f6;
+  }
+  
+  #overdue :is(var, h3) {
+    color: #ef4444;
+  }
+  
+  #features :is(var, h3) {
+    color: #22c55e;
+  }
+  
+  article :is(h4, p) {
+    opacity: 0.5;
+    font-size: 20px;
+  }
+  
+  article p {
+    margin-top: 0.5em;
+  }
+  
+  .text-left{
+    text-align: left;
+  }
+  
+  .container{
+   display: flex;
+   justify-content: center;
+  }
+
+  /* card-menor */
+
+  .card-menor{
+    border: 2px solid red;
+    width: 70vh;
+    margin-right: 1em;
+  }
 
 
 
