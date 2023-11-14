@@ -24,20 +24,31 @@ include( 'layout/menu.php' );
 <div class = 'col-md-1'></div>
 <div class = 'col-md-10 col-sm-8 container-fluid'>
 
-<h2 class = 'Titulo fw-bolder'>
-Conceitos Básicos</h2>
-<!-- tirei o hr por que o menu não estava ficando sobreposto -->
-<!-- <hr> -->
-
-<div class = 'm-4' id="obj">
-<h3 class = 'Titulo fw-semibold'> 02 - Objetivos</h3>
-<p><i class = 'fa fa-dot-circle text-success me-2'></i>Apresentar uma breve etimologia do termo ética; expor definição de ética e moral; demonstrar sua relação com a vida prática do ser humano.
-</p>
-</div>
+<h2 class = 'Titulo fw-bolder'>Conceituando Negociação</h2>
 
 <!-- primeiro bloco do tópico 02 ( RESUMO ) -->
     <div class="text-left">
-        <p> <strong>Ética</strong> é derivada da palavra grega ethos (έθος), que pode assumir uma diversidade de sentidos. O modo mais usual de emprego desse termo tem sido para indicar “modo de ser”, “caráter”. De modo que caráter pretende significar o conjunto de qualidades e disposições que definem uma pessoa e, ao mesmo tempo, a diferencia das demais. O caráter é adquirido pelo hábito. O hábito, por sua vez, nasce da repetição de atos iguais. Assim, pode-se dizer que das ações passam-se aos hábitos e dos hábitos à vida real. Desse modo, surge o <strong>ethos, o modo de ser e agir</strong>, que é definido pelas características que os hábitos deixaram marcados no ser. O ser humano, constantemente, está construindo seu próprio modo de ser e agir, seu caráter, que vai se transformando no ethos, na <strong>morada</strong> habitual do ser.</p>
+        <p>O <span class="fst-italic link-tooltip">Havard Negotiation Project</span>, é um projeto criado pela Universidade de Harvard para orientar na resolução dos conflitos, define a negociação como a busca pelo “sim” conforme méritos e princípios, sem dureza ou prejuízo para as relações.</p>
+
+        <p>Entende-se então:</p>
+
+        <!-- Citação com borda verde (esquerda) -->
+  <div class="bd-callout bd-callout-success m-3" data-aos="zoom-in-right">
+
+<!-- blockquote do bootstrap -->
+<figure>
+  <blockquote class="blockquote">
+    <p>Negociação de conflitos é uma técnica utilizada na gestão de pessoas que visa levar dois ou mais colaboradores da organização a alinhar seus objetivos, expectativas e atitudes para que voltem a trabalhar de forma harmoniosa e colaborativa, depois das discussões, radicalmente sobre algum aspecto do negócio.
+   </p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <cite title="Source Title"> (Paulillo, 2011)
+
+ </cite>
+  </figcaption>
+</figure>
+</div>
+<!-- Citação com borda verde (esquerda) -->
     </div>
 
     <!-- CAIXA DE TEXTO CURIOSIDADE -->
@@ -65,23 +76,7 @@ Conceitos Básicos</h2>
  <div class="text-left">
     <p>Já a palavra <strong>moral</strong> é proveniente do latim moralis, ou ainda, mor-moris, que quer dizer “costume”, “maneira”, “comportamento próprio”. Ela está relacionada com o ethos no sentido de que é um modo de ser que pode ser adquirido gradualmente, que tem diversas fases de desenvolvimento. Resumidamente, podemos dizer que moris significa, a exemplo do ethos, o modo de ser ou o caráter. No entanto, ao passo que o caráter é adquirido pelo hábito (portanto, no ato de viver), o costume se adquire por repetições não necessariamente intencionais. Desse modo, que a ética tem a ver com o campo de investigação do agir humano, enquanto a moral está relacionada ao objeto dessa investigação. Conforme Adela Cortina (1995),</p>
 
-                         <!-- Citação com borda verde (esquerda) -->
-  <div class="bd-callout bd-callout-success m-3">
-
-    <!-- blockquote do bootstrap -->
-    <figure>
-      <blockquote class="blockquote">
-        <p>"a moral está ligada imediatamente à ação e prescreve a conduta, enquanto que a ética (filosofia moral) se pronuncia canonicamente, isto é, conforme as regras."
-       </p>
-      </blockquote>
-      <figcaption class="blockquote-footer">
-        <cite title="Source Title">- (CORTINA, 1995, p. 29.)
-
-     </cite>
-      </figcaption>
-    </figure>
-  </div>
-  <!-- Citação com borda verde (esquerda) -->
+                         
  </div>
 
 

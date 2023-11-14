@@ -40,19 +40,19 @@ include('layout/header.php');
                 
                <!-- IMAGEM 01 DO TÓPICO DE APRESENTAÇÃO -->
                             <div class="container img-flip">
-                            <p class = "FonteFigura FonteMenor text-secondary"><strong>Clique!</strong></p>
                                 <img src="imgs/Figura01.png" alt="Imagem da capa do curso com o títilo ÉTICA E SERVIÇO PÚBLICO" class="img-fluid">
-                                <p class = "FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> Estátua do Filósofo grego, Sócrates</p>
+                                <p class = "FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>  https://www.bstorytelling.com.br/wp-content/uploads/2020/01/Capa-01-1.png</p>
+                                <p class = "FonteFigura FonteMenor text-secondary"><strong>Clique!</strong></p>
                                 </div>
                         <!-- FIM DA IMAGEM DE APRESENTAÇÃO   -->
         
               </div>
-              <div class="back flip-bordernone">
+              <div class="back flip-bordernone" id="gradient-flip">
                 <header>
                   <span class="material-symbols-outlined"> <i class="bi bi-x-lg"></i> </span>
                 </header>
-                <div class="text-left">
-                  <p>Primeiramente, antes de entrarmos nas Técnicas de Negociação de Conflitos propriamente ditas, urge a necessidade de compreendermos o que se entende por conflito e na sequência compreenderemos o conceito de negociação e assim estudaremos as técnicas.</p>
+                <div class="text-left ">
+                  <p><strong>Primeiramente, antes de entrarmos nas Técnicas de Negociação de Conflitos propriamente ditas, urge a necessidade de compreendermos o que se entende por conflito e na sequência compreenderemos o conceito de negociação e assim estudaremos as técnicas.</strong></p>
                 </div>
         
               </div>
@@ -73,161 +73,241 @@ include('layout/header.php');
               
               <p>Vasconcelos (2018) afirma que o conflito se caracteriza como dissenso: fenômeno inerente às relações humanas. Ele não é algo que deva ser encarado negativamente. Abaixo apresentaremos alguns tipos de conflitos:</p>
 
-               <!-- SUBTÓPICO DO TÓPICO01 -->
-              <div class = "mt-5 text-left">
+     <!-- inicio do primeiro subtópico -->
+     
+     <div class = "mt-5 text-left">
               <h3 class = "fw-semibold text-secondary"> 1.1. Os principais tipos de conflitos</h3>
               <hr>
               <div class="container">
                 <div class="row">
+                  <!-- PRIMEIRO FLIP CARD DO PRIMEIRO SUBTÓPICO -->
                   <div class="col-sm-12 col-md-6">
-
-                  <div class="container-fluid">
-      <div class="cards">
-        <label id="summary">
-          <input type="checkbox" />
-          <article>
-            <div class="front card-menor">
-              <header>
-                <h2>CLIQUE</h2>
-                <span class="material-symbols-outlined"> <i class="fa-solid fa-hand-pointer fa-beat-fade"></i> </span>
-              </header>
-              
-              <h3> teste</h3>
-      
-            </div>
-            <div class="back card-menor">
-              <header>
-                <span class="material-symbols-outlined"> close </span>
-              </header>
-              <div class="text-left">
-                <p>Os conflitos são causados pela falta de comunicação, portanto para administrar e até mesmo prevenir situações conflituosas, é necessário que haja diálogo entre colaboradores, equipes e líderes.</p>
-                <p>Uma cultura de comunicação aberta, com troca de informações de forma transparente já é um primeiro passo para até mesmo prevenir conflitos.</p>
-              </div>
-      
-            </div>
-          </article>
-        </label>
-        </div>
-    </div>
-
-                  </div>
-
-                  <div class="col-sm-12 col-md-6">
-
                   <div class="container">
       <div class="cards">
         <label id="summary">
           <input type="checkbox" />
-          <article>
-            <div class="front card-menor">
+          <article class="flip-mini" data-aos="fade-down">
+            <div class="front flip-blue" id="card-front">
               <header>
-                <h2>CLIQUE</h2>
+               
+                <span class="material-symbols-outlined"> <i class="fa-solid fa-hand-pointer fa-beat-fade"></i> </span>
+              </header>
+              
+              <h3 class="text-black"><strong>Conflitos<br>racionais</strong> </h3>
+      
+            </div>
+            <div class="back flip-blue" id="card-back">
+              <header>
+                <span class="material-symbols-outlined"> <i class="bi bi-x-lg"></i> </span>
+              </header>
+              <div class="text-left text-black">
+                <p>Conflitos desse tipo se referem a divergências motivadas por aspectos concretos, como prazos para entregas, orçamentos, métodos de execução de projetos etc.</p>
                 
-              </header>
-              <h3>teste</h3>
-            </div>
-
-            <div class="back card-menor">
-              <header>
-                <span class="material-symbols-outlined"> close </span>
-              </header>
-              <div class="text-left">
-                <p>Os conflitos são causados pela falta de comunicação, portanto para administrar e até mesmo prevenir situações conflituosas, é necessário que haja diálogo entre colaboradores, equipes e líderes.</p>
-                <p>Uma cultura de comunicação aberta, com troca de informações de forma transparente já é um primeiro passo para até mesmo prevenir conflitos.</p>
               </div>
+      
             </div>
-
           </article>
         </label>
         </div>
     </div>
 
                   </div>
+
+                  <!-- FIM DO PRIMEIRO FLIP CARD DO SUBTÓPICO -->
+                    <!-- SEGUNDO FLIP CARD DO PRIMEIRO SUBTÓPICO -->
+                  <div class="col-sm-12 col-md-6">
+                  <div class="container">
+      <div class="cards">
+        <label id="summary">
+          <input type="checkbox" />
+          <article class="flip-mini" data-aos="fade-down">
+            <div class="front flip-green" id="card-front">
+              <header>
+                
+                <span class="material-symbols-outlined"> <i class="fa-solid fa-hand-pointer fa-beat-fade"></i> </span>
+              </header>
+              
+              <h3 class="text-black"><strong> Conflitos emocionais</strong></h3>
+      
+            </div>
+            <div class="back flip-green" id="card-back">
+              <header>
+                <span class="material-symbols-outlined"> <i class="bi bi-x-lg"></i> </span>
+              </header>
+              <div class="text-left text-black">
+                <p>Já os conflitos de cunho emocional se referem a problemas pessoais entre as partes envolvidas, que não necessariamente tem a ver com o trabalho em si.</p>
+               
+              </div>
+      
+            </div>
+          </article>
+        </label>
+        </div>
+    </div>
+                  </div>
+                  <!-- FIM DO SEGUNDO FLIP CARD DO PRIMEIRO SUBTÓPICO -->
+
+
+
+
                 </div>
               </div>
-             </div>
-             <!-- FIM DO SUBTÓPICO DO TÓPICO01 -->
+                
+      </div>
+     <!-- fim do primeiro subtopico -->
+             
+
+              
 
              <!-- SEGUNDO SUBTÓPICO DO TÓPICO01 -->
 
              <div class = "mt-5 text-left">
               <h3 class = "fw-semibold text-secondary"> 1.2. Os estágios dos conflitos</h3>
               <hr>
-                
+                <p>Os conflitos costumam passar por diferentes estágios, e saber identificar esses estágios é extremamente importante para solucionar situações de conflitos:</p>
+
+                <div class="container">
+     <div class="accordion" id="accordionExample" >
+  <div class="accordion-item mt-2" data-aos="flip-left">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      Conflito latente
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body sem-borda">
+        <p>Existe, mas ainda não se manifestou de maneira aberta.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item mt-2" data-aos="flip-left">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      Conflito percebido
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body sem-borda">
+        <p>Sua existência é notória, apesar de não haver ainda ações e declarações dos envolvidos.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item mt-2" data-aos="flip-left">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      Conflito sentido
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body sem-borda">
+        <p>As partes envolvidas são afetadas emocionalmente pela situação de conflito.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item mt-2" data-aos="flip-left" >
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+      Conflito manifesto
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body sem-borda">
+        <p> A situação conflituosa sai da esfera interpessoal e passa a afetar a organização negativamente ou equipe como um todo.</p>
+      </div>
+    </div>
+  </div>
+
+  
+</div>
+</div>
+
+
                     </div>
                   
              <!-- FIM DO SEGUNDO SUBTÓPICO DO TÓPICO01 -->
 
 
+              <!-- TERCEIRO SUBTÓPICO DO TÓPICO01 -->
+
+              <div class = "mt-5 text-left">
+              <h3 class = "fw-semibold text-secondary">1.3 Os principais tipos de reações em uma situação de conflito</h3>
+              <hr>
+                <p>Para uma boa negociação e gestão de conflitos, é necessário entender como as partes envolvidas podem reagir frente a uma situação conflituosa:</p>
+
+                <div class="container">
+     <div class="accordion" id="accordionExample" >
+  <div class="accordion-item mt-2" data-aos="flip-up">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      Reação divergente
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body sem-borda">
+        <p>As partes envolvidas apresentam opiniões, interesses e pontos de vista opostos e buscam fazer com que a sua opinião prevaleça.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item mt-2" data-aos="flip-up">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      Reação conflitante
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body sem-borda">
+        <p>Há uma imposição de um interesse em detrimento dos interesses da outra parte, não é considerado a opinião dos outros envolvidos.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item mt-2" data-aos="flip-up">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      Reação concorrente
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body sem-borda">
+        <p>A parte que sofreu imposição aceita, mas busca uma forma de revidar no futuro.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item mt-2" data-aos="flip-up" >
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+      Reação convergente
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body sem-borda">
+        <p> As partes em conflito buscam juntas chegar a uma solução para ambas benéfica.</p>
+      </div>
+    </div>
+  </div>
+
+  
+
+  
+</div>
+</div>
+
+
+                    </div>
+                  
+             <!-- FIM DO TERCEIRO SUBTÓPICO DO TÓPICO01 -->
+
                         
 
   <div class="text-left">
-       <p> O estudo da ética pertence primariamente à filosofia, mais em particular,
-           ao seu campo de conhecimento denominado “filosofia moral”, “filosofia
-           prática” ou, ainda, “axiologia” (teoria dos valores), pois se ocupa do agir do
-           ser humano, suas escolhas, bem como dos meios utilizados para alcançá-las.
-           Por isso, a ética contempla muitos aspectos do agir humano. Muito
-           provavelmente já utilizamos essa palavra, ou mesmo a tenhamos escutado
-           por outras pessoas. Às vezes, associamos-na a determinados tipos de
-           comportamentos como, por exemplo, aquelas condutas que consideramos
-           corretas e dignas de aprovação, contrastando com outros tipos de
-           comportamentos que reputamos como indignos ou recusáveis. Desse modo,
-           o conteúdo da palavra ética está estreitamente ligado a juízos que
-           constantemente fazemos sobre a correção ou a incorreção das ações
-           humanas, ou sobre a noção de certo e errado. Nesse sentido, a ética pretende
-           conferir ao ser humano conhecimento que lhe permite saber eleger
-           corretamente cada ato que venha a realizar.</p>
-
-           <p>A esse respeito, o filósofo grego Aristóteles (384-322 a.C.) escreveu em sua obra Ética a Nicômaco:</p>
-
-            <!-- Citação com borda verde (esquerda) -->
-    <div class="bd-callout bd-callout-success m-3">
-         <!-- blockquote do bootstrap -->
-       <figure>
-           <blockquote class="blockquote">
-             <p>
-             "a excelência moral também está ao nosso alcance, da mesma forma que a deficiência moral. Com efeito, onde está ao nosso alcance agir, também está ao nosso alcance não agir, e onde somos capazes de dizer ‘não’, também somos capazes de dizer 'sim'."
-            </p>
-          </blockquote>
-          <figcaption class="blockquote-footer">
-            <cite title="Source Title">- (ARISTÓTELES, 2001, p. 57)
-            </cite>
-         </figcaption>
-        </figure>
-    </div>
-       <!-- Citação com borda verde (esquerda) -->
-
-       <p>Isso significa que, para esse filósofo, tanto a virtude quanto o vício estão em nosso poder. Fazer ou não fazer o bem e o correto são questões de conhecimento do que sejam o bem e o correto a se fazer, de modo que a posse desse conhecimento trabalha em conjunto com a escolha por agir de uma ou de outra maneira. Aristóteles acreditava, afinal, que o comportamento entendido como ideal era uma prática a ser perseguida, pois conduziria o indivíduo e a sociedade ao seu objetivo final de felicidade.</p>
-
-       <p>Esse estudo dos atos humanos indica que tais ações podem ser valoradas de diversos modos, isto é, pode-se atribuir-se a elas algum <a href="#" data-toggle="tooltip" data-placement="top" title="Bem e mal, certo e errado, correto e incorreto, admirável e deplorável">juízo de valor<i class="bi bi-search ms-1"></i></a>, se realizadas pela vontade e liberdade da pessoa. O ato humano que não seja realizado por meio de sua vontade, e em que esteja ausente sua liberdade, não entra no estudo do campo da ética, pois não pode ser considerado um exercício consciente do ser humano. Temos, portanto, que a ética está intimamente relacionada ao binômio ação e liberdade. Este, por seu turno, liga-se, ainda, às noções de escolha e de responsabilidade.</p>
-
-       <p>De maneira muito sintética, é possível dizer, também, que ética é o estudo sistemático da moralidade. Por sua vez, moralidade é o código (ou códigos)
-       <a href="#" data-toggle="tooltip" data-placement="top" title="Aceitável ou proibido dentro de um grupo e/ou época particular">normativo moral<i class="bi bi-search ms-1"></i></a> Tais códigos normativos ou comportamentais são reconhecidos pela comunidade numa época específica. Por exemplo, a lei é um tipo de código, um código legal que representa um mínimo aceitável de comportamento de um grupo particular (sociedade). De forma que, baseados na razão, o homem e as sociedades humanas foram estabelecendo valores fundamentais, sejam eles individuais ou sociais. A partir daí, foram derivados os deveres morais que, em geral, coincidem com os mesmos valores assumidos pelos sistemas jurídicos. Nesse sentido, os valores éticos aparecem consignados no direito, pois, no lugar de estarem situados em lugares diferentes, a ética e o direito estão em conformidade no que diz respeito à busca de uma conduta social desejável.</p>
-  </div>
-
-  <!-- CAIXA DE TEXTO DÚVIDA -->
-  <section class="container">
-    <div class="accordion ">
-      <section id="content">
-        <div class="caixaprincipal" id="tituloDuvida">
-          <div class="div_teste">
-            <div><i class="fa-solid fa-person-circle-question"></i> DÚVIDA</div>
-
-            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-          </div>
-        </div> <!--caixa Principal-->
-        <div class="accordion-content" id="Duvida">
-          <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
-                Passe o mouse acima
-              </strong></strong></p>
-          <p class="txt-caixasecundaria">Por sua etimologia e o modo como são referidas no dia a dia, podem parecer que são a mesma coisa. Em verdade não são, pois suas aplicações e referências trazem diferentes significados. Pode-se complementar dizendo, além disso, que as palavras ética e moral provêm, respectivamente, do grego e do latim.
-          </p><!--caixa secundaria-->
-        </div>
-      </section>
-  </section>
-  <!-- FIM DA CAIXA DE TEXTO DÚVIDA -->
-
-                    
+  <p>A partir de tais conceitos podemos entender que o conflito é parte importante nas relações humanas, fazendo com que cada profissional busque a melhor forma de compreender o potencial do mesmo e aprender a melhores técnicas para negociação, especialmente no âmbito organizacional.</p>
+</div>
+            
         </section>
         <!-- Botões de navegação -->
         <div class="text-center">
@@ -252,6 +332,9 @@ include('layout/header.php');
 include('layout/footer.php');
 ?>
 
+<script>
+  AOS.init();
+</script>
 
 </body>
 

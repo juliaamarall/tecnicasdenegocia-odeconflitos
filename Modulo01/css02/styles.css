@@ -28,20 +28,17 @@ footer{
     display: flex;
     justify-content: center;
     padding-left: 30px;
-    margin-left: 5px;
+   
     border: none;
 }
 
 .accordion-button {
     background-color: #e5e7e7;
-    --bs-accordion-active-bg: #10ac44;
+    --bs-accordion-active-bg: #03cc65;
     --bs-accordion-btn-icon-bg: var(--white);
 }
 
-.sem-borda{
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-}
+
 
 /* FIM DA ESTILIZAÇÃO DOS ACCORDIONS SEM ANIMAÇÃO */
 
@@ -119,7 +116,6 @@ h2,
   .cards {
     display: flex;
     gap: 10px;
-   margin-right: 1em;
   }
   
   article {
@@ -144,7 +140,7 @@ h2,
     font-weight: 600;
   }
 
-  .flip-bordernone{
+ .flip-bordernone{
     height: 300px;
   }
 
@@ -179,14 +175,16 @@ h2,
 
   }
 
-  article .back {
-    background: rgba(16, 172, 68, 0.062);
+  article #gradient-flip {
+    background-image: linear-gradient(to top, #26a737, #2db39e);
+    margin-top: 1em;
   }
 
   .back > .text-left {
-    margin-top: 2em;
-    color: black;
+    margin-top: 1.5em;
+    color: white;
   }
+
   
   input {
     position: absolute;
@@ -201,11 +199,6 @@ h2,
     transform: rotateY(-180deg);
   }
   
-  article var {
-    font-style: normal;
-    font-size: 80px;
-    line-height: 1;
-  }
   
   article h3 {
     margin: 3.5em 0 30px;
@@ -234,23 +227,51 @@ h2,
     margin-top: 0.5em;
   }
   
-  .text-left{
-    text-align: left;
-  }
+  
   
   .container{
    display: flex;
    justify-content: center;
   }
+  /* flip-card menor */
 
-  /* card-menor */
+ /* inicio flip-card subtópico */
+ 
+ article #card-front,
+ article #card-back {
+  box-shadow: rgba(0, 0, 0, 0.11) 0px 0px 0px 0px, rgba(0, 0, 0, 0.027) 0px 0px 0px 0px,
+  rgba(0, 0, 0, 0.11) 0px 1px 3px 0px, rgba(0, 0, 0, 0.11) 0px 1px 2px -1px;
+ }
 
-  .card-menor{
-    border: 2px solid red;
-    width: 70vh;
-    margin-right: 1em;
-  }
+ article .flip-blue{
+  background-color: #cfe2ff;
+  border: 1px solid #9ec5fe;
+ }
 
+ article .flip-green{
+  background-color: #d1e7dd;
+  border: 1px solid #a3cfbb;
+ }
+
+ .back > .text-left {
+  margin-top: 1.5em;
+  color: white;
+}
+
+
+
+
+.flip-mini{
+  position: relative;
+  perspective: 1000px;
+  width: 50vh;
+  height: 400px;
+}
+
+
+ /*  fim flip-card subtópico */
+
+ 
 
 
 
