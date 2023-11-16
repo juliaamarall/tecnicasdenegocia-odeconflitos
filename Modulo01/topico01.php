@@ -93,7 +93,7 @@ include('layout/header.php');
                 <span class="material-symbols-outlined"> <i class="fa-solid fa-hand-pointer fa-beat-fade"></i> </span>
               </header>
               
-              <h3 class="text-black"><strong>Conflitos<br>racionais</strong> </h3>
+              <h3 class="text-black"><strong>Conflitos racionais</strong> </h3>
       
             </div>
             <div class="back flip-blue" id="card-back">
@@ -164,11 +164,11 @@ include('layout/header.php');
              <div class = "mt-5 text-left">
               <h3 class = "fw-semibold text-secondary"> 1.2. Os estágios dos conflitos</h3>
               <hr>
-                <p>Os conflitos costumam passar por diferentes estágios, e saber identificar esses estágios é extremamente importante para solucionar situações de conflitos:</p>
+                <p>Os conflitos costumam passar por diferentes estágios, e saber identificar esses estágios é extremamente importante para solucionar situações de conflitos: <strong>clique para saber mais!</strong></p>
 
                 <div class="container">
      <div class="accordion" id="accordionExample" >
-  <div class="accordion-item mt-2" data-aos="flip-left">
+  <div class="accordion-item mt-2" data-aos="flip-down">
     <h2 class="accordion-header">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
       Conflito latente
@@ -181,7 +181,7 @@ include('layout/header.php');
     </div>
   </div>
 
-  <div class="accordion-item mt-2" data-aos="flip-left">
+  <div class="accordion-item mt-2" data-aos="flip-down">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
       Conflito percebido
@@ -194,7 +194,7 @@ include('layout/header.php');
     </div>
   </div>
 
-  <div class="accordion-item mt-2" data-aos="flip-left">
+  <div class="accordion-item mt-2" data-aos="flip-down">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
       Conflito sentido
@@ -207,7 +207,7 @@ include('layout/header.php');
     </div>
   </div>
 
-  <div class="accordion-item mt-2" data-aos="flip-left" >
+  <div class="accordion-item mt-2" data-aos="flip-down" >
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
       Conflito manifesto
@@ -235,69 +235,62 @@ include('layout/header.php');
               <div class = "mt-5 text-left">
               <h3 class = "fw-semibold text-secondary">1.3 Os principais tipos de reações em uma situação de conflito</h3>
               <hr>
-                <p>Para uma boa negociação e gestão de conflitos, é necessário entender como as partes envolvidas podem reagir frente a uma situação conflituosa:</p>
-
+                <p>Para uma boa negociação e gestão de conflitos, é necessário entender como as partes envolvidas podem reagir frente a uma situação conflituosa: <strong>clique para saber mais!</strong></p>
                 <div class="container">
-     <div class="accordion" id="accordionExample" >
-  <div class="accordion-item mt-2" data-aos="flip-up">
+     <div class="accordion" id="accordionExample">
+  <div class="accordion-item mt-2" data-aos="flip-down">
     <h2 class="accordion-header">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
       Reação divergente
       </button>
     </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+    <div id="collapseFive" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
       <div class="accordion-body sem-borda">
         <p>As partes envolvidas apresentam opiniões, interesses e pontos de vista opostos e buscam fazer com que a sua opinião prevaleça.</p>
       </div>
     </div>
   </div>
 
-  <div class="accordion-item mt-2" data-aos="flip-up">
+  <div class="accordion-item mt-2" data-aos="flip-down">
     <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-      Reação conflitante
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+      Reação conflitante 
       </button>
     </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body sem-borda">
-        <p>Há uma imposição de um interesse em detrimento dos interesses da outra parte, não é considerado a opinião dos outros envolvidos.</p>
+        <p> Há uma imposição de um interesse em detrimento dos interesses da outra parte, não é considerado a opinião dos outros envolvidos.</p>
       </div>
     </div>
   </div>
 
-  <div class="accordion-item mt-2" data-aos="flip-up">
+  <div class="accordion-item mt-2" data-aos="flip-down">
     <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
       Reação concorrente
       </button>
     </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+    <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body sem-borda">
-        <p>A parte que sofreu imposição aceita, mas busca uma forma de revidar no futuro.</p>
+        <p> A parte que sofreu imposição aceita, mas busca uma forma de revidar no futuro.</p>
       </div>
     </div>
   </div>
 
-  <div class="accordion-item mt-2" data-aos="flip-up" >
+  <div class="accordion-item mt-2" data-aos="flip-down">
     <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
       Reação convergente
       </button>
     </h2>
-    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+    <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body sem-borda">
-        <p> As partes em conflito buscam juntas chegar a uma solução para ambas benéfica.</p>
+        <p>As partes em conflito buscam juntas chegar a uma solução para ambas benéfica.</p>
       </div>
     </div>
   </div>
-
-  
-
-  
 </div>
 </div>
-
-
                     </div>
                   
              <!-- FIM DO TERCEIRO SUBTÓPICO DO TÓPICO01 -->
