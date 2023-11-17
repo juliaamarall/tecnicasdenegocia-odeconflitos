@@ -77,15 +77,70 @@ include( 'layout/menu.php' );
             </div>
            <!-- fim do iframe -->
            <div class="text-left">
-           <p>Afirma Paulillo (2011), que negociar é uma parte importante do trabalho de todo profissional, seja ele da área vendas ou qualquer outra, negociar verbas internas, prioridade em projetos, alocar mais recursos humanos, transferências, promoções ou até um aumento de remuneração faz parte do dia a dia corporativo.</p>
+           <p>Afirma Paulillo (2011), que negociar é uma parte importante do trabalho de todo profissional, seja ele da área de vendas ou qualquer outra, negociar verbas internas, prioridade em projetos, alocar mais recursos humanos, transferências, promoções ou até um aumento de remuneração faz parte do dia a dia corporativo.</p>
 
-           <p>Para compreensão de todo o <strong>processo de negociação</strong>, utilizaremos dos estudos e dicas práticas da Agendor que detalhou uma metodologia diferenciada e exclusiva, denominada a <span><a href="#" data-bs-toggle="tooltip" data-bs-title="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab nesciunt doloremque, dignissimos tempore voluptates expedita magni deserunt atque iure, culpa fugit voluptatibus corrupti nostrum sequi sint quibusdam quod a " class="link-tooltip"><strong>PISTTAA</strong></a></span></p>
+           <p>Para compreensão de todo o <strong>processo de negociação</strong>, utilizaremos dos estudos e dicas práticas da  <span><a href="#" data-bs-toggle="tooltip" data-bs-title="Plataforma de CRM que funciona como um assistente pessoal para equipes de vendas." class="link-tooltip"><strong>Agendor</strong></a></span> que detalhou uma metodologia diferenciada e exclusiva, denominada a <span><a href="#" data-bs-toggle="tooltip" data-bs-title="Metodologia diferenciada que explica as 7 fases do processo de negociação que podem trazer melhores resultados." class="link-tooltip"><strong>PISTTAA</strong></a></span></p>
+
            </div>
 
+<!-- timeline -->
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-12">
 
-          
+   
 
- 
+           <div class="timeline">
+        <input type="radio" class="profile" id="" name="bright">
+        <input type="radio" class="settings" id="" name="bright">
+        <input type="radio" class="posts" id="" name="bright">
+        <input type="radio" class="books" id="" name="bright">
+        <div class="topo">
+            <ul class="nav">
+                <li class="st st1" >
+                    <h2 class="inner">Preparação <i class="bi bi-person-check-fill"></i></h2>
+                </li>
+                <li class="st st2">
+                    <h2 class="inner">Investigação <i class="bi bi-incognito"></i></h2>
+                </li>
+                <li class="st st3">
+                    <h2 class="inner">Sinalização <i class="bi bi-bell-fill"></i></h2>
+                </li>
+                <li class="st st4">
+                    <h2 class="inner">Teste <i class="fa-solid fa-code-compare"></i></h2>
+                </li>
+            </ul>
+            <div class="line">
+                <span></span>
+            </div>
+        </div>
+        <div class="content">
+            <section class="sessao" id="profile-section">
+                <span></span>
+                <h3>Preparação <i class="bi bi-person-check-fill"></i></h3>
+                <p>Vamos dividir em dois tipos: coleta de informações e preparação psicológica:</p>
+            </section>
+            <section class="sessao" id="Account-section">
+                <span></span>
+                <h3>Account Section</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aliquam blanditiis placeat nobis dolore nemo, alias delectus magni cum minus omnis sunt dolores. Odio error rem, placeat fugit optio saepe.</p>
+            </section>
+            <section class="sessao" id="Posts-section">
+                <span></span>
+                <h3>Posts Section</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aliquam blanditiis placeat nobis dolore nemo, alias delectus magni cum minus omnis sunt dolores. Odio error rem, placeat fugit optio saepe.</p>
+            </section>            
+            <section class="sessao" id="Advanced-section">
+                <span></span>
+                <h3>Advanced Section</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aliquam blanditiis placeat nobis dolore nemo, alias delectus magni cum minus omnis sunt dolores. Odio error rem, placeat fugit optio saepe.</p>
+            </section>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
         </section>
 
 

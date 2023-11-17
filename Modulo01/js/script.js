@@ -167,11 +167,19 @@ function callbackFunc() {
   window.addEventListener("resize", callbackFunc);
   window.addEventListener("scroll", callbackFunc);
 
-//  modal
-const myModal = document.getElementById('myModal')
-const myInput = document.getElementById('myInput')
+// timeline
+$(".st1").click(function(){
+  $(".profile").prop("checked", true);
+});
+$(".st2").click(function(){
+  $(".settings").prop("checked", true);
+});
+$(".st3").click(function(){
+  $(".posts").prop("checked", true);
+});
+$(".st4").click(function(){
+  $(".books").prop("checked", true);
+});
 
-myModal.addEventListener('shown.bs.modal', () => {
-  myInput.focus()
-})
+
 
