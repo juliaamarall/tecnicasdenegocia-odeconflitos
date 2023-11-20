@@ -28,7 +28,7 @@ footer{
     display: flex;
     justify-content: center;
     padding-left: 30px;
-   
+   flex-direction: column;
     border: none;
 }
 
@@ -276,7 +276,7 @@ h2,
  .timeline{
   margin-top: 2em;
   margin-left: auto;
-  margin-bottom: 20em;
+  margin-bottom: 50em;
   margin-right: auto;
   width: 80vw;
 }
@@ -393,25 +393,23 @@ ul.nav li.active::after{
   background-color: rgb(238, 234, 234);
   border-radius: 4px;
   padding: 30px;
+  height: 100vh;
   color: #000000;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
 }
 .sessao span{
   font-size: 3rem;
-  display: flex;
-  justify-content: center;
   margin-bottom: 30px;
 }
 h3{
   font-weight: 900;
   margin-top: 10px;
-  text-align: center;
   text-transform: uppercase;
   letter-spacing: 4px;
 }
 .sessao p{
-  padding: 30px 40px;
-  text-align: center;
+  margin: .5em;
   font-weight: bolder;
   font-size: 13px;
 }
@@ -549,5 +547,7 @@ ul.nav li .inner{
   width: 100vw;
 }
 }
+
+
 
  /* timeline fim */
