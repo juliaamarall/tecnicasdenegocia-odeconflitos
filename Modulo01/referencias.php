@@ -32,29 +32,17 @@ include( 'layout/menu.php' );
 
 <div class = "page-title" id="ref-topicos">
 
-<h2 class = "Titulo">REFERÊNCIAS</h2>
+<h2 class = "Titulo fw-bolder">Referências</h2>
 
 <br>
 
-<p class = "Texto"> <i class="bi bi-book"></i> <strong>ARISTÓTELES</strong> . Ética a Nicômacos. Brasília: UnB, 2001.</p>
+<p class = "Texto"> <i class="bi bi-book"></i> <strong> VASCONCELOS</strong>, Carlos Eduardo de. Mediação de conflitos e práticas restaurativas. Editora Método, São Paulo, 2008.</p>
 
-<p class = "Texto"> <i class="bi bi-book"></i> <strong>CORTINA</strong> , Adela; MARTÍNEZ, Emilio. Ética. Madrid: Akal, 1996.</p>
+<p class = "Texto"> <i class="bi bi-book"></i> <strong> PAULILLO</strong>, Júlio. Tudo o que você precisa saber sobre negociação e gestão de conflitos: definição, tipos, estágios, reações e principais técnicas. Novembro 2011. Disponível em: <a href="https://www.agendor.com.br/blog/negociacao-e-gestao-de-conflitos">https://www.agendor.com.br/blog/negociacao-e-gestao-de-conflitos.</a>  Acesso em: 01 nov. 2020.</p>
 
-<p class = "Texto"> <i class="bi bi-book"></i> <strong>NAGEL</strong> , Thomas. The possibility of altruism. New Jersey: Princeton University Press, 1970.</p>
+<p class = "Texto"> <i class="bi bi-book"></i> <strong>AGENDOR</strong> . Fases do processo de negociação: a sutil arte da troca de concessões. Novembro 2011. Disponível em: <a href="https://www.agendor.com.br/blog/fases-processo-de-negociacao/?print=print">https://www.agendor.com.br/blog/fases-processo-de-negociacao/?print=print</a> . Acessado em 01 nov. 2020</p>
 
-<p class = "Texto"> <i class="bi bi-book"></i> <strong>OLIVEIRA</strong> , Manfredo Araújo de.Ética e sociabilidade. São Paulo: Loyola, 1993.</p>
-
-<p class = "Texto"> <i class="bi bi-book"></i> <strong>RIBEIRO</strong>, Luís Távora Furtado (et. al.).Ética em três dimensões. Fortaleza: Brasil Tropical, 2003.</p>
-
-<p class = "Texto"> <i class="bi bi-book"></i> <strong>KANT</strong>, Immanuel.A metafísica dos costumes. Bauru: Edipro, 2008.</p>
-
-<p class = "Texto"> <i class="bi bi-book"></i> <strong>KANT</strong>, Immanuel.Crítica da razão prática. Lisboa: Edições 70, 2004.</p>
-
-<p class = "Texto"> <i class="bi bi-book"></i> <strong>PLATÃO</strong>. A República. São Paulo: Martin Cloret, 2005.</p>
-
-<p class = "Texto"> <i class="bi bi-book"></i> <strong>RIBEIRO</strong>, Luís Távora Furtado (et. al.). Ética em três dimensões. Fortaleza: Brasil Tropical, 2003.</p>
-
-<p class = "Texto"> <i class="bi bi-book"></i> <strong>VÁZQUEZ</strong>, Adolfo Sánchez. Ética. 21.ed. Rio de Janeiro: Civilização Brasileira, 2001. </p>
+<p class = "Texto"> <i class="bi bi-book"></i> <strong> HBR Staff</strong>. Preparando a sua estratégia emocional. Novembro 2011. Disponível em: <a href=""></a> https://hbrbr.com.br/preparando-a-sua-estrategia-emocional. Acessado em 01 nov. 2020</p>
 
 <br><br>
 
@@ -64,7 +52,7 @@ include( 'layout/menu.php' );
 <h5 id = 'txt_referencias'>Pronto, <strong>Nome_completo</strong> agora você já pode fazer
 a
 avaliação do curso
-<strong>Gestão do Tempo</strong> Módulo 01 abaixo, Boa Sorte!
+<strong>Técnicas de Negociação de Conflitos</strong> Módulo 01 abaixo, Boa Sorte!
 </h5>
 </div>
 <br><br>

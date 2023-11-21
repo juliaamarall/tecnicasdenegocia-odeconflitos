@@ -176,8 +176,16 @@ h2,
   }
 
   article #gradient-flip {
-    background-image: linear-gradient(to top, #26a737, #2db39e);
+    background-color:#26a73791 ;
     margin-top: 1em;
+  }
+
+  #box-color{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+  }
+  .FonteMenor{
+    color: #000000;
   }
 
   .back > .text-left {
@@ -394,14 +402,13 @@ ul.nav li.active::after{
   border-radius: 4px;
   padding: 30px;
   color: #000000;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .sessao span{
   font-size: 3rem;
   margin-bottom: 30px;
 }
-h3{
+ .sessao h3{
   font-weight: 900;
   margin-top: 10px;
   text-align: center;
@@ -579,7 +586,7 @@ h3{
   padding: 15px;
   border-radius: 5px;
   bottom: 0;
-  background: rgba(131, 138, 197, 0.28);
+  background: #45b16e91;
 }
 
 .timelineul li:nth-child(odd) div {
@@ -628,7 +635,55 @@ ul li:nth-child(even) div {
 }
 
 
+#space-letra{
+  letter-spacing: 2px;
+}
 /* fim da timeline */
  
 
    /* fim da segunda timeline */
+
+
+   /* apresentação */
+   
+   /* IMAGEM E TEXTO NO TÓPICO APRESENTAÇÃO */
+.texto_apresentacao {
+  background-color: orange;
+  border-radius: 100px 100px 100px 0;
+  padding: 40px;
+  margin-top: 1rem;
+  height: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+[data-theme="dark"] .texto_apresentacao {
+  color: black;
+}
+
+@media (min-width:1250px) {
+  .apresentacao {
+      display: grid;
+      grid-template-columns: 40% 50%;
+  }
+
+  .img_apresentacao {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  .img_apresentacao img {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      width: 80%;
+      height: auto;
+  }
+}
+
+@media (max-width:1250px) {
+  .img_apresentacao {
+      display: none;
+  }
+}
+
+/* IMAGEM E TEXTO NO TÓPICO APRESENTAÇÃO END*/

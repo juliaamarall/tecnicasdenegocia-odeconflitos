@@ -26,13 +26,29 @@ include('layout/header.php');
                     <div class="col-md-10 col-sm-8 container-fluid">
 
                         <h2 class="Titulo fw-bolder">Apresentação</h2>
-                
-                        <div class="text-left">
-                            <p>Olá, estamos iniciando o Curso de Técnicas de Negociação de Conflitos, e como bem sabemos por nossas experiências e vivências pessoais e profissionais o campo das relações humanas é de uma complexidade ímpar, permeada por fatores intrapessoais e interpessoais.</p>
 
-                            <p>Faz-se necessário esclarecer que você não estará sozinho(a) nesta trajetória, eu, <span><a href="#" data-bs-toggle="tooltip" data-bs-title="José Edson da Silva: psicólogo e professor universitário há mais de 10 anos dos Cursos de Gestão, Psicologia e Estética. Mestre em Administração e Especialista em Recursos Humanos. Experiência em Consultoria Organizacional na área da Educação e Saúde. Atualmente Coordenador do Curso de Pós-Graduação em Psicologia Organizacional e do Trabalho (UNIFAMETRO) e Avaliador do MEC para autorização dos cursos de Psicologia e Recursos humanos." class="link-tooltip"><strong>Professor José Edson¹</strong></a></span>   , filósofo e psicólogo pretendo partilhar meu conhecimento profissional, tanto no campo Organizacional, como na docência. Saliento que não tenho a voz da verdade e nem pretendo tê-la, mas com a ajuda de alguns teóricos e do material disponível no imenso acervo das redes sociais construiremos novos saberes. Acredito fortemente que não há receita pronta para a resolução ou negociação de conflitos, pois cada experiência é única e a expertise para solucioná-los dependerá da dinâmica e formação de cada indivíduo que tenha comprometimento com o processo de mudança.</p>
-                        </div>
 
+
+                        
+    <!-- IMAGEM COM TEXTO AO LADO -->
+
+    <div class="apresentacao">
+
+<div class="img_apresentacao wow animate__zoomIn">
+    <img src="imgs-pessoas/Group 4.png" alt="">
+</div>
+<div>
+    <!-- Parágrafo com a biblioteca de animação  -->
+    <p class="texto_apresentacao">
+    Olá, <strong>Nome Completo</strong> estamos iniciando o Curso de <strong>Técnicas de Negociação de Conflitos</strong>, e como bem sabemos por nossas experiências e vivências pessoais e profissionais o campo das relações humanas é de uma complexidade ímpar, permeada por fatores intrapessoais e interpessoais.
+    </p><br><br><br>
+
+
+    <p>Faz-se necessário esclarecer que você não estará sozinho(a) nesta trajetória, eu, <span><a href="#" data-bs-toggle="tooltip" data-bs-title="José Edson da Silva: psicólogo e professor universitário há mais de 10 anos dos Cursos de Gestão, Psicologia e Estética. Mestre em Administração e Especialista em Recursos Humanos. Experiência em Consultoria Organizacional na área da Educação e Saúde. Atualmente Coordenador do Curso de Pós-Graduação em Psicologia Organizacional e do Trabalho (UNIFAMETRO) e Avaliador do MEC para autorização dos cursos de Psicologia e Recursos humanos." class="link-tooltip"><strong>Professor José Edson¹</strong></a></span> , filósofo e psicólogo pretendo partilhar meu conhecimento profissional, tanto no campo Organizacional, como na docência. Saliento que não tenho a voz da verdade e nem pretendo tê-la, mas com a ajuda de alguns teóricos e do material disponível no imenso acervo das redes sociais construiremos novos saberes. Acredito fortemente que não há receita pronta para a resolução ou negociação de conflitos, pois cada experiência é única e a expertise para solucioná-los dependerá da dinâmica e formação de cada indivíduo que tenha comprometimento com o processo de mudança.</p>
+    <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+</div>
+</div>
                         <div>
                         <p class="btn-texto">
             <button class="btn btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample" >

@@ -84,7 +84,7 @@ include( 'layout/menu.php' );
            </div>
 
               <div class="text-left m-4">
-              <h3 class = "fw-semibold mb-2 "> Preparação <i class="bi bi-person-check-fill"></i></h3>
+              <h3 class = "fw-semibold mb-2 text-center"> Preparação <i class="bi bi-person-check-fill"></i></h3>
               <p>Vamos dividir em dois tipos: coleta de informações e preparação psicológica:</p>
 
               <div class="container">
@@ -138,7 +138,7 @@ include( 'layout/menu.php' );
                     </div>
                     <hr>
           <div class="text-left m-4">
-          <h3 class = "fw-semibold mb-2 "> Investigação <i class="bi bi-incognito"></i></h3>
+          <h3 class = "fw-semibold mb-2 text-center"> Investigação <i class="bi bi-incognito"></i></h3>
           <p>Agora você estará frente a frente com o cliente, a única coisa que você não deve fazer é partir direto para a negociação.</p>
 
           <p>Continue com a sua preparação e investigue mais sobre ele, depois de quebrar o gelo e fazer o rapport, você precisa entender a fundo as necessidades de seu cliente.
@@ -216,7 +216,7 @@ include( 'layout/menu.php' );
           <!-- FASE 3 -->
           <div class="text-left m-4">
             <hr>
-          <h3 class = "fw-semibold mb-2 "> Sinalização <i class="bi bi-bell"></i></h3>
+          <h3 class = "fw-semibold mb-2 text-center"> Sinalização <i class="bi bi-bell"></i></h3>
           <p>Depois de tudo isso, acho você entendeu o que seu cliente valoriza em sua solução.</p>
           <p>Não comece a negociar abertamente, sinalize o que você está pensando em fazer.</p>
           <p>É uma forma de encaminhar para a próxima fase do processo de negociação e com a <strong> certeza de que realmente está no caminho certo </strong> .</p>
@@ -243,7 +243,7 @@ include( 'layout/menu.php' );
           <!-- fase 4 -->
           <div class="text-left m-4">
           <hr>
-          <h3 class = "fw-semibold mb-2 "> Teste <i class="fa-solid fa-arrow-trend-up" style="color: #000000;"></i></h3>
+          <h3 class = "fw-semibold mb-2 text-center"> Teste <i class="fa-solid fa-arrow-trend-up" style="color: #000000;"></i></h3>
           <p>Estando seguro e convicto das necessidades do cliente, você está quase chegando na fase do processo de negociação em que começarão as trocas de concessões, mesmo assim, seja cauteloso.</p>
           <p>É hora de <strong> testar se você está mesmo no caminho certo </strong>, como se jogasse iscas para seu cliente.</p>
           <p>Você fará suas primeiras propostas de valor. As dicas são as seguintes:</p>
@@ -276,7 +276,7 @@ include( 'layout/menu.php' );
           <!-- fase 5 -->
           <div class="text-left m-3">
             <hr>
-          <h3 class = "fw-semibold mb-2 "> Trocas <i class="bi bi-arrow-left-right"></i></h3>
+          <h3 class = "fw-semibold mb-2 text-center"> Trocas <i class="bi bi-arrow-left-right"></i></h3>
           <p>Você deve ter percebido que todo processo de negociação caminha geralmente em uma crescente, na qual o vendedor se prepara e vai tateando enquanto interage com seu interlocutor para chegar em uma negociação em si com mais segurança e assertividade.</p>
           <p>Depois de sinalizar e testar, está na hora de <strong> pôr a proposta firme na mesa </strong>, na verdade, se você seguiu corretamente os passos até aqui, <strong> essa fase será bastante rápida e assertiva</strong>.</p>
           <p>É o momento de trocar concessões, com base no valor que você descobriu que seu cliente dá a cada elemento de sua solução.</p>
@@ -285,7 +285,7 @@ include( 'layout/menu.php' );
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-md-6">
-              <div class="card" style="width: 18rem;">
+              <div class="card" style="width: 18rem;" data-aos="fade-down-right">
   <ul class="list-group list-group-flush">
     <li class="list-group-item">Nunca interrompa quando seu interlocutor apresenta uma contraproposta;</li>
     <li class="list-group-item"> Não rejeite de imediato o que lhe foi proposto;</li>
@@ -296,7 +296,7 @@ include( 'layout/menu.php' );
               </div>
 
               <div class="col-sm-12 col-md-6">
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 18rem;" data-aos="fade-down-left">
   <ul class="list-group list-group-flush">
     <li class="list-group-item"> Ao fazer concessões, estipule um limite;</li>
     <li class="list-group-item">Não tenha medo de parecer relutante;</li>
@@ -313,7 +313,7 @@ include( 'layout/menu.php' );
           <!-- fase 6 -->
           <div class="text-left m-3">
             <hr>
-          <h3 class = "fw-semibold mb-2 "> Acordo <i class="fa-regular fa-handshake" style="color: #000000;"></i></h3>
+          <h3 class = "fw-semibold mb-2 text-center"> Acordo <i class="fa-regular fa-handshake" style="color: #000000;"></i></h3>
           <p>O acordo foi praticamente fechado na fase anterior, mas é preciso que isso fique claro para ambos, pois às vezes é difícil perceber que já se chegou a um acordo, sabia?</p>
           <p>A maneira mais adequada de fazer isso é repetir sua última versão de proposta, calmamente, enfatizando as concessões de ambas as partes e destacando o valor de sua solução para o cliente.</p>
           <p>Você pode começar sua explanação com uma frase como esta:</p>
@@ -342,7 +342,7 @@ include( 'layout/menu.php' );
           <!-- fase 7  -->
           <div class="text-left m-3">
           <hr>
-          <h3 class = "fw-semibold mb-2 "> Acerto final <i class="bi bi-check2-square"></i></h3>
+          <h3 class = "fw-semibold mb-2 text-center "> Acerto final <i class="bi bi-check2-square"></i></h3>
           <p>Os acertos finais são parte do processo de vendas mais tranquila e agradável.</p>
           <p>O acordo já foi feito, onde é preciso acertar alguns detalhes como, quando o projeto começará, quem deve ser acionado, para onde enviar contratos e notas fiscais e outras providências como essas.</p>
           <p>Se não for possível assinar o documento formal na hora, então envie assim que chegar na empresa, um e-mail com uma ata de tudo que foi acertado, alinhando as expectativas com o cliente.</p>

@@ -34,5 +34,12 @@
                     <span class="txt"  id="menu-big">Técnicas de Negociação e Administração de Conflitos</span>
                 </a>
             </li>
+
+            <li class="menu">
+                <a href="referencias.php">
+                    <span class="icon"><i class="bi bi-book-half"></i></span>
+                    <span class="txt">Referências</span>
+                </a>
+            </li>
         </ul>
     </nav>

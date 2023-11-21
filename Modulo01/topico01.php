@@ -41,8 +41,8 @@ include('layout/header.php');
                <!-- IMAGEM 01 DO TÓPICO DE APRESENTAÇÃO -->
                             <div class="container img-flip">
                                 <img src="imgs/Figura01.png" alt="Imagem da capa do curso com o títilo ÉTICA E SERVIÇO PÚBLICO" class="img-fluid">
-                                <p class = "FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>  https://www.bstorytelling.com.br/wp-content/uploads/2020/01/Capa-01-1.png</p>
-                                <p class = "FonteFigura FonteMenor text-secondary"><strong>Clique!</strong></p>
+                                <p class = "FonteFigura FonteMenor"><strong>Fonte:</strong>  https://www.bstorytelling.com.br/wp-content/uploads/2020/01/Capa-01-1.png</p>
+                                <p class = "FonteFigura FonteMenor"><strong>Clique para saber mais!</strong></p>
                                 </div>
                         <!-- FIM DA IMAGEM DE APRESENTAÇÃO   -->
         
@@ -52,7 +52,7 @@ include('layout/header.php');
                   <span class="material-symbols-outlined"> <i class="bi bi-x-lg"></i> </span>
                 </header>
                 <div class="text-left ">
-                  <p><strong>Primeiramente, antes de entrarmos nas Técnicas de Negociação de Conflitos propriamente ditas, urge a necessidade de compreendermos o que se entende por conflito e na sequência compreenderemos o conceito de negociação e assim estudaremos as técnicas.</strong></p>
+                  <p class="box-color"><strong>Primeiramente, antes de entrarmos nas Técnicas de Negociação de Conflitos propriamente ditas, urge a necessidade de compreendermos o que se entende por conflito e na sequência compreenderemos o conceito de negociação e assim estudaremos as técnicas.</strong></p>
                 </div>
         
               </div>
@@ -76,20 +76,24 @@ include('layout/header.php');
      <!-- inicio do primeiro subtópico -->
      
      <div class = "mt-5 text-left">
-              <h3 class = "fw-semibold text-secondary"> 1.1. Os principais tipos de conflitos</h3>
+              <h3 class = "fw-semibold text-secondary"  id="space-letra"> 1.1. Os principais tipos de conflitos</h3>
               <hr>
+              <div class="text-center m-4">
+                            <h4><span class="badge bg-warning text-dark-ênfase"><i class="fa fa-lightbulb"
+                                        style="color:white"></i> Clique para entender sobre.</span></h4>
+                        </div>
               <div class="container">
                 <div class="row">
                   <!-- PRIMEIRO FLIP CARD DO PRIMEIRO SUBTÓPICO -->
                   <div class="col-sm-12 col-md-6">
                   <div class="container">
+                    
       <div class="cards">
         <label id="summary">
           <input type="checkbox" />
           <article class="flip-mini" data-aos="fade-down">
             <div class="front flip-blue" id="card-front">
               <header>
-               
                 <span class="material-symbols-outlined"> <i class="fa-solid fa-hand-pointer fa-beat-fade"></i> </span>
               </header>
               
@@ -101,7 +105,7 @@ include('layout/header.php');
                 <span class="material-symbols-outlined"> <i class="bi bi-x-lg"></i> </span>
               </header>
               <div class="text-left text-black">
-                <p>Conflitos desse tipo se referem a divergências motivadas por aspectos concretos, como prazos para entregas, orçamentos, métodos de execução de projetos etc.</p>
+                <p class="box-color"> <strong> Conflitos desse tipo se referem a divergências motivadas por aspectos concretos, como prazos para entregas, orçamentos, métodos de execução de projetos etc.</strong></p>
                 
               </div>
       
@@ -135,7 +139,7 @@ include('layout/header.php');
                 <span class="material-symbols-outlined"> <i class="bi bi-x-lg"></i> </span>
               </header>
               <div class="text-left text-black">
-                <p>Já os conflitos de cunho emocional se referem a problemas pessoais entre as partes envolvidas, que não necessariamente tem a ver com o trabalho em si.</p>
+                <p> <strong>Já os conflitos de cunho emocional se referem a problemas pessoais entre as partes envolvidas, que não necessariamente tem a ver com o trabalho em si.</strong> </p>
                
               </div>
       
@@ -162,7 +166,7 @@ include('layout/header.php');
              <!-- SEGUNDO SUBTÓPICO DO TÓPICO01 -->
 
              <div class = "mt-5 text-left">
-              <h3 class = "fw-semibold text-secondary"> 1.2. Os estágios dos conflitos</h3>
+              <h3 class ="fw-semibold text-secondary" id="space-letra"> 1.2. Os estágios dos conflitos</h3>
               <hr>
                 <p>Os conflitos costumam passar por diferentes estágios, e saber identificar esses estágios é extremamente importante para solucionar situações de conflitos: <strong>clique para saber mais!</strong></p>
 
@@ -233,7 +237,7 @@ include('layout/header.php');
               <!-- TERCEIRO SUBTÓPICO DO TÓPICO01 -->
 
               <div class = "mt-5 text-left">
-              <h3 class = "fw-semibold text-secondary">1.3 Os principais tipos de reações em uma situação de conflito</h3>
+              <h3 class = "fw-semibold text-secondary" id="space-letra">1.3 Os principais tipos de reações em uma situação de conflito</h3>
               <hr>
                 <p>Para uma boa negociação e gestão de conflitos, é necessário entender como as partes envolvidas podem reagir frente a uma situação conflituosa: <strong>clique para saber mais!</strong></p>
                 <div class="container">
