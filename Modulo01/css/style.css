@@ -426,7 +426,7 @@ ul li.menu a.ativo {
 h2 {
     margin-left: 5px;
     padding-bottom: 10px;
-    /* border-bottom: 1px solid #ccc; */
+    border-bottom: 1px solid #ccc;
     color: #44833D;
     font-weight: bolder;
 }

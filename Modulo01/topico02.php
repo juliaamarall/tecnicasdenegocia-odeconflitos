@@ -83,7 +83,7 @@ include( 'layout/menu.php' );
                 <hr>
            </div>
 
-              <div class="text-left m-3">
+              <div class="text-left m-4">
               <h3 class = "fw-semibold mb-2 "> Preparação <i class="bi bi-person-check-fill"></i></h3>
               <p>Vamos dividir em dois tipos: coleta de informações e preparação psicológica:</p>
 
@@ -137,29 +137,246 @@ include( 'layout/menu.php' );
 </div>
                     </div>
                     <hr>
-          <div class="text-left m-3">
+          <div class="text-left m-4">
           <h3 class = "fw-semibold mb-2 "> Investigação <i class="bi bi-incognito"></i></h3>
           <p>Agora você estará frente a frente com o cliente, a única coisa que você não deve fazer é partir direto para a negociação.</p>
 
           <p>Continue com a sua preparação e investigue mais sobre ele, depois de quebrar o gelo e fazer o rapport, você precisa entender a fundo as necessidades de seu cliente.
-          *( <strong> Rapport é criar um clima agradável, de empatia entre os negociadores</strong>)</p>
+          <span><a href="#" data-bs-toggle="tooltip" data-bs-title="É criar um clima agradável, de empatia entre os negociadores" class="link-tooltip"><strong>Rapport</strong></a></span> é criar um clima agradável, de empatia entre os negociadores</p>
 
           <p>Comece dizendo quais são os objetivos da reunião, esclareça se há necessidade de confidencialidade e descubra, perguntando, qual o tempo disponível para tratarem do assunto.</p>
 
           <p>É preciso saber fazer as perguntas certas e escutar para <strong> decifrar as necessidades do cliente</strong>, consequentemente,  <strong>o valor que dá para a solução </strong>que você está trazendo.</p>
 
           <!-- alert azul -->
-          <div class="alert alert-primary" role="alert" data-aos="fade-up"
+          <div class="alert alert-primary fs-5" role="alert" data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom">
      A tradicional técnica usada para isso é o famoso  <span><a href="#" data-bs-toggle="tooltip" data-bs-title="SPIN Selling é uma metodologia de venda baseada em quatro tipos de pergunta: Situação, Problema, Implicação e Necessidade." class="link-tooltip"><strong>SPIN Selling</strong></a></span> e seus quatro tipos de perguntas:
            </div>
+      </div>
            <!-- fim do alert azul -->
+           <div class="text-center">
+                            <h4><span class="badge bg-warning text-dark-ênfase"><i class="fa fa-lightbulb"
+                                        style="color:white"></i> Clique para entender sobre a técnica SPIN SELLING.</span></h4>
+                        </div>
+          <!-- timeline -->
+          <div class="container">
+          <div class="timeline">
+        <input type="radio"  checked class="profile" id="" name="bright">
+        <input type="radio" class="settings" id="" name="bright">
+        <input type="radio" class="posts" id="" name="bright">
+        <input type="radio" class="books" id="" name="bright">
+        <div class="topo">
+            <ul class="nav">
+                <li class="st st1" >
+                    <h2 class="inner">Situação</h2>
+                </li>
+                <li class="st st2">
+                    <h2 class="inner">Problemas</h2>
+                </li>
+                <li class="st st3">
+                    <h2 class="inner">Implicação</h2>
+                </li>
+                <li class="st st4">
+                    <h2 class="inner">Necessidade</h2>
+                </li>
+            </ul>
+            <div class="line">
+                <span></span>
+            </div>
+          </div>
+         
+        
+        <div class="content">
+            <section class="sessao" id="profile-section">
+                <span></span>
+                <h3>Situação</h3>
+                <p class="fs-5">Para entender o contexto</p>
+            </section>
+            <section class="sessao" id="Account-section">
+                <span></span>
+                <h3>Problemas</h3>
+                <p class="fs-5">Para descobrir dificuldades e dúvidas do cliente</p>
+            </section>
+            <section class="sessao" id="Posts-section">
+                <span></span>
+                <h3>Implicação</h3>
+                <p class="fs-5">Para desvendar as consequências de não se resolver o problema</p>
+            </section>            
+            <section class="sessao" id="Advanced-section">
+                <span></span>
+                <h3>Necessidade</h3>
+                <p class="fs-5">Para mostrar como sua solução pode resolver tudo isso, mostrando seu valor ao cliente</p>
+            </section>
+        </div>
+    </div>
+          <!-- fim da timeline -->
+          </div>
+             
+          <!-- FASE 3 -->
+          <div class="text-left m-4">
+            <hr>
+          <h3 class = "fw-semibold mb-2 "> Sinalização <i class="bi bi-bell"></i></h3>
+          <p>Depois de tudo isso, acho você entendeu o que seu cliente valoriza em sua solução.</p>
+          <p>Não comece a negociar abertamente, sinalize o que você está pensando em fazer.</p>
+          <p>É uma forma de encaminhar para a próxima fase do processo de negociação e com a <strong> certeza de que realmente está no caminho certo </strong> .</p>
+
+          <div class="container"  data-aos="flip-left">
+            <div class="row">
+              <div class="col-sm-12 col-md-12">
+              <div class="card card-style" style="width: 100%;">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><i class="bi bi-arrow-right-short"></i> Nunca seja agressivo;</li>
+    <li class="list-group-item"><i class="bi bi-arrow-right-short"></i> Evite supor coisas, seja direto em suas afirmações;</li>
+    <li class="list-group-item"><i class="bi bi-arrow-right-short"></i> Use pausas para ouvir e entender a outra parte;</li>
+    <li class="list-group-item"><i class="bi bi-arrow-right-short"></i> Ao sentir que está no caminho certo, repita o que disse de forma resumida e aguarde a resposta para se certificar;</li>
+    <li class="list-group-item"><i class="bi bi-arrow-right-short"></i> Siga passo a passo, dessa forma, descobrindo mais a cada pausa;</li>
+    <li class="list-group-item"><i class="bi bi-arrow-right-short"></i> Use a postura adequada para demonstrar disposição e segurança.</li>
+  </ul>
+</div>
+              </div>
+
+          </div>
+          </div>
+          <!-- FIM DA FASE 3 -->
+
+          <!-- fase 4 -->
+          <div class="text-left m-4">
+          <hr>
+          <h3 class = "fw-semibold mb-2 "> Teste <i class="fa-solid fa-arrow-trend-up" style="color: #000000;"></i></h3>
+          <p>Estando seguro e convicto das necessidades do cliente, você está quase chegando na fase do processo de negociação em que começarão as trocas de concessões, mesmo assim, seja cauteloso.</p>
+          <p>É hora de <strong> testar se você está mesmo no caminho certo </strong>, como se jogasse iscas para seu cliente.</p>
+          <p>Você fará suas primeiras propostas de valor. As dicas são as seguintes:</p>
+
+
+          <div class="container" data-aos="flip-right">
+            <div class="row">
+              <div class="col-sm-12 col-md-12">
+              <div class="card card-style" style="width: 100vh;">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><i class="bi bi-arrow-right-short"></i> Seja objetivo;</li>
+    <li class="list-group-item"><i class="bi bi-arrow-right-short"></i>  Vá fazendo propostas gradativas, verificando o que o outro lado valoriza;</li>
+    <li class="list-group-item"><i class="bi bi-arrow-right-short"></i>  Reestruture sua proposta seguinte, tentando enquadrá-la às <strong> necessidades do cliente </strong>;</li>
+    <li class="list-group-item"><i class="bi bi-arrow-right-short"></i>  Caso receba contrapropostas, não se desvie de seu objetivo no empenho de fechar a venda</li>
+  </ul>
+</div>
+              </div>
+
+          </div>
+          </div>
+
+          
+<p class="fst-italic">Durante essa fase, é muito comum sentir que a outra parte parece ser irredutível, é o que mostra uma pesquisa realizada pela ASTD Workforce Development em parceria com a VitalSmarts, que apontou que um entre cada três funcionários confessa que gasta por volta de 5 horas de trabalho envolvido em problemas com conflito de gerações. O número representa 12% de queda de rendimento.</p>
 
 
           </div>
-             
-          
+          <!-- fim da fase 4 -->
 
+
+          <!-- fase 5 -->
+          <div class="text-left m-3">
+            <hr>
+          <h3 class = "fw-semibold mb-2 "> Trocas <i class="bi bi-arrow-left-right"></i></h3>
+          <p>Você deve ter percebido que todo processo de negociação caminha geralmente em uma crescente, na qual o vendedor se prepara e vai tateando enquanto interage com seu interlocutor para chegar em uma negociação em si com mais segurança e assertividade.</p>
+          <p>Depois de sinalizar e testar, está na hora de <strong> pôr a proposta firme na mesa </strong>, na verdade, se você seguiu corretamente os passos até aqui, <strong> essa fase será bastante rápida e assertiva</strong>.</p>
+          <p>É o momento de trocar concessões, com base no valor que você descobriu que seu cliente dá a cada elemento de sua solução.</p>
+          <p>Assim, baseado também em seus objetivos iniciais (aqueles que você definiu na fase de preparação) só aceite fazer uma concessão em troca de outra.</p>
+          <p>Isso pode não ser tão fácil quanto parece, preparamos mais uma lista de dicas rápidas:</p>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+              <div class="card" style="width: 18rem;">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Nunca interrompa quando seu interlocutor apresenta uma contraproposta;</li>
+    <li class="list-group-item"> Não rejeite de imediato o que lhe foi proposto;</li>
+    <li class="list-group-item"> Não responda imediatamente com sua versão melhorada do acordo;</li>
+    <li class="list-group-item"> Busque áreas comuns entre as duas propostas e tente realçá-las;</li>
+  </ul>
+</div>
+              </div>
+
+              <div class="col-sm-12 col-md-6">
+                <div class="card" style="width: 18rem;">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"> Ao fazer concessões, estipule um limite;</li>
+    <li class="list-group-item">Não tenha medo de parecer relutante;</li>
+    <li class="list-group-item"> Faça suas concessões gradualmente, sem pressa;</li>
+    <li class="list-group-item">  Nunca se esqueça de seu objetivo inicial.</li>
+  </ul>
+</div>
+                </div>
+            </div>
+          </div>
+          </div>
+          <!-- fim fase 5 -->
+
+          <!-- fase 6 -->
+          <div class="text-left m-3">
+            <hr>
+          <h3 class = "fw-semibold mb-2 "> Acordo <i class="fa-regular fa-handshake" style="color: #000000;"></i></h3>
+          <p>O acordo foi praticamente fechado na fase anterior, mas é preciso que isso fique claro para ambos, pois às vezes é difícil perceber que já se chegou a um acordo, sabia?</p>
+          <p>A maneira mais adequada de fazer isso é repetir sua última versão de proposta, calmamente, enfatizando as concessões de ambas as partes e destacando o valor de sua solução para o cliente.</p>
+          <p>Você pode começar sua explanação com uma frase como esta:</p>
+          <p> <strong>– Preciso ver se já estou atendendo a todas as suas expectativas.</strong> </p>
+
+          <p class="btn-texto">
+            <button class="btn btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample" >
+               <span class="font-teste"> CLIQUE PARA VER MAIS <i class="fa-regular fa-hand-pointer fa-fade"></i> </span>
+            </button>
+          </p>
+          <div style="min-height: 120px;" id="box-texto">
+            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+              <div class="card card-body" style="width: 800px;">
+               <p>As vezes o comprador se aproveita desse momento para pedir mais uma pequena concessão.</p>
+
+               <p>Você pode sempre guardar uma pequena concessão final na manga, que não afeta seu objetivo inicial, para tentar fechar o acordo.</p>
+               <p>Por outro lado, pode também ser firme e mostrar quais as consequências para a empresa do cliente, caso ele não feche o acordo logo.</p>
+               <p>Sempre se lembre: só feche o acordo se ele não prejudicar seus objetivos!</p>
+              </div>
+            </div>
+          </div>
+
+          </div>
+          <!-- fim da fase 6 -->
+
+          <!-- fase 7  -->
+          <div class="text-left m-3">
+          <hr>
+          <h3 class = "fw-semibold mb-2 "> Acerto final <i class="bi bi-check2-square"></i></h3>
+          <p>Os acertos finais são parte do processo de vendas mais tranquila e agradável.</p>
+          <p>O acordo já foi feito, onde é preciso acertar alguns detalhes como, quando o projeto começará, quem deve ser acionado, para onde enviar contratos e notas fiscais e outras providências como essas.</p>
+          <p>Se não for possível assinar o documento formal na hora, então envie assim que chegar na empresa, um e-mail com uma ata de tudo que foi acertado, alinhando as expectativas com o cliente.</p>
+
+           <!-- CAIXA DE TEXTO SAIBA-MAIS -->
+  <section class="container">
+    <div class="accordion ">
+      <section id="content">
+        <div class="caixaprincipal" id="tituloSaibaMais">
+          <div class="div_teste">
+            <div><i class="fa-solid fa-plus"></i> SAIBA MAIS </div>
+
+            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+          </div>
+        </div> <!--caixa Principal-->
+        <div class="accordion-content" id="saibamais">
+          <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75"> Passe o mouse acima
+              </strong></strong></p>
+          <p class="txt-caixasecundaria">Diante das fases apresentadas acima é importante entender que a negociação é uma verdadeira arte. Assista ao filme abaixo para que você possa ter novos horizontes e criar suas próprias técnicas.</p><!--caixa secundaria-->
+        </div>
+      </section>
+  </section>
+  <!-- FIM DA CAIXA SAIBA MAIS  -->
+
+
+  <!-- Iframe - video -->
+  <div class="container iframe-container" data-aos="fade-left">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/8PDLTvJf46g?si=kejFDh6X77fp93C1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+           <!-- fim do iframe -->
+
+
+          </div>
+          <!-- fim da fase 7 -->
 
         </section>
 
