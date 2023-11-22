@@ -25,15 +25,113 @@ include('layout/header.php');
                     <div class="col-md-1"></div>
                     <div class="col-md-10 col-sm-8 container-fluid">
 
-                        <h2 class="Titulo fw-bolder">Ética e Serviço Público</h2>
-                        <!-- tirei o hr por que o menu não estava ficando sobreposto -->
-                        <!-- <hr> -->
-
-                        <div class="m-4" id="obj">
-                            <h3 class="Titulo fw-semibold"> 01 - Objetivo</h3>
-                            <p><i class="fa fa-dot-circle text-success me-2"></i> Apresentar a importância do debate da ética aplicada ao serviço público.</p>
-                           
+                        <h2 class="Titulo fw-bolder">Conheça as Seis Técnicas de Mediação de Conflitos Mais Eficazes</h2>
+              
+                        <div class="text-center m-4">
+                            <h4><span class="badge bg-warning text-dark-ênfase"><i class="fa fa-lightbulb"
+                                        style="color:white"></i> Clique para entender sobre.</span></h4>
                         </div>
+                        <div class="container ">
+                            
+                            <div class="row painel-prin mt-5">
+                                <div class="col-sm-6 col-md-2 icon-painel fs-5">
+                                    <a href="">
+                                        <section>
+                                        <i class="fa-solid fa-ear-listen"></i>
+                                        </section>
+                                        <section class="listen">Escuta ativa</section>
+                                    </a>
+                                </div>
+
+                                <div class="col-sm-6 col-md-2 icon-painel fs-5">
+                                    <a href="">
+                                        <section>
+                                        <i class="fa-solid fa-eye-low-vision"></i>
+                                        </section>
+                                        <section>
+                                            Rapport
+                                        </section>
+                                    </a>
+                                    </div>
+
+                                    <div class="col-sm-6 col-md-2 icon-painel fs-5">
+                                    <a href="">
+                                        <section>
+                                        <i class="fa-solid fa-user-large"></i>
+                                        </section>
+                                        <section>
+                                           Caucaus
+                                        </section>
+                                    </a>
+                                    </div>
+
+
+                                    <div class="col-sm-6 col-md-2 icon-painel fs-5">
+                                    <a href="">
+                                        <section>
+                                        <i class="fa-solid fa-brain"></i>
+                                                                        </section>
+                                        <section>
+                                           Brainstorming
+                                        </section>
+                                    </a>
+                                    </div>
+
+                                    <div class="col-sm-6 col-md-4 icon-painel fs-5">
+                                    <a href="">
+                                        <section>
+                                        <i class="fa-solid fa-arrows-turn-to-dots"></i>
+                                        </section>
+                                        <section>
+                                          Parafraseamento
+                                        </section>
+                                    </a>
+                                    </div>
+                            </div>
+                        </div>
+
+                        <hr>
+                        <div class="text-left m-3">
+                        <h3 class = "fw-semibold text-center" > Escuta ativa <i class="fa-solid fa-ear-listen"></i></h3>
+
+                        <p>Um dos principais trabalhos do mediador é esclarecer os conflitos trazidos a uma sessão, utilizando uma técnica específica para ouvir os fatos expostos por litigante.</p>
+
+                        <p> <strong>A chamada escuta ativa é a combinação de uma série de atitudes durante a comunicação, cujos traços característicos são os seguintes:</strong></p>
+
+                        <div class="container" >
+            <div class="row">
+              <div class="col-sm-12 col-md-12">
+              <div class="card card-style" style="width: 100vh;" data-aos="flip-down">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><i class="fa-solid fa-circle-right" style="color: #198754;"></i> Seja objetivo;</li>
+    <li class="list-group-item"><i class="fa-solid fa-circle-right" style="color: #198754;"></i> Vá fazendo propostas gradativas, verificando o que o outro lado valoriza;</li>
+    <li class="list-group-item"><i class="fa-solid fa-circle-right" style="color: #198754;"></i>  Reestruture sua proposta seguinte, tentando enquadrá-la às <strong> necessidades do cliente </strong>;</li>
+    <li class="list-group-item"><i class="fa-solid fa-circle-right" style="color: #198754;"></i> Caso receba contrapropostas, não se desvie de seu objetivo no empenho de fechar a venda</li>
+  </ul>
+</div>
+              </div>
+
+          </div>
+          </div>
+
+          <p>Essa técnica aumenta a disposição para o diálogo, uma vez que a parte percebe o interesse na exposição e se sente mais à vontade para relatar os acontecimentos.</p>
+
+          <p>Além disso, surge uma espécie de compromisso de reciprocidade. Isto é, quando uma pessoa ouve atentamente, ela tem chances maiores de receber um tratamento similar.</p>
+
+          <p>Sendo assim, desenvolver uma escuta ativa pode ser vantajoso, até mesmo para profissionais que não pretendem exercer a função de mediador.</p>
+                        </div>
+
+
+            <div class="text-left m-3">
+                <hr>
+            <h3 class = "fw-semibold text-center" > Rapport <i class="fa-solid fa-eye-low-vision"></i></h3>
+
+            <p>A mediação se pauta por um vínculo de confiança entre os mediadores e partes, ao ponto de elas ficarem à vontade para expor pontos de vista, necessidades, interesses e propostas para solucionar o conflito.</p>
+
+            <p>Consequentemente, sp o responsável pelo procedimento age com o objetivo de dar segurança e suporte aos envolvidos, principalmente por meio de demonstrações de empatia. É a técnica conhecida como rapport.</p>
+
+            <p>Vale ressaltar que essa receptividade jamais deve ser confundida com um tratamento parcial, porque o mediador deve buscar a confiança de ambos os litigantes, sem jamais favorecer um lado da disputa ou tomar partido nas questões.</p>
+            </div>
 
   <div class="text-left">
        <p>Após algumas exposições muito sintéticas sobre possíveis definições de ética e alguns de seus sistemas no decorrer da história, estamos preparados para refletir sobre o papel da ética aplicada ao serviço público, visto que, como buscamos demonstrar, existe uma conexão íntima entre moral e sociedade, uma vez que os atos morais se condicionam socialmente.</p>
@@ -87,6 +185,10 @@ include('layout/header.php');
 <?php
 include('layout/footer.php');
 ?>
+
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>
