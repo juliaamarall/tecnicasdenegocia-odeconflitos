@@ -1,6 +1,6 @@
 <!-- NAV  -->
     <!-- coloquei um id pra chamar la no js --jayron-- -->
-    <nav class="navbar shadow-sm" id="navmenu">
+    <nav class="navbar shadow" id="navmenu">
         <div class="container-fluid">
 
             <!-- RESPONSIVIDADE -->

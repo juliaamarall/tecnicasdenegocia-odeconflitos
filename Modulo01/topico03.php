@@ -35,7 +35,7 @@ include( 'layout/menu.php' );
       <div class="container">
         <ul class="timelineul" id="timeLine">
           <li>
-            <div>
+            <div class="back-green">
               <time>3.1 - Promova uma comunicação eficiente e facilite o diálogo</time>
               <p>Os conflitos são causados pela falta de comunicação, portanto para administrar e até mesmo prevenir situações conflituosas, é necessário que haja diálogo entre colaboradores, equipes e líderes.</p>
               <p>Uma cultura de <strong>comunicação</strong> aberta , com troca de informações de forma transparente já é um primeiro passo para até mesmo prevenir conflitos.</p>
@@ -43,17 +43,20 @@ include( 'layout/menu.php' );
             
           </li>
           <li>
-            <div>
+            <div class="back-green">
               <time>3.2 - Dê preferência ao pronome “nós”</time>
               <p>Uma técnica para negociação e administração de conflitos é a utilização da palavra nós.</p>
               <p>Evite apontar o dedo para outras pessoas ou se colocar no centro de tudo, como se apenas o seu lado importasse, é importante entender que todos estão no mesmo barco.</p>
             </div>
           </li>
           <li>
-            <div>
+            <div class="back-green">
               <time>3.3 - Faça pesquisas de clima organizacional</time>
+              <div >
               <p>Os conflitos impactam diretamente no clima organizacional, nesse sentido a realização de pesquisas de clima ajuda a identificar eventuais conflitos que podem inclusive estar no estágio latente.</p>
               <p>Esse tipo de pesquisa vai ajudar a chegar na causa-raiz dos conflitos para, assim, solucioná-los de uma vez por todas e impedir que eles venham a repetir.</p>
+              </div> 
+             </div>
             </div>
           </li>
         </ul>
