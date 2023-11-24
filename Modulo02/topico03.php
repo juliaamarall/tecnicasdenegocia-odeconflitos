@@ -24,101 +24,164 @@ include( 'layout/menu.php' );
 <div class = 'col-md-1'></div>
 <div class = 'col-md-10 col-sm-8 container-fluid'>
 
-<h2 class = 'Titulo fw-bolder'>Antecedentes da Ética no Serviço Público</h2>
-<!-- tirei o hr por que o menu não estava ficando sobreposto -->
-<!-- <hr> -->
+<h2 class = 'Titulo fw-bolder'>As Principais Ferramentas para Mediação de Conflitos</h2>
 
-<div class = 'm-4' id="obj">
-<h3 class = 'Titulo fw-semibold'> 03 - Objetivos</h3>
-<p><i class = 'fa fa-dot-circle text-success me-2'></i> Expor a importância dos códigos de ética no serviço público.
+
+ <!-- IMAGEM COM TEXTO AO LADO -->
+
+ <div class="apresentacao">
+
+<div class="img_apresentacao" data-aos="zoom-in-down" >
+    <img src="imgs-pessoas/Group 3.png" alt="">
+</div>
+<div>
+    <!-- Parágrafo com a biblioteca de animação  -->
+    <p class="texto_apresentacao mb-4 border-dif" data-aos="zoom-in-down">
+    A <strong>mediação de conflitos</strong>  tem se apresentado como uma forma de permitir que as próprias pessoas envolvidas no conflito consigam gerenciar as emoções e alcançar uma resolução adequada para os mesmos.
+    <br>
+    A mediação de conflitos tem se apresentado como uma forma de permitir que as próprias pessoas envolvidas no conflito consigam gerenciar as emoções e alcançar uma resolução adequada para os mesmos.
+    </p>
+
+
+    <p>
+    Dessa forma, serão apresentadas algumas técnicas utilizadas na mediação, como rapport, escuta ativa, empoderamento, resumo e caucus, com foco em fornecer melhores subsídios para as práticas profissionais e identificar possíveis ações e procedimentos no processo de transformação dos conflitos em busca de uma cultura de paz. Tenha uma ótima leitura!
+    </p>
+    <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+</div>
+</div>
+
+
+<div class="text-left mt-3">
+  <hr>
+<h3 class = "fw-semibold mb-2 text-center "> MEDIAÇÃO DE CONFLITOS</h3>
+<div class="alert alert-primary fs-5" role="alert"  data-aos="flip-up">
+Os conflitos ou divergências devem ser entendidos como inerentes ao ser humano, da mesma forma como a paz e os afetos positivos também coexistem nos indivíduos e permeiam a esfera das relações humanas.
+</div>
+
+<p>As diferenças de entendimento estão essencialmente presentes na convivência em sociedade e nas relações interpessoais, decorrem de exigências, expectativas e idealizações desencontradas que ocasionam frustrações, mas também representam a oportunidade de criar solução das controvérsias</p>
+
+<p>Desta feita, é possível identificar que todo conflito pode ser visto sob a ótica da possibilidade de desenvolvimento pessoal e inter-relacional, como uma oportunidade de alcançar algo diferente.
+
+<div class="alert alert-primary fs-5" role="alert"  data-aos="flip-up">
+Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômio necessidade e possibilidade de satisfação dos anseios, que se acumulam com as mudanças das exigências da vida e acabam por acarretar grande parte dos desconfortos e diferenças entre os indivíduos.
+</div>
+
+
+<!-- teste modal -->
+
+  <main class="page-content text-center mt-3 mb-3" data-aos="zoom-in-up">
+        <button onclick="toggleModal()" type="button" class="button-modal">Clique para saber mais!</button>
+      </main>
+      <div class="color-modal" onclick="toggleModal()"></div>
+      <div class="modal-one">
+        <p>
+        Ante um conflito é importante que se observe e identifique não só os conteúdos daquilo que está sendo dito e reclamado, mas também o que perfaz a raiz da problemática, ou seja, a real necessidade existente no conflito que nem sempre vem à tona ou é percebida pelas próprias partes. Por isso, a necessidade das ferramentas para mediação de conflitos.
+        </p>
+        <p>Muitas vezes, se faz necessário que um terceiro interceda na relação conflituosa, podendo, então, surgir a figura do mediador, do negociador e até mesmo do juiz ou árbitro.</p>
+
+        <p>O papel do terceiro imparcial, nesse momento de solução de conflitos, pode ser essencial, uma vez que ele pode ajudar a organizar as ideias que se contrapõem, auxiliar as partes a se entenderem e a se expressarem. Pode estabelecer a equanimidade, possibilitar o reconhecimento da identidade, a fim de restabelecer a boa comunicação e auxiliar na condução pacífica em relação aos ânimos aflorados, facilitando assim, a autocomposição.</p>
+
+        <p><strong>Clique fora para sair!</strong></p>
+      </div>
+
+<!-- fim do teste -->
+<p>No tocante a arbitragem, ressalta-se a citação de Calmon (2008), ‘nada obsta que as partes promovam a autocomposição enquanto participam do procedimento arbitral’. Especifica ainda a existência dos métodos med/arb e arb/med, citados a seguir:</p>
+
+ <!-- Citação com borda verde (esquerda) -->
+ <div class="bd-callout bd-callout-success m-3" data-aos="zoom-in">
+
+<!-- blockquote do bootstrap -->
+<figure>
+  <blockquote class="blockquote">
+    <p>Mediação/arbitragem (med/arb) ocorre quando as partes concordam em realizar a mediação, mas, caso essa não reste frutífera, seja desde logo praticada a arbitragem, normalmente por outra pessoa da mesma entidade ou escritório que realiza a mediação (…). Já na arb/med sucede o contrário, ou seja, realiza-se o procedimento da arbitragem, chegando-se a prolatação da sentença. O árbitro anuncia às partes que a sentença está pronta, mas não a revela, depositando-a em local seguro e inviolável. Com isso proporciona que sejam iniciadas as tratativas com vistas à obtenção da autocomposição (mediação). Caso não se logre o acordo, revela-se a sentença antes prolatada.</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <cite title="Source Title">(CALMON, 2008, p. 100)</cite>
+  </figcaption>
+</figure>
+</div>
+<!-- Citação com borda verde (esquerda) -->
+</div>
+
+<div class="text-left mt-3">
+  <hr>
+<h3 class = "fw-semibold mb-2 text-center "> FERRAMENTAS PARA MEDIAÇÃO DE CONFLITOS</h3>
+
+<p>Ressalta-se que são diversas as <strong>ferramentas para mediação de conflitos</strong>  que podem ser utilizadas numa mediação. Aqui opta-se por tratar de algumas delas apenas, quais sejam: processo de abertura, rapport, escuta ativa, empoderamento, resumo e caucus.</p>
+</div>
+
+
+<div class="text-left mt-3">
+  <hr>
+<h3 class = "fw-semibold mb-2 text-center "> PROCESSO DE ABERTURA</h3>
+
+<p>Insta citar, a necessidade de se fazer um momento de abertura no processo de mediação, que deverá ocorrer no primeiro encontro, em que os mediandos passam a ter contato com o mediador.</p>
+
+<p>Após tomar conhecimento dos fatos e da situação, caberá ao mediador combinar as regras da mediação, ressaltar a confidencialidade e a boa fé das partes, além de explicar como serão formatados os encontros, como, por exemplo, o tempo de duração de cada sessão, a previsão da quantidade de encontros que serão estabelecidos, os valores que serão cobrados e a forma de cobrança e pagamento.</p>
+</div>
+
+
+<div class="text-left mt-3">
+<hr>
+<h3 class = "fw-semibold mb-2 text-center "> RAPPORT</h3>
+
+    <p>Num primeiro momento, cabe ao mediador conseguir estabelecer um bom rapport, ou seja, uma boa acolhida, ou empatia, criar vínculo de confiança e bem-estar com as partes. Esse momento começa com a recepção adequada dos mediandos ao ambiente em que será realizada a mediação, bem como com o rito de abertura dos trabalhos.</p>
+    <p>Segundo Danon, (2003, p. 66), “a empatia é a capacidade de colher e compreender a experiência subjetiva do cliente, colocando-se em seus planos, olhando as coisas do seu mesmo ponto de vista”.</p>
+    <p>No que concerne a empatia, prossegue Danon (2003), no seguinte sentido:</p>
+
+    <!-- Citação com borda verde (esquerda) -->
+ <div class="bd-callout bd-callout-success m-3" data-aos="zoom-in">
+
+<!-- blockquote do bootstrap -->
+<figure>
+  <blockquote class="blockquote">
+    <p>A empatia é catalisadora do processo de crescimento; sentindo-se acolhido, aceito, compreendido, o cliente recomeça a ter confiança em si mesmo, livra-se do peso que o oprime e consegue desta forma colher também vozes interiores mais sutis, que podem já indicar um possível caminho de solução. Descobre em si a capacidade de relativizar a questão que o atormenta e vê as coisas de um outro ponto de vista, pode encontrar a força de ir em frente, não obstante o seu problema e, reabrir-se à esperança e a uma visão dinâmica da existência, e em particular, da sua situação.</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <cite title="Source Title">(DANON, 2003, p 66)</cite>
+  </figcaption>
+</figure>
+</div>
+<!-- Citação com borda verde (esquerda) -->
+
+<p>Rosemberg (2006, p.136 e 137) cita que ‘a compreensão intelectual bloqueia a empatia’ e prossegue na defesa de que ‘o ingrediente-chave da empatia é a presença’.</p>
+<div class="alert alert-warning fs-5" role="alert" data-aos="flip-left">
+<strong>Um rapport adequado possibilita que os mediandos se sintam devidamente compreendidos e confiantes, além de criar o sentimento de empoderamento de si, bem como de autonomia frente as dificuldades, a fim de que o respeito seja restabelecido através da fala e da escuta entre as partes.</strong>
+</div>
+</div>
+
+<div class="text-left mt-3">
+  <hr>
+  <h3 class = "fw-semibold mb-2 text-center "> EMPOWERMENT</h3>
+  <p>No tocante ao empowerment ou o empoderamento, pode ser entendido como o ‘resgate do potencial e da competência do indivíduo, inserido no contexto da mediação, para gerenciar seus próprios conflitos’, (GROSMAN e MANDEL BAUM, 2011, p. 138).
 </p>
-<p><i class = 'fa fa-dot-circle text-success me-2'></i> Apresentar um histórico do surgimento e a necessidade dos códigos e institutos voltados para o fomento da ética no serviço público.
-</p>
+
+<p>Os autores citam que "é o empowerment que move as partes a terem atitudes extremamente positivas e construtivas no processo de mediação". (GROSMAN et al., 2011, p. 139).</p>
+
+<p>Estabelecida a empatia entre as partes, o facilitador passa a ouvir de forma atenta, sem julgamento e possibilita que os mediandos sintam-se à vontade e confiantes para se expressarem com autenticidade. Inicia-se, então, a fase de entendimento de toda a demanda a ser exposta em detalhes. O mediador que facilita a aproximação poderá fazer inúmeros questionamentos, desde que não perca o foco de identificar e organizar as ideias e questões que estão sendo discutidas, bem como não sobrecarregue as partes envolvidas.</p>
+
+<p>
+        Essa é a fase em que os litigantes têm a oportunidade de serem ouvidos de maneira objetiva. À medida que os mediandos conseguem estabelecer um mínimo de comunicação, sentem-se mais empoderados para resolverem seus conflitos e passam a se entender melhor, a se respeitar mais, se reconhecem como seres humanos possuidores de necessidades e merecedores de respeito e confiança.
+        </p>
+
+    <!-- botão (clique para saber mais!) -->
+    <main class="page-content text-center mt-3 mb-3" data-aos="zoom-in-up">
+        <button onclick="toggleModal()" type="button" class="button-modal">Clique para saber mais!</button>
+      </main>
+      <div class="color-modal" onclick="toggleModal()"></div>
+      <div class="modal-one">
+        <p>Ainda sobre as ferramentas para mediação de conflitos, Lia Regina Castaldi Sampaio e Adolfo Braga Neto (2014) defendem que ao dar voz aos mediandos, para que expliquem o motivo que os levou a buscar seus serviços, já se inicia a escuta ativa.</p>
+
+        <p>Trata-se da observação permanente desse terceiro com relação à comunicação entre as partes, sem nenhuma associação de ideias a situações ou a momentos por ele vivenciados, sem julgar as partes e, sobretudo, sem despojar-se de sua realidade rotineira, a fim de escutá-las da forma e com a intenção em que desejam ser ouvidas. O mediador verificará a existência de pouca ou de muita assertividade em relação à comunicação verbal e não verbal. Essa atitude de escuta, deve ser empregada ao longo de todo o processo, sob pena de o mediador não conquistar a confiança das partes, nem auxiliá-las na resolução ou na transformação do conflito. (SAMPAIO e NETO, 2014, p. 56)</p>
+
+        <p><strong>Clique fora para sair!</strong></p>
+      </div>
+
+    <!-- fim do botão (clique para saber mais!) -->
 </div>
 
-<div class="text-left">
-    <p>Pode-se afirmar que ética pública já existe desde a antiguidade, com o intuito de formar a conduta das pessoas de governo. Ela estava vinculada aos assuntos de governo, tanto na formação dos governantes quanto na prática política, de modo a fomentar as ações acompanhadas de valores que pudessem beneficiar os governados.</p>
 
-    <p>Apesar de um certo descuido a que tem sido submetido nas últimas décadas, o tema da ética pública tem reaparecido com força e se tornado um tema de fundamental análise entre os principais estudiosos de governo e administração pública. Se pudermos delimitar um marco histórico, podemos dizer que o compromisso da ética no âmbito público recobra importância por volta dos anos setenta, nos Estados Unidos, na raiz do famoso e, possivelmente, o maior escândalo político americano conhecido como “Watergate”, que, por tamanha crise institucional, terminou com a renúncia do Presidente Richard Nixon. Esse fato demonstrou ao público que alguns governantes e funcionários praticavam condutas imorais e antiéticas. Foi, então, que se criaram mecanismos para o fomento da ética no setor público como, por exemplo, a <a href="#" data-toggle="tooltip" data-placement="top" title="Office pf Government Ethics - Em tradução aproximada, algo como Escritório de Ética no Governo">OGE<i class="fa fa-search-plus"></i>.</a></p>
-
-    <!-- CAIXA DE TEXTO CURIOSIDADES -->
-    <section class="container">
-    <div class="accordion ">
-      <section id="content">
-        <div class="caixaprincipal" id="tituloCuriosidade">
-          <div class="div_teste">
-            <div><i class="fa-solid fa-question"></i> CURIOSIDADE </div>
-
-            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-          </div>
-        </div> <!--caixa Principal-->
-        <div class="accordion-content" id="Curiosidade">
-          <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
-                Passe o mouse acima
-              </strong></strong></p>
-          <p class="txt-caixasecundaria">
-          Para maiores informações, sugerimos o site deste organismo: <a href="https://www.oge.gov/" target="_blanck">www.oge.gov</a>, que foi instituída pela lei de Ética no Governo (Ethics in Government Act., EGA), em 1978.
-          </p><!--caixa secundaria-->
-        </div>
-      </section>
-  </section>
-  <!-- FIM DA CAIXA DE TEXTO CURIOSIDADES -->
-
-  <p>No Brasil, também temos alguns atos do poder público que visam orientar o exercício ético do servidor público.</p>
-
- <!--CAIXA DE TEXTO EXEMPLO-->
- <section class="container">
-    <div class="accordion ">
-      <section id="content">
-        <div class="caixaprincipal" id="tituloexemplo">
-          <div class="div_teste">
-            <div><i class="fa-regular fa-pen-to-square"></i></i> EXEMPLO </div>
-            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-          </div>
-        </div> <!--caixa Principal-->
-        <div class="accordion-content" id="exemplo"><!--caixa secundaria-->
-          <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
-          <p class="txt-caixasecundaria">
-          No ano 2000, tem-se a proposta do “Código de Conduta da Alta Administração Federal”. Em 2003, a criação da “Comissão de Ética Pública”. Além disso, temos o Sistema de Gestão Ética do Poder Executivo Federal, instituído em 2007, embora desde 1994 o tema “ética” esteja na agenda do governo brasileiro, visto que já se nota a presença de Comissões de Ética Setoriais em cada um dos órgãos federais, cuja função precípua é dar publicidade ao Código de Ética Profissional do Servidor Público.
-          <p>
-        </div>
-      </section>
-  </section>
-  <!-- FIM DA CAIXA EXEMPLO-->
-  
-</div>
-
-<div class="text-left">
-  <p>No entanto, uma verdadeira mudança na cultura das organizações públicas não se reduz apenas a uma simples criação ou modificação das normas e leis, mas é preciso considerar, também, o papel da transmissão e da assimilação dos valores éticos. A gestão ética no serviço público não se obtém apenas pelo controle institucional – embora esse elemento também esteja presente, no sentido de ajustar o trabalho do servidor e o papel da vigilância dos mais diferentes níveis de autoridade, a fim de alcançar o respeito às normas e, se necessária, a aplicação de sanções por seu não cumprimento –, mas é preciso promover a integridade e a conduta ética do serviço público, a fim de que cada pessoa possa desenvolver seu trabalho sobre bases de regras claras de operação e de comportamento.</p>
-
-  <p>Desse modo, a codificação de uma ética pública deverá cumprir uma dupla missão, como forma de expressar as aspirações da sociedade no que diz respeito à ação pública e, por sua vez, como meio de controle da adequação das condutas aos princípios do serviço público. Daí a importância dos chamados códigos de ética. Entre outras coisas, eles servem para:</p>
-      <!-- LISTA -->     
-      <p><i class="bi bi-arrow-right-circle icon-green"></i> Enunciar os valores que presidem a atividade de uma instituição (no nosso caso, da coisa pública);</p>
-      <p><i class="bi bi-arrow-right-circle icon-green"></i> Determinar o grau de responsabilidade que o cumprimento desses valores representa para os servidores públicos;</p>
-      <p><i class="bi bi-arrow-right-circle icon-green"></i> Definir os meios para alertar a administração pública e os cidadãos sobre o surgimento de condutas não éticas, a fim de poder corrigi-las.</p>
-       <!-- FIM DA LISTA -->
-</div>
-
-<div class="text-left">
-  <p>Com isso, a nova gestão pública resgata e introduz uma série de novos valores. Já não se considera a administração como um simples instrumento executor das ordens políticas. A atividade administrativa está reorientada para a consecução de resultados, para uma cultura da qualidade do serviço e para maiores níveis de autonomia e responsabilidade dos gestores e servidores.</p>
-
-  <p>De forma que a ética tem sua importância por si mesma, não está situada no foco de atenção dos investigadores e estudiosos dos assuntos públicos, por conta de se partir da crença de que aqueles que ocupam cargos públicos ou algum tipo de representação popular são pessoas respeitáveis per se, ou seja, que a ética seja algo inerente a esses agentes públicos.</p>
-
-  <p>Apesar disso, no ano de 1976, um grupo de trabalho sobre ética que pertencia à <a href="#" data-toggle="tooltip" data-placement="top" title="IASIA - International Association of Schools and Institutes of Administration iasia.iias-iisa.org.">Associação Internacional de Escolas e Institutos de Administração Pública<i class="fa fa-search-plus"></i></a>, organismo que reúne diretores de escolas e institutos de administração pública das mais diversas partes do mundo, acordou entre si solicitar a vários centros acadêmicos que incluíssem a ética como assinatura essencial para a formação dos gestores públicos. No ano de 1979, essa mesma associação concluiu um estudo que visava conhecer o que estava sendo realizado nas variadas instituições responsáveis pela formação e pelo aperfeiçoamento de funcionários públicos. Um ano depois, os resultados desse estudo indicaram que a ética e os valores, como área de conhecimento, não estavam inseridos nas escolas e institutos de administração pública. Em seguida, em 1981, a IASIA convocou uma reunião para tratar amplamente do comportamento ético e da responsabilidade no serviço público. Nessa reunião, ficou acertado que seriam desenvolvidos programas de ética para funcionários públicos e se insistiu na necessidade de reforçar os códigos de éticas e as medidas anticorrupção.</p>
-
-  <p>Assim, no ano de 1983, foi celebrado em Washington (EUA), o primeiro Congresso Internacional de Ética Pública, organizado pelo Escritório de Ética Pública e pela então existente <a href="#" data-toggle="tooltip" data-placement="top" title="United States Information Agency – USIA">Agência de Informação dos Estados Unidos<i class="fa fa-search-plus"></i></a>, que, em 1999, foi reestruturada e passou a ser chamada de Under Secretary for Public Diplomacy and Public Affairs. Esse congresso foi o primeiro de alcance mundial, reunindo mais de oitenta participantes de cinquenta e cinco países dos cinco continentes.</p>
-
-  <p>Mais adiante, em 1987, também nos Estados Unidos, a <a href="#" data-toggle="tooltip" data-placement="top" title="NASPAA – National Association of Schools of Public Affairs and Administration">Associação Nacional de Escolas de Administração Pública<i class="fa fa-search-plus"></i></a> determinou que os programas de formação das escolas e institutos de administração pública promovessem os valores, os conhecimentos e as capacidades dos servidores públicos em prol de uma atenção administrativa ética e eficaz. Um ano depois, os diretores de um grupo de trabalho da NASPAA, dedicado ao ensino de ética na administração pública, elaboraram um informativo em que foi solicitado que os programas universitários de preparação para a função pública incluíssem, para todos os alunos, conteúdos de ética e que a ética pública fosse uma disciplina obrigatória e autônoma que se projetasse, além disso, sobre outras matérias também obrigatórias</p>
-
-  <p>A partir dessas e de outras iniciativas, diversos Estados começaram a criar seus códigos de condutas, normas éticas e mecanismos de controle. Ao final dos anos noventa, o escritório de gestão pública da <a href="#" data-toggle="tooltip" data-placement="top" title="Organisation for Economic Cooperation and Development – Organização para a Cooperação e Desenvolvimento Econômico">OCDE<i class="fa fa-search-plus"></i></a> elaborou um estudo sobre a situação ética em alguns países. A informação recebida permitiu elaborar um desenho de uma “estrutura ética”, na qual se propôs um modelo para a gestão pública.</p>
-</div>
-
-<div class="text-left">
-  <p>Durante a década de noventa, foram realizadas conferências internacionais sobre ética no governo, sempre em caráter bianual. Em 1997, aconteceu, em Lima (Peru), a Oitava Conferência Internacional de Ética no Governo. Em 1999, foi realizada, em Durban (África do Sul), a Nona Conferência. Em 2001, a Décima, na cidade de Praga (República Checa), enquanto que no ano de 2003, realizou-se, em Seul (Coreia do Sul), a Décima Primeira Conferência.</p>
-
-  <p>Para além desse movimento, surgido nos Estados Unidos, também outras nações do mundo começaram a criar organismos responsáveis para o fomento da ética. A Austrália criou o Conselho Assessor de Gestão e a Comissão de Proteção de Mérito no Serviço Público Nova Zelândia, a Comissão de Serviços do Estado. Na Finlândia, foi criado um grupo de trabalho para estimular a ética, ligado ao Ministério da Fazenda.</p>
-</div>
-    
 </section>
 
 
@@ -141,6 +204,9 @@ include( 'layout/menu.php' );
         </div>
     </div>
 
+    <script>
+  AOS.init();
+</script>
 <?php
 include('layout/footer.php' );
 ?>

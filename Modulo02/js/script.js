@@ -296,3 +296,31 @@ function callbackFunc() {
   window.addEventListener("load", callbackFunc);
   window.addEventListener("resize", callbackFunc);
   window.addEventListener("scroll", callbackFunc);
+
+
+  // modal 
+  // const toggleModal = () => {
+  //   const bodyClassList = document.body.classList;
+
+  //   if (bodyClassList.contains("open")) {
+  //     bodyClassList.remove("open");
+  //     bodyClassList.add("closed");
+  //   } else {
+  //     bodyClassList.remove("closed");
+  //     bodyClassList.add("open");
+  //   }
+  // };
+
+  // modal
+
+  const toggleModal = () => {
+    const bodyClassList = document.body.classList;
+
+    if (bodyClassList.contains("open")) {
+      bodyClassList.remove("open");
+      bodyClassList.add("closed");
+    } else {
+      bodyClassList.remove("closed");
+      bodyClassList.add("open");
+    }
+  };
