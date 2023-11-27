@@ -54,7 +54,7 @@ include( 'layout/menu.php' );
 
 <div class="text-left mt-3">
   <hr>
-<h3 class = "fw-semibold mb-2 text-center "> MEDIAÇÃO DE CONFLITOS</h3>
+
 <div class="alert alert-primary fs-5" role="alert"  data-aos="flip-up">
 Os conflitos ou divergências devem ser entendidos como inerentes ao ser humano, da mesma forma como a paz e os afetos positivos também coexistem nos indivíduos e permeiam a esfera das relações humanas.
 </div>
@@ -67,29 +67,35 @@ Os conflitos ou divergências devem ser entendidos como inerentes ao ser humano,
 Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômio necessidade e possibilidade de satisfação dos anseios, que se acumulam com as mudanças das exigências da vida e acabam por acarretar grande parte dos desconfortos e diferenças entre os indivíduos.
 </div>
 
+<div class="text-center">
+  <button type="button" class="btn botao-modal m-3" data-bs-toggle="modal" data-bs-target="#modalTwo" data-aos="zoom-in-up">
+  Clique para saber mais!
+</button>
 
-<!-- teste modal -->
-
-  <main class="page-content text-center mt-3 mb-3" data-aos="zoom-in-up">
-        <button onclick="toggleModal()" type="button" class="button-modal">Clique para saber mais!</button>
-      </main>
-      <div class="color-modal" onclick="toggleModal()"></div>
-      <div class="modal-one">
-        <p>
-        Ante um conflito é importante que se observe e identifique não só os conteúdos daquilo que está sendo dito e reclamado, mas também o que perfaz a raiz da problemática, ou seja, a real necessidade existente no conflito que nem sempre vem à tona ou é percebida pelas próprias partes. Por isso, a necessidade das ferramentas para mediação de conflitos.
-        </p>
-        <p>Muitas vezes, se faz necessário que um terceiro interceda na relação conflituosa, podendo, então, surgir a figura do mediador, do negociador e até mesmo do juiz ou árbitro.</p>
-
-        <p>O papel do terceiro imparcial, nesse momento de solução de conflitos, pode ser essencial, uma vez que ele pode ajudar a organizar as ideias que se contrapõem, auxiliar as partes a se entenderem e a se expressarem. Pode estabelecer a equanimidade, possibilitar o reconhecimento da identidade, a fim de restabelecer a boa comunicação e auxiliar na condução pacífica em relação aos ânimos aflorados, facilitando assim, a autocomposição.</p>
-
-        <p><strong>Clique fora para sair!</strong></p>
+<!-- Modal -->
+<div class="modal fade" id="modalTwo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content modal-w">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
+      <div class="modal-body text-left">
+        <p>Ante um conflito é importante que se observe e identifique não só os conteúdos daquilo que está sendo dito e reclamado, mas também o que perfaz a raiz da problemática, ou seja, a real necessidade existente no conflito que nem sempre vem à tona ou é percebida pelas próprias partes. Por isso, a necessidade das <strong>ferramentas para mediação de conflitos</strong>.</p>
+        <p>Muitas vezes, se faz necessário que um terceiro interceda na relação conflituosa, podendo, então, surgir a figura do mediador, do negociador e até mesmo do juiz ou árbitro.</p>
+        <p>O papel do terceiro imparcial, nesse momento de solução de conflitos, pode ser essencial, uma vez que ele pode ajudar a organizar as ideias que se contrapõem, auxiliar as partes a se entenderem e a se expressarem. Pode estabelecer a equanimidade, possibilitar o reconhecimento da identidade, a fim de restabelecer a boa comunicação e auxiliar na condução pacífica em relação aos ânimos aflorados, facilitando assim, a autocomposição.</p>
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- end modals -->
 
-<!-- fim do teste -->
-<p>No tocante a arbitragem, ressalta-se a citação de Calmon (2008), ‘nada obsta que as partes promovam a autocomposição enquanto participam do procedimento arbitral’. Especifica ainda a existência dos métodos med/arb e arb/med, citados a seguir:</p>
+
+
+  
+<p class="text-left">No tocante a arbitragem, ressalta-se a citação de Calmon (2008), ‘nada obsta que as partes promovam a autocomposição enquanto participam do procedimento arbitral’. Especifica ainda a existência dos métodos med/arb e arb/med, citados a seguir:</p>
 
  <!-- Citação com borda verde (esquerda) -->
- <div class="bd-callout bd-callout-success m-3" data-aos="zoom-in">
+ <div class="bd-callout bd-callout-success m-3 text-left" data-aos="zoom-in">
 
 <!-- blockquote do bootstrap -->
 <figure>
@@ -106,7 +112,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
 
 <div class="text-left mt-3">
   <hr>
-<h3 class = "fw-semibold mb-2 text-center "> FERRAMENTAS PARA MEDIAÇÃO DE CONFLITOS</h3>
+<h3 class = "fw-semibold mb-2 text-center" id="space-letra"> FERRAMENTAS PARA MEDIAÇÃO DE CONFLITOS</h3>
 
 <p>Ressalta-se que são diversas as <strong>ferramentas para mediação de conflitos</strong>  que podem ser utilizadas numa mediação. Aqui opta-se por tratar de algumas delas apenas, quais sejam: processo de abertura, rapport, escuta ativa, empoderamento, resumo e caucus.</p>
 </div>
@@ -114,7 +120,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
 
 <div class="text-left mt-3">
   <hr>
-<h3 class = "fw-semibold mb-2 text-center "> PROCESSO DE ABERTURA</h3>
+<h3 class = "fw-semibold mb-2 text-center" id="space-letra"> PROCESSO DE ABERTURA</h3>
 
 <p>Insta citar, a necessidade de se fazer um momento de abertura no processo de mediação, que deverá ocorrer no primeiro encontro, em que os mediandos passam a ter contato com o mediador.</p>
 
@@ -124,7 +130,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
 
 <div class="text-left mt-3">
 <hr>
-<h3 class = "fw-semibold mb-2 text-center "> RAPPORT</h3>
+<h3 class = "fw-semibold mb-2 text-center" id="space-letra"> RAPPORT</h3>
 
     <p>Num primeiro momento, cabe ao mediador conseguir estabelecer um bom rapport, ou seja, uma boa acolhida, ou empatia, criar vínculo de confiança e bem-estar com as partes. Esse momento começa com a recepção adequada dos mediandos ao ambiente em que será realizada a mediação, bem como com o rito de abertura dos trabalhos.</p>
     <p>Segundo Danon, (2003, p. 66), “a empatia é a capacidade de colher e compreender a experiência subjetiva do cliente, colocando-se em seus planos, olhando as coisas do seu mesmo ponto de vista”.</p>
@@ -153,7 +159,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
 
 <div class="text-left mt-3">
   <hr>
-  <h3 class = "fw-semibold mb-2 text-center "> EMPOWERMENT</h3>
+  <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> EMPOWERMENT</h3>
   <p>No tocante ao empowerment ou o empoderamento, pode ser entendido como o ‘resgate do potencial e da competência do indivíduo, inserido no contexto da mediação, para gerenciar seus próprios conflitos’, (GROSMAN e MANDEL BAUM, 2011, p. 138).
 </p>
 
@@ -166,26 +172,286 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
         </p>
 
     <!-- botão (clique para saber mais!) -->
-    <main class="page-content text-center mt-3 mb-3" data-aos="zoom-in-up">
-        <button onclick="toggleModal()" type="button" class="button-modal">Clique para saber mais!</button>
-      </main>
-      <div class="color-modal" onclick="toggleModal()"></div>
-      <div class="modal-one">
-        <p>Ainda sobre as ferramentas para mediação de conflitos, Lia Regina Castaldi Sampaio e Adolfo Braga Neto (2014) defendem que ao dar voz aos mediandos, para que expliquem o motivo que os levou a buscar seus serviços, já se inicia a escuta ativa.</p>
+      <!-- modals -->
+      <!-- Vertically centered scrollable modal -->
+  <!-- Button trigger modal -->
+  <div class="text-center">
+  <button type="button" class="btn botao-modal" data-bs-toggle="modal" data-bs-target="#modalTwo" data-aos="zoom-in-up">
+  Clique para saber mais!
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="modalTwo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content modal-w">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-left">
+        <p>Ainda sobre as ferramentas para mediação de conflitos, Lia Regina Castaldi Sampaio e Adolfo Braga Neto(2014) defendem que ao dar voz aos mediandos, para que expliquem o motivo que os levou a buscar seus serviços, já se inicia a escuta ativa.</p>
 
         <p>Trata-se da observação permanente desse terceiro com relação à comunicação entre as partes, sem nenhuma associação de ideias a situações ou a momentos por ele vivenciados, sem julgar as partes e, sobretudo, sem despojar-se de sua realidade rotineira, a fim de escutá-las da forma e com a intenção em que desejam ser ouvidas. O mediador verificará a existência de pouca ou de muita assertividade em relação à comunicação verbal e não verbal. Essa atitude de escuta, deve ser empregada ao longo de todo o processo, sob pena de o mediador não conquistar a confiança das partes, nem auxiliá-las na resolução ou na transformação do conflito. (SAMPAIO e NETO, 2014, p. 56)</p>
-
-        <p><strong>Clique fora para sair!</strong></p>
       </div>
+    </div>
+  </div>
+</div>
+      <!-- end modals -->
+
 
     <!-- fim do botão (clique para saber mais!) -->
+      </div>
+<div class="text-left mt-4">
+  <hr>
+<h3 class = "fw-semibold mb-2 text-center" id="space-letra"> ESCUTA ATIVA</h3>
+<p>Uma escuta ativa adequada é feita a partir da espontaneidade das partes, que depende da confiança que o mediador conseguiu estabelecer com os mediandos.</p>
+<p>É interessante que o mediador seja receptivo e consiga se despir de eventuais atitudes rígidas, da mesma forma como será de grande valia se conseguir, a partir da receptividade, permitir que as partes se despojem de suas próprias defesas.</p>
+<p>Uma boa escuta decorre de uma investigação minuciosa dos fatos, com questionamentos detalhados e uma visão que vai além do que é necessariamente exposto. Cabe ao mediador ouvir e traduzir as palavras que não foram ditas, mas expressadas.</p>
+
+<!-- imagem com texto do lado -->
+<div class="apresentacao">
+
+<div class="img_apresentacao" data-aos="zoom-in-down" >
+    <img src="imgs-pessoas/Group 6.png" alt="">
 </div>
+<div>
+    <p>
+    A escuta ativa possibilita a humanização do outro. Ury (2000, p. 153) defende que “um dos métodos mais poderosos para a cura de relações é também o mais simples. É ouvir, dar atenção à pessoa ofendida enquanto ela tiver algo a dizer”. Cláudia Frankel Grosman et al. (2011, p. 30) chamam atenção para os perigos da comunicação que bloqueiam a escuta, no sentido de uma ‘comunicação alienante da vida, como: julgamentos moralizadores, culpa, insulto, depreciação, rotulação, crítica, comparação, diagnóstico, negação de responsabilidade, ressentimento’.  
+    </p>
+
+    <p>Na mesma senda, defende Danon (2003, p. 120) que ‘saber escutar é uma arte. Uma arte que exige a capacidade de fazer o outro sentir a sua total presença e atenção, e a disponibilidade para acolhê-lo sem julgá-lo e sem dar-lhe interpretações’.</p>
+    <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+</div>
+</div>
+
+<p>Na mesma senda, defende Danon (2003, p. 120) que ‘saber escutar é uma arte. Uma arte que exige a capacidade de fazer o outro sentir a sua total presença e atenção, e a disponibilidade para acolhê-lo sem julgá-lo e sem dar-lhe interpretações’.</p>
+
+<p>Por fim, Fiorelli J; Fiorelli M; e Malhadas Júnior(2008), afirmam, na obra mediação e solução de conflitos, que:</p>
+<!-- fim da imagem com texto do lado -->
+
+
+
+<!-- Citação com borda verde (esquerda) -->
+<div class="bd-callout bd-callout-success m-3" data-aos="zoom-in">
+
+<!-- blockquote do bootstrap -->
+<figure>
+  <blockquote class="blockquote">
+    <p>A escuta das narrativas possibilita ao mediador: – Alinhar as percepções; conseguir que todos enxerguem a história dos problemas de uma mesma maneira, concentrada nos fatos e não mais nas pessoas; – Treinar os mediandos para ouvir o outro, algo que deixou de acontecer após o conflito instalar-se; – Conhecer detalhes da história do conflito, úteis para identificar os interesses e construir opções para o acordo. </p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <cite title="Source Title">(Fiorelli J; Fiorelli M; e Malhadas Júnior,2008, p. 244 e 245)
+
+</cite>
+  </figcaption>
+</figure>
+</div>
+<!-- Citação com borda verde (esquerda) -->
+<p>Destaca-se a importância do mediador estabelecer uma ordem para os mediandos se pronunciarem, não permitir que haja interrupção da fala e orientar que as partes reflitam antes de falar.</p>
+<p>Após o entendimento completo dos fatos e a qualquer outro momento durante os trabalhos, baseando-se numa escuta apurada, o facilitador poderá fazer uso do resumo, ou seja, recontextualizar, ou expressar em poucas palavras o seu entendimento acerca dos fatos das histórias expostas, desde que haja a retirada da carga emocional.</p>
+<!-- alert -->
+<div class="alert alert-success fs-5" role="alert" data-aos="fade-up-left">
+Dentre as ferramentas para mediação de conflitos, essa ferramenta é muito válida para pontuar o entendimento daquilo que o mediador escutou, bem como esclarecer aos mediandos o que, de fato, está sendo exposto pelas partes adversas. Nesse momento, o mediador pode lançar mão da ressignificação do que foi dito, expondo o que escutou em outras palavras.
+</div>
+<!-- fim do alert -->
+
+<p>Ressalta-se a importância do mediador estar atento a buscar valorizar os aspectos positivos daquilo que está sendo dito, ou seja, deverá apresentar conotações positivas, sempre que possível, retirando o peso das fortes emoções que se apresentam no contexto do conflito.</p>
+
+<p>Uma das funções do resumo é fazer com que as partes se sintam escutadas e compreendidas, além do mediador poder se certificar de que entendeu a demanda corretamente, e apontar que foi estabelecida a possibilidade de comunicação.</p>
+
+<p>Danon (2003, p. 119) defende que “a reformulação pode ser efetuada utilizando se exatamente as mesmas palavras do interlocutor, ou então através de uma paráfrase, uma síntese, ou simplesmente um eco, de algumas palavras significativas”.</p>
+
+<p>Cabe ao mediador organizar quando há mais de um conteúdo na mesma fala, “por exemplo, utilizar três diferentes sentenças para tratar de “quem leva a criança para a escola”, “horário de visita” e “valor da pensão”. A estratégia é: ‘uma coisa de cada vez”. (FIORELLI et al, 2008, pag. 169)</p>
+</div>
+
 
 <div class="text-left mt-4">
   <hr>
-<h3 class = "fw-semibold mb-2 text-center "> ESCUTA ATIVA</h3>
+  <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> CAUCUS</h3>
+  <p>Vale destacar que, durante a mediação, pode haver a necessidade de se fazer reuniões individuais, também denominadas caucus, as quais devem ser realizadas com cautela e fins específicos, como por exemplo, a fim de possibilitar que fortes emoções sejam expostas, para esclarecer percepções inadequadas ou até modificar comportamento negativo e repetitivo, eventualmente podem reduzir algumas comunicações inúteis.</p>
+
+  <p>É ideal que sejam feitas reuniões privadas para definir interesses, esclarecer posições, identificar propostas das partes, eventualmente poderá ser útil para obter informações confidenciais de uma das partes e até para análise de propostas, teste e aceitação.</p>
+
+  <p>Conforme Sampaio e Neto (2014, p. 74) defende que não há momento certo para convocar uma reunião privada, na verdade, depende muito das necessidades dos mediandos e das habilidades do mediador.</p>
+
+  <!-- IMAGEM COM TEXTO AO LADO -->
+
+ <div class="apresentacao">
+
+<div class="img_apresentacao" data-aos="zoom-in-down" >
+    <img src="imgs-pessoas/Group 7.png" alt="">
+</div>
+<div>
+
+    <p>
+    O <span class="fst-italic">caucus</span> pode ocorrer numa mesma reunião ou em dias diferentes para cada um dos mediandos, no entanto, é muito importante que se observe tempo igual para ambas as partes.
+    </p>
+    <p>Ressalta-se a importância de manutenção do sigilo em relação ao que for dito pelas partes nas reuniões particulares, só podendo ser dito aquilo que for expressamente autorizado pelos mediandos, com exceção a eventual cometimento de crime, os quais deverão ser denunciados.</p>
+    
+    <!-- fim da imagem com texto ao lado -->
+
+</div>
+</div>
+<p>Defende Sampaio e Neto, de maneira muito oportuna, o que segue:</p>
+
+<!-- Citação com borda verde (esquerda) -->
+<div class="bd-callout bd-callout-success m-3" data-aos="zoom-in">
+
+<!-- blockquote do bootstrap -->
+<figure>
+  <blockquote class="blockquote">
+    <p> É importante salientar que há um limite para o mediador, tanto segundo a ética própria quanto segundo a ética da sociedade em que ele vive. Situações em que o rompimento da confidencialidade se torna legítima são aquelas em que, por exemplo, as revelações dizem respeito a abuso infantil ou mesmo a risco físico iminente. Por esse motivo, alguns autores são contra o cáucus, por acreditarem que existe o risco de o mediador tornar-se intermediário e sair de seu papel de mediador. No entanto, mesmo sendo um campo suscetível aos problemas de confidencialidade e à manipulação, a reunião privada continua sendo um dos importantes recursos da mediação, que deve ser utilizado com responsabilidade e comedimento.</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <cite title="Source Title"> (SAMPAIO e NETO, 2014, p 74 e 75).</cite>
+  </figcaption>
+</figure>
+</div>
+<!-- Citação com borda verde (esquerda) -->
+
+<div class="alert alert-primary fs-5" role="alert" data-aos="zoom-in-left">
+Todas essas ferramentas para mediação de conflitos citadas são válidas, desde que o mediador as aplique com a finalidade de estabelecer o diálogo entre as partes e conseguir gerar opções inovadoras para solucionar os conflitos. Para tanto, oportuno citar Fiorelli, conforme segue:
 </div>
 
+<!-- Citação com borda verde (esquerda) -->
+<div class="bd-callout bd-callout-success m-3" data-aos="zoom-in">
+
+<!-- blockquote do bootstrap -->
+<figure>
+  <blockquote class="blockquote">
+    <p> O mediador estimula os mediandos ao pensamento criativo, por meio do qual se constrói a lista de opções. Inicia-se com a busca de quantidade e variedade sem julgamento e sem a preocupação de aplicabilidade de cada alternativa. Há evidência prática de que alternativas em quantidade contribuem para o surgimento de alternativas de qualidade</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <cite title="Source Title"> (Fiorelli J; Fiorelli M; e Malhadas Júnior, 2008, pág. 257)</cite>
+  </figcaption>
+</figure>
+</div>
+<!-- Citação com borda verde (esquerda) -->
+<p>Por fim, destaca-se a necessidade da escuta atenta dos sentimentos das partes. A cultura da sociedade hodierna não permite que sejam expressos, e, portanto, as pessoas têm muita dificuldade em manifestá-los ou expressá-los. Assim sendo, caberá ao mediador buscar traduzir em palavras específicas o que as partes exprimem, é o que preleciona Rosenberg (2006).</p>
+
+<!-- Citação com borda verde (esquerda) -->
+<div class="bd-callout bd-callout-success m-3" data-aos="zoom-in">
+
+<!-- blockquote do bootstrap -->
+<figure>
+  <blockquote class="blockquote">
+    <p> Ao expressar nossos sentimentos, seria muito útil se utilizássemos palavras que se referem a emoções específicas em vez de palavras vagas ou genéricas. Por exemplo, se dissermos “sinto-me bem a esse respeito”, a palavra bem pode significar alegre, excitado, aliviado ou várias outras emoções. Palavras como bem ou mal impedem que o ouvinte se conecte facilmente ao que podemos de fato estar sentindo.</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <cite title="Source Title"> (ROSEMBERG, 2006, p72).</cite>
+  </figcaption>
+</figure>
+</div>
+<!-- Citação com borda verde (esquerda) -->
+
+      <!-- modals -->
+      <!-- Vertically centered scrollable modal -->
+  <!-- Button trigger modal -->
+  <div class="text-center">
+  <button type="button" class="btn botao-modal" data-bs-toggle="modal" data-bs-target="#modalThree" data-aos="zoom-in-up">
+  Clique para saber mais!
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="modalThree" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content modal-w">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-left">
+        <p>Ante o exposto, identifica-se a necessidade do mediador desenvolver um vasto vocabulário de nomenclatura dos sentimentos.</p>
+        <p>Ao ouvir um sentimento negativo trazido pelo mediando, é importante trazer o foco para os sentimentos traduzidos em palavras, bem como para a necessidade que está por trás do que foi expresso.</p>
+        <p>A mediação encerra quando as partes assim dispuserem ou evidenciarem acerca da solução ou não do conflito em questão. Caso cheguem a um acordo, poderá ser escrito e, para tanto, a redação deverá ser clara e objetiva.</p>
+        <p>O acordo pode ser total ou parcial, caso algum item não se resolva, o mediador poderá orientar os mediandos a optarem por outros métodos de resolução de conflito, como o judiciário ou a arbitragem, por exemplo.</p>
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- end modals -->
+
+  </div>
+</div>
+
+
+<div class="text-left mt-4">
+  <hr>
+  <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> SER MEDIADOR</h3>
+  <div class="alert alert-primary fs-5" role="alert"  data-aos="flip-up">
+  Cumpre destacar o papel do mediador, cuja função principal é o gerenciamento de conflito, a partir da facilitação do diálogo e da possibilidade de se criar um olhar diante das divergências.
+</div>
+
+<p>Defende Ury (2000, p. 127), que “nada intensifica os conflitos mais rapidamente do que a ausência de comunicação, confiança e relacionamento. A ignorância gera e agrava os temores. Os mal-entendidos e os estereótipos se acumulam. As pessoas atribuem as piores intenções ao comportamento dos outros”.</p>
+
+<div class="alert alert-primary fs-5" role="alert"  data-aos="flip-up">
+Como se pode observar, o trabalho do mediador começa a partir de uma acolhida adequada, do uso correto das ferramentas para mediação de conflitos e uma escuta atenta que naturalmente incidirá em questionamentos pertinentes e resumos específicos, acentuando a possibilidade do diálogo, a fim de que as partes possam se escutar e consigam reconhecer as similaridades e aceitarem as diferenças existentes.
+</div>
+
+<p> Grosman e Mandelbaum, 2011, defendem que:</p>
+
+<!-- Citação com borda verde (esquerda) -->
+<div class="bd-callout bd-callout-success m-3 text-left" data-aos="zoom-in">
+
+<!-- blockquote do bootstrap -->
+<figure>
+  <blockquote class="blockquote">
+    <p>Os processos transformativos criam a possibilidade para que os grupos e os indivíduos aceitem os valores da diversidade, reconheçam a legitimidade de outros posicionamentos, respeitem as pessoas que sustentam ideias muito diferentes e continuem uma conversação construtiva, que permita a multiplicidade e mesmo a colheita dos benefícios da diversidade.</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <cite title="Source Title">( Grosman e Mandelbaum, 2011, pág.29)</cite>
+  </figcaption>
+</figure>
+</div>
+<!-- Citação com borda verde (esquerda) -->
+
+
+ <!-- IMAGEM COM TEXTO AO LADO -->
+
+ <div class="apresentacao">
+<div>
+   
+
+    <p>
+    É imprescindível que o mediador se mantenha imparcial, mesmo que a situação envolva fortes emoções, deverá evitar ser tendencioso.
+    </p>
+
+    <p>Vale apontar que caberá ao mediador manter o foco das tratativas, ainda que, por vezes, quando as emoções estiverem afloradas, seja necessário desviar as conversas para pontos neutros ou comuns entre os mediandos, e, então, num segundo momento retomar e recontextualizar o que está sendo exposto ou permitir que as partes resolvam as questões a partir de um olhar colaborativo e menos emocional.</p>
+    <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+</div>
+
+<div class="img_apresentacao" data-aos="zoom-in-down" >
+    <img src="imgs-pessoas/Group 2.png" alt="">
+</div>  
+</div>
+    <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+    <p>Caberá, sobretudo, ao mediador saber manter e sustentar as potencialidades dos mediandos, para que sentindo-se capazes, consigam resolver seus próprios conflitos.</p>
+    <p>Defende Danon (2003, p.120), que “para estar com o outro não existem atalhos, é preciso saber escutar e saber colocar as perguntas certas no momento certo”.</p>
+    <p>Observa-se a necessidade do mediador se autoconhecer, pois só é possível entender o outro, à medida que o indivíduo conhece a si mesmo e compreende-se. Salienta-se a importância do mediador saber gerenciar suas emoções e sentimentos, evitando, assim, julgamentos.</p>
+    <p>No que concerne aos sentimentos do mediador, destaca-se que precisam ser equilibrados, uma vez que possibilitam um <span class="fst-italic">rapport</span> adequado, bem como o bom uso das demais ferramentas como a escuta ativa, o <span class="fst-italic">caucus</span>, o resumo e os questionamentos.</p>
+
+  <div class="text-center">
+    <p class="d-inline-flex gap-1">
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+   Resumo <i class="fa-regular fa-hand-pointer fa-beat"></i>
+  </a>
+</p>
+<div class="collapse" id="collapseExample">
+  <div class="card card-body text-left">
+    <p>Imagine que a demandante reclame de atrasos na pensão do filho, e o demandado do desempenho escolar durante a guarda materna. Como encontrar uma ponte para o diálogo nesse contexto?</p>
+
+    <p>Ora, na situação exposta, há um ponto em comum, o qual sintetiza o interesse dos litigantes. A mãe exige o pagamento por se preocupar com as necessidades do filho, assim como o pai o faz em relação às boas notas.</p>
+
+    <p>Então, o mediador poderia resumir os dois relatos em uma perspectiva que favoreça o diálogo. Uma possibilidade seria afirmar o seguinte: “vejo que ambos se preocupam com os cuidados do menor”.</p>
+
+    <p>Perceba que essa técnica modifica a forma de exposição dos relatos, embora seja ligeiramente diferente da re-contextualização por abordar os pontos em comum de duas ou mais falas.</p>
+
+    <p>Vale ressaltar também que o resumo é utilizado para construir uma agenda de mediação, em que constarão os temas a serem discutidos durante o procedimento. Logo, no exemplo mencionado, os cuidados do menor seriam um dos assuntos trabalhados nas sessões.</p>
+  </div>
+</div>
+</div>
+</div>
 
 </section>
 
