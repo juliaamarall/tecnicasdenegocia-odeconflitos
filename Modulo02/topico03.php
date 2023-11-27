@@ -181,6 +181,11 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
     <!-- fim do botão (clique para saber mais!) -->
 </div>
 
+<div class="text-left mt-4">
+  <hr>
+<h3 class = "fw-semibold mb-2 text-center "> ESCUTA ATIVA</h3>
+</div>
+
 
 </section>
 
