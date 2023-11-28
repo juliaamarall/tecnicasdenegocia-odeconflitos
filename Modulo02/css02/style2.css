@@ -286,9 +286,10 @@ h2,
  .timeline{
   margin-top: 2em;
   margin-left: auto;
-  margin-bottom: 15em;
+  margin-bottom: 130vw;
   margin-right: auto;
-  width: 80vw;
+  width: 90vw;
+  
 }
 
 input{
@@ -398,7 +399,7 @@ ul.nav li.active::after{
   animation: anim .7s linear forwards
 }
 .sessao{
-  width: 70%;
+  width: 100%;
   margin: auto;
   background-color: rgb(238, 234, 234);
   border-radius: 4px;
@@ -406,10 +407,8 @@ ul.nav li.active::after{
   color: #000000;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-.sessao span{
-  font-size: 3rem;
-  margin-bottom: 30px;
-}
+
+
  .sessao h3{
   font-weight: 900;
   margin-top: 10px;
@@ -423,6 +422,13 @@ ul.nav li.active::after{
   font-weight: bolder;
   font-size: 13px;
 }
+
+.sessao-left > p{
+  text-align: left;
+  font-size: 1em;
+}
+
+
 
 .profile:checked ~ .topo .nav li.st1::before,
 
@@ -618,6 +624,7 @@ time {
 }
 
 
+
 #space-letra{
   letter-spacing: 2px;
 }
@@ -689,7 +696,7 @@ time {
 }
 
 .listen{
-    width: 20vh;
+    width: 25vh;
     text-align: center;
 }
 
@@ -834,6 +841,12 @@ body.open .modal-one {
 #p-modal {
   margin: 0;
   color: rgba(255, 255, 255, 0.5);
+}
+
+/* cor do botao */
+
+.botao-color{
+ padding: 0.5em;
 }
 
 

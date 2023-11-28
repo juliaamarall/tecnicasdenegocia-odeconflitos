@@ -36,19 +36,19 @@ include( 'layout/menu.php' );
 
 <br>
 
-<p class = "Texto"> <i class="bi bi-book"></i> <strong>BRASIL</strong>. Constituição da República Federativa do Brasil (1988). Brasília: Edições Câmara, 2012.</p>
+<p class = "Texto"> <i class="bi bi-book"></i> CALMON, Petrônio. Fundamentos da mediação e da conciliação. Rio de Janeiro: Forense, 2008.</p>
 
-<p class = "Texto"> <i class="bi bi-book"></i> <strong>MENDES</strong>, Annhia Valléria Calmon. Ética na Administração Pública Federal: a implementação de comissões de ética setoriais: entre o desafio e a oportunidade de mudar o modelo de gestão. Brasília: FUNAG, 2010.</p>
+<p class = "Texto"> <i class="bi bi-book"></i> DANON, Marcella. Counseling: uma nova profissão de ajuda. Tradução de Adalto Luiz Chitolina. Curitiba: Sociedade Educacional e Editora IATES, 2003.</p>
 
-<p class = "Texto"> <i class="bi bi-book"></i> <strong>NOLAN</strong> Lord. Normas de conduta para a vida pública. Cadernos ENAP, Brasília, n.12, 1997.</p>
+<p class = "Texto"> <i class="bi bi-book"></i> FIORELLI, José Osmir; FIORELLI, Maria Rosa; MALHADAS JUNIOR, Marcos Julio Olivé. Mediação e solução de conflitos: teoria e prática. São Paulo: atlas, 2008.</p>
 
-<p class = "Texto"> <i class="bi bi-book"></i> <strong>OCDE</strong>. La ética en el servicio público: cuestiones y prácticas atuales. Madrid: MAP, 1997.</p>
+<p class = "Texto"> <i class="bi bi-book"></i> GROSMAN, Cláudia F. e MANDELBAUM, Helena G. Mediação no judiciário: teoria na prática e prática na teoria. 1 ed. São Paulo: Primavera Editorial, 2011.</p>
 
-<p class = "Texto"> <i class="bi bi-book"></i> <strong>OECD</strong>. Trust in Government: ethics measures in OECD countries. Washington: OECD, 2000.</p>
+<p class = "Texto"> <i class="bi bi-book"></i> ROSENBERG, Marshall B. Comunicação não-violenta: técnica para aprimorar relacionamentos pessoais e profissionais; tradução Mário Vilela. São Paulo: Ágora, 2006.</p>
 
-<p class = "Texto"> <i class="bi bi-book"></i> <strong>WEBER</strong>, Max. A ética protestante e o espírito do capitalismo. São Paulo: Companhia das Letras, 2004.</p>
+<p class = "Texto"> <i class="bi bi-book"></i> SAMPAIO, Lia Regina Castaldi. NETO, Adolfo Braga. O que é mediação de conflitos. São Paulo: Brasiliense, 2014.</p>
 
-<p class = "Texto"> <i class="bi bi-book"></i> <strong>WEBER</strong>, Max. Ciência e política: duas vocações. São Paulo: Cultrix, 2011.</p>
+<p class = "Texto"> <i class="bi bi-book"></i> URY, William. Chegando à paz: resolvendo conflitos em casa, no trabalho e no dia-a-dia. Tradução de Jussara Simões. Rio de Janeiro: Campus, 2000.</p>
 
 
 <br><br>

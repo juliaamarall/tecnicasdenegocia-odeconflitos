@@ -4,30 +4,28 @@ include( 'layout/header.php' );
 
 <body>
 
-<!-- NAV  -->
-<?php
+    <!-- NAV  -->
+    <?php
 include( 'layout/nav.php' );
 ?>
-<!-- FIM DA NAV -->
+    <!-- FIM DA NAV -->
 
-<!-- menu lateral começa aqui -->
-<?php
+    <!-- menu lateral começa aqui -->
+    <?php
 include( 'layout/menu.php' );
 ?>
 
-<!-- CONTEUDO INICIO -->
-<div class = 'all-conteudo'>
-<section class = 'conteiner-principal'>
-<div class = 'main-content container-fluid'>
-<div class = 'row'>
-<!-- Begin row -->
-<div class = 'col-md-1'></div>
-<div class = 'col-md-10 col-sm-8 container-fluid'>
+    <!-- CONTEUDO INICIO -->
+    <div class='all-conteudo'>
+        <section class='conteiner-principal'>
+            <div class='main-content container-fluid'>
+                <div class='row'>
+                    <!-- Begin row -->
+                    <div class='col-md-1'></div>
+                    <div class='col-md-10 col-sm-8 container-fluid'>
 
-<h2 class = 'Titulo fw-bolder'>As Principais Ferramentas para Mediação de Conflitos</h2>
-
-
- <!-- IMAGEM COM TEXTO AO LADO -->
+                        <h2 class='Titulo fw-bolder'>As Principais Ferramentas para Mediação de Conflitos</h2>
+                        <!-- IMAGEM COM TEXTO AO LADO -->
 
  <div class="apresentacao">
 
@@ -54,7 +52,7 @@ include( 'layout/menu.php' );
 
 <div class="text-left mt-3">
   <hr>
-
+  <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> MEDIAÇÃO DE CONFLITOS</h3>
 <div class="alert alert-primary fs-5" role="alert"  data-aos="flip-up">
 Os conflitos ou divergências devem ser entendidos como inerentes ao ser humano, da mesma forma como a paz e os afetos positivos também coexistem nos indivíduos e permeiam a esfera das relações humanas.
 </div>
@@ -110,7 +108,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
 <!-- Citação com borda verde (esquerda) -->
 </div>
 
-<div class="text-left mt-3">
+<div class="text-left mt-3" id="painel-two">
   <hr>
 <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> FERRAMENTAS PARA MEDIAÇÃO DE CONFLITOS</h3>
 
@@ -118,17 +116,98 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
 </div>
 
 
-<div class="text-left mt-3">
+
+
+
+                        <!--TÓPICOS DA PÁGINA   -->
+                        <div class="text-center m-4">
+                            <h4><span class="badge bg-warning text-dark-ênfase"><i class="fa fa-lightbulb"
+                                        style="color:white"></i> Clique para entender sobre.</span></h4>
+                        </div>
+                        <div class="container">
+                          <!-- PRIMEIRA ROW -->
+                            <div class="row painel-prin mt-5">
+                              <!-- botão 01 -->
+                                <div class="col-sm-12 col-md-4 fs-5">
+                                <a href="#escuta-ativa">
+                                        <section>
+                                        <i class="fa-solid fa-ear-listen"></i>
+                                        </section>
+                                        <section class="listen">Processo de Abertura</section>
+                                    </a>
+                                </div>
+                              <!-- botão 02 -->
+                                <div class="col-sm-12 col-md-4 fs-5">
+                                <a href="#escuta-ativa">
+                                        <section>
+                                        <i class="fa-solid fa-ear-listen"></i>
+                                        </section>
+                                        <section class="listen">Rapport</section>
+                                    </a>
+                                </div>
+                              <!-- botão 03 -->
+                                <div class="col-sm-12 col-md-4 fs-5">
+                                <a href="#escuta-ativa">
+                                        <section>
+                                        <i class="fa-solid fa-ear-listen"></i>
+                                        </section>
+                                        <section class="listen">Empowerment</section>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- SEGUNDA ROW -->
+                            <div class="row painel-prin mt-5 fs-5">
+                              <!-- botão 01 -->
+                                <div class="col-sm-12 col-md-4">
+                                <a href="#escuta-ativa">
+                                        <section>
+                                        <i class="fa-solid fa-ear-listen"></i>
+                                        </section>
+                                        <section class="listen">Escuta ativa</section>
+                                    </a>
+                                </div>
+                              <!-- botão 02 -->
+                                <div class="col-sm-12 col-md-4 fs-5">
+                                <a href="#escuta-ativa">
+                                        <section>
+                                        <i class="fa-solid fa-ear-listen"></i>
+                                        </section>
+                                        <section class="listen">Caucus</section>
+                                    </a>
+                                </div>
+                              <!-- botão 03 -->
+                                <div class="col-sm-12 col-md-4 fs-5">
+                                <a href="#escuta-ativa">
+                                        <section>
+                                        <i class="fa-solid fa-ear-listen"></i>
+                                        </section>
+                                        <section class="listen">Ser Mediador</section>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FIM DOS TÓPICOS -->
+
+                          
+                        <div class="text-left mt-3" id="processo-abertura">
   <hr>
 <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> PROCESSO DE ABERTURA</h3>
 
 <p>Insta citar, a necessidade de se fazer um momento de abertura no processo de mediação, que deverá ocorrer no primeiro encontro, em que os mediandos passam a ter contato com o mediador.</p>
 
 <p>Após tomar conhecimento dos fatos e da situação, caberá ao mediador combinar as regras da mediação, ressaltar a confidencialidade e a boa fé das partes, além de explicar como serão formatados os encontros, como, por exemplo, o tempo de duração de cada sessão, a previsão da quantidade de encontros que serão estabelecidos, os valores que serão cobrados e a forma de cobrança e pagamento.</p>
+
+<!-- botao voltar para as ferramentas -->
+<div class="buttons text-end">
+            <a href="#painel-two">
+            <button type="button" class="btn btn-outline-success">Voltar para as ferramentas</button>
+            </a>
+          
+          </div>
 </div>
 
-
-<div class="text-left mt-3">
+<div class="text-left mt-3" id="rapport">
 <hr>
 <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> RAPPORT</h3>
 
@@ -155,9 +234,18 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
 <div class="alert alert-warning fs-5" role="alert" data-aos="flip-left">
 <strong>Um rapport adequado possibilita que os mediandos se sintam devidamente compreendidos e confiantes, além de criar o sentimento de empoderamento de si, bem como de autonomia frente as dificuldades, a fim de que o respeito seja restabelecido através da fala e da escuta entre as partes.</strong>
 </div>
+
+<!-- botao voltar para as ferramentas -->
+<div class="buttons text-end">
+            <a href="#painel-two">
+            <button type="button" class="btn btn-outline-success">Voltar para as ferramentas</button>
+            </a>
+          
+          </div>
 </div>
 
-<div class="text-left mt-3">
+
+<div class="text-left mt-3" id="empowerment">
   <hr>
   <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> EMPOWERMENT</h3>
   <p>No tocante ao empowerment ou o empoderamento, pode ser entendido como o ‘resgate do potencial e da competência do indivíduo, inserido no contexto da mediação, para gerenciar seus próprios conflitos’, (GROSMAN e MANDEL BAUM, 2011, p. 138).
@@ -196,11 +284,17 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
   </div>
 </div>
       <!-- end modals -->
+<!-- voltar para as ferramentas -->
+<div class="buttons text-end">
+            <a href="#painel-two">
+            <button type="button" class="btn btn-outline-success">Voltar para as ferramentas</button>
+            </a>
+          
+          </div>
 
 
-    <!-- fim do botão (clique para saber mais!) -->
       </div>
-<div class="text-left mt-4">
+<div class="text-left mt-4" id="escuta-ativa">
   <hr>
 <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> ESCUTA ATIVA</h3>
 <p>Uma escuta ativa adequada é feita a partir da espontaneidade das partes, que depende da confiança que o mediador conseguiu estabelecer com os mediandos.</p>
@@ -262,10 +356,22 @@ Dentre as ferramentas para mediação de conflitos, essa ferramenta é muito vá
 <p>Danon (2003, p. 119) defende que “a reformulação pode ser efetuada utilizando se exatamente as mesmas palavras do interlocutor, ou então através de uma paráfrase, uma síntese, ou simplesmente um eco, de algumas palavras significativas”.</p>
 
 <p>Cabe ao mediador organizar quando há mais de um conteúdo na mesma fala, “por exemplo, utilizar três diferentes sentenças para tratar de “quem leva a criança para a escola”, “horário de visita” e “valor da pensão”. A estratégia é: ‘uma coisa de cada vez”. (FIORELLI et al, 2008, pag. 169)</p>
+
+<!-- botao voltar para as ferramentas -->
+<div class="buttons text-end">
+            <a href="#painel-two">
+            <button type="button" class="btn btn-outline-success">Voltar para as ferramentas</button>
+            </a>
+          
+          </div>
 </div>
 
 
-<div class="text-left mt-4">
+
+
+
+
+<div class="text-left mt-4" id="caucus">
   <hr>
   <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> CAUCUS</h3>
   <p>Vale destacar que, durante a mediação, pode haver a necessidade de se fazer reuniões individuais, também denominadas caucus, as quais devem ser realizadas com cautela e fins específicos, como por exemplo, a fim de possibilitar que fortes emoções sejam expostas, para esclarecer percepções inadequadas ou até modificar comportamento negativo e repetitivo, eventualmente podem reduzir algumas comunicações inúteis.</p>
@@ -371,10 +477,22 @@ Todas essas ferramentas para mediação de conflitos citadas são válidas, desd
       <!-- end modals -->
 
   </div>
+<!-- botao voltar para as ferramentas -->
+  <div class="buttons text-end">
+            <a href="#painel-two">
+            <button type="button" class="btn btn-outline-success">Voltar para as ferramentas</button>
+            </a>
+          
+          </div>
 </div>
 
 
-<div class="text-left mt-4">
+
+
+
+
+
+<div class="text-left mt-4" id="ser-mediador">
   <hr>
   <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> SER MEDIADOR</h3>
   <div class="alert alert-primary fs-5" role="alert"  data-aos="flip-up">
@@ -433,27 +551,22 @@ Como se pode observar, o trabalho do mediador começa a partir de uma acolhida a
 
   <div class="text-center">
     <p class="d-inline-flex gap-1">
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+  <a class="btn btn-primary botao-color" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
    Resumo <i class="fa-regular fa-hand-pointer fa-beat"></i>
   </a>
 </p>
 <div class="collapse" id="collapseExample">
   <div class="card card-body text-left">
-    <p>Imagine que a demandante reclame de atrasos na pensão do filho, e o demandado do desempenho escolar durante a guarda materna. Como encontrar uma ponte para o diálogo nesse contexto?</p>
+    <p>Cabe ao mediador ser ponte e saber-se um eterno aprendiz. Destaca-se que os conhecimentos das técnicas da mediação e do uso adequado são aprimorados com o tempo e, para tanto, caberá ao mediador sempre buscar se especializar em diversas áreas que vão muito além das técnicas.</p>
 
-    <p>Ora, na situação exposta, há um ponto em comum, o qual sintetiza o interesse dos litigantes. A mãe exige o pagamento por se preocupar com as necessidades do filho, assim como o pai o faz em relação às boas notas.</p>
+    <p>Especial atenção deve ser dada à necessidade de uma boa receptividade e à escuta atenta, pois ao se criar um ‘bom clima’ e aceitação dos indivíduos, muito da jornada a ser percorrida já se encontra revestida, para que as partes, por si mesmas, identifiquem seus próprios caminhos e prossigam com o coração em paz.</p>
 
-    <p>Então, o mediador poderia resumir os dois relatos em uma perspectiva que favoreça o diálogo. Uma possibilidade seria afirmar o seguinte: “vejo que ambos se preocupam com os cuidados do menor”.</p>
-
-    <p>Perceba que essa técnica modifica a forma de exposição dos relatos, embora seja ligeiramente diferente da re-contextualização por abordar os pontos em comum de duas ou mais falas.</p>
-
-    <p>Vale ressaltar também que o resumo é utilizado para construir uma agenda de mediação, em que constarão os temas a serem discutidos durante o procedimento. Logo, no exemplo mencionado, os cuidados do menor seriam um dos assuntos trabalhados nas sessões.</p>
-  </div>
-</div>
+    <p>Por fim, a mediação é um encontro de, no mínimo três mundos, em que duas partes em conflito se sentem profundamente acolhidas por um terceiro, que as escutas e procura compreendê-los na integralidade, a fim de que possam buscar recursos para desatarem seus próprios nós.</p>
 </div>
 </div>
 
-</section>
+</div>
+        </section>
 
 
         <!-- Botões de navegação -->
@@ -476,9 +589,9 @@ Como se pode observar, o trabalho do mediador começa a partir de uma acolhida a
     </div>
 
     <script>
-  AOS.init();
-</script>
-<?php
+        AOS.init();
+    </script>
+    <?php
 include('layout/footer.php' );
 ?>
 </body>
