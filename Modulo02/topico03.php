@@ -129,7 +129,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
                             <div class="row painel-prin mt-5">
                               <!-- botão 01 -->
                                 <div class="col-sm-12 col-md-4 fs-5">
-                                <a href="#escuta-ativa">
+                                <a href="#processo-abertura">
                                         <section>
                                         <i class="fa-solid fa-chalkboard-user"></i>
                                         </section>
@@ -138,7 +138,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
                                 </div>
                               <!-- botão 02 -->
                                 <div class="col-sm-12 col-md-4 fs-5">
-                                <a href="#escuta-ativa">
+                                <a href="#rapport">
                                         <section>
                                         <i class="fa-solid fa-eye-low-vision"></i>
                                         </section>
@@ -147,7 +147,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
                                 </div>
                               <!-- botão 03 -->
                                 <div class="col-sm-12 col-md-4 fs-5">
-                                <a href="#escuta-ativa">
+                                <a href="#empowerment">
                                         <section>
                                         <i class="fa-solid fa-hand-fist"></i>
                                         </section>
@@ -169,7 +169,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
                                 </div>
                               <!-- botão 02 -->
                                 <div class="col-sm-12 col-md-4 fs-5">
-                                <a href="#escuta-ativa">
+                                <a href="#caucus">
                                         <section>
                                         <i class="fa-solid fa-user-large"></i>
                                         </section>
@@ -178,7 +178,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
                                 </div>
                               <!-- botão 03 -->
                                 <div class="col-sm-12 col-md-4 fs-5">
-                                <a href="#escuta-ativa">
+                                <a href="#ser-mediador">
                                         <section>
                                         <i class="fa-solid fa-person-chalkboard"></i>
                                         </section>
@@ -263,12 +263,13 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
       <!-- modals -->
       <!-- Vertically centered scrollable modal -->
   <!-- Button trigger modal -->
+
   <div class="text-center">
-  <button type="button" class="btn botao-modal" data-bs-toggle="modal" data-bs-target="#modalTwo" data-aos="zoom-in-up">
+  <button type="button" class="btn botao-modal m-2" data-bs-toggle="modal" data-bs-target="#modalTwo" data-aos="zoom-in-up">
   Clique para saber mais!
 </button>
 
-<!-- Modal -->
+
 <div class="modal fade" id="modalTwo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content modal-w">
@@ -454,7 +455,7 @@ Todas essas ferramentas para mediação de conflitos citadas são válidas, desd
       <!-- Vertically centered scrollable modal -->
   <!-- Button trigger modal -->
   <div class="text-center">
-  <button type="button" class="btn botao-modal" data-bs-toggle="modal" data-bs-target="#modalThree" data-aos="zoom-in-up">
+  <button type="button" class="btn botao-modal m-2" data-bs-toggle="modal" data-bs-target="#modalThree" data-aos="zoom-in-up">
   Clique para saber mais!
 </button>
 
