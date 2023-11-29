@@ -131,7 +131,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
                                 <div class="col-sm-12 col-md-4 fs-5">
                                 <a href="#escuta-ativa">
                                         <section>
-                                        <i class="fa-solid fa-ear-listen"></i>
+                                        <i class="fa-solid fa-chalkboard-user"></i>
                                         </section>
                                         <section class="listen">Processo de Abertura</section>
                                     </a>
@@ -140,7 +140,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
                                 <div class="col-sm-12 col-md-4 fs-5">
                                 <a href="#escuta-ativa">
                                         <section>
-                                        <i class="fa-solid fa-ear-listen"></i>
+                                        <i class="fa-solid fa-eye-low-vision"></i>
                                         </section>
                                         <section class="listen">Rapport</section>
                                     </a>
@@ -149,7 +149,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
                                 <div class="col-sm-12 col-md-4 fs-5">
                                 <a href="#escuta-ativa">
                                         <section>
-                                        <i class="fa-solid fa-ear-listen"></i>
+                                        <i class="fa-solid fa-hand-fist"></i>
                                         </section>
                                         <section class="listen">Empowerment</section>
                                     </a>
@@ -171,7 +171,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
                                 <div class="col-sm-12 col-md-4 fs-5">
                                 <a href="#escuta-ativa">
                                         <section>
-                                        <i class="fa-solid fa-ear-listen"></i>
+                                        <i class="fa-solid fa-user-large"></i>
                                         </section>
                                         <section class="listen">Caucus</section>
                                     </a>
@@ -180,7 +180,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
                                 <div class="col-sm-12 col-md-4 fs-5">
                                 <a href="#escuta-ativa">
                                         <section>
-                                        <i class="fa-solid fa-ear-listen"></i>
+                                        <i class="fa-solid fa-person-chalkboard"></i>
                                         </section>
                                         <section class="listen">Ser Mediador</section>
                                     </a>
