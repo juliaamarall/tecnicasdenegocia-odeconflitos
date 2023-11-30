@@ -977,3 +977,9 @@ body.open .modal-one {
   right: -45px;
 }
 
+
+/* modo escuro de alguns elementos que foram adicionados na página */
+
+[data-theme="dark"] .color-dark {
+  color: white;
+}
