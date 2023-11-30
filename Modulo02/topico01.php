@@ -55,7 +55,7 @@ include('layout/header.php');
                                     </div>
 
                                     <div class="col-sm-6 col-md-2 icon-painel fs-5">
-                                    <a href="#caucaus">
+                                    <a href="#caucus">
                                         <section>
                                         <i class="fa-solid fa-user-large"></i>
                                         </section>

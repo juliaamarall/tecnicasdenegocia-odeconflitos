@@ -16,7 +16,7 @@
                 <a href="topico01.php">
                     <span class="icon "><i class="bi bi-1-circle"></i>
                     </span>
-                    <span class="txt">Panorama do Comportamento Digital</i></span>
+                    <span class="txt"> As Seis Técnicas de Mediação de Conflitos Mais Eficazes</i></span>
                 </a>
             </li>
 
@@ -24,14 +24,14 @@
                 <a href="topico02.php">
                     <span class="icon "><i class="bi bi-2-circle"></i>
                     </span>
-                    <span class="txt">Eventos Presenciais, Híbridos e Digitais</i></span>
+                    <span class="txt"> Gestão de Conflitos na Equipe: Nove Técnicas Eficazes</i></span>
                 </a>
             </li>
 
             <li class="menu">
                 <a href="topico03.php">
                     <span class="icon"><i class="bi bi-3-circle"></i></span>
-                    <span class="txt">Design e planejamento de eventos digitais</span>
+                    <span class="txt">As Principais Ferramentas para Mediação de Conflitos</span>
                 </a>
             </li>
 

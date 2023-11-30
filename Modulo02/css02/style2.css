@@ -744,6 +744,16 @@ time {
   transition: 0.5s;
 }
 
+.botao-modal-blue{
+  cursor: pointer;
+  background: rgb(23, 23, 204);
+  color: #f9f9f9;
+  border: 0;
+  border-radius: 40px;
+  padding: 20px 20px;
+  font-size: 16px;
+}
+
 .modal-header{
   border-bottom: none;
 }
@@ -756,6 +766,11 @@ time {
 
 .botao-modal:hover{
   border: 1px solid #2db39e;
+  transition: 0.5s;
+}
+
+.botao-modal-blue:hover{
+  border: 1px solid  rgb(23, 23, 204) ;
   transition: 0.5s;
 }
 
@@ -850,5 +865,115 @@ body.open .modal-one {
 
 
 
+/* Timeline Container */
 
+.timelinemae{
+  display: flex;
+}
+.timeline01 {
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Card container */
+.card01 {
+  position: relative;
+  max-width: 800px;
+}
+
+/* setting padding based on even or odd */
+.card01:nth-child(odd) {
+  padding: 30px 0 30px 30px;
+}
+.card01:nth-child(even) {
+  padding: 30px 30px 30px 0;
+}
+/* Global ::before */
+.card01::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  border: solid #e94f0e;
+}
+
+/* Setting the border of top, bottom, left */
+.card01:nth-child(odd)::before {
+  left: 0px;
+  top: -4.5px;
+  bottom: -4.5px;
+  border-width: 5px 0 5px 5px;
+  border-radius: 50px 0 0 50px;
+}
+
+/* Setting the border of top, bottom, right */
+.card01:nth-child(even)::before {
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-width: 5px 5px 5px 0;
+  border-radius: 0 50px 50px 0;
+}
+
+/* Removing the border if it is the first card */
+.card01:first-child::before {
+  border-top: 0;
+  border-top-left-radius: 0;
+}
+
+/* Removing the border if it is the last card  and it's odd */
+.card01:last-child:nth-child(odd)::before {
+  border-bottom: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* Removing the border if it is the last card  and it's even */
+.card01:last-child:nth-child(even)::before {
+  border-bottom: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* Information about the timeline */
+.info {
+  display: flex;
+  flex-direction: column;
+  background: #26a737;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+/* Title of the card */
+.title01 {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  position: relative;
+}
+
+/* Timeline dot  */
+.title01::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 999px;
+  border: 3px solid #26a737;
+}
+
+/* text right if the card is even  */
+.card01:nth-child(even) > .info > .title01 {
+  text-align: right;
+}
+
+/* setting dot to the left if the card is odd */
+.card01:nth-child(odd) > .info > .title01::before {
+  left: -45px;
+}
+
+/* setting dot to the right if the card is odd */
+.card01:nth-child(even) > .info > .title01::before {
+  right: -45px;
+}
 
