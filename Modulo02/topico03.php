@@ -50,7 +50,7 @@ include( 'layout/menu.php' );
 </div>
 
 
-<div class="text-left mt-3">
+<div class="text-left mt-3 color-dark">
   <hr>
   <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> MEDIAÇÃO DE CONFLITOS</h3>
 <div class="alert alert-primary fs-5" role="alert"  data-aos="flip-up">
@@ -108,7 +108,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
 <!-- Citação com borda verde (esquerda) -->
 </div>
 
-<div class="text-left mt-3" id="painel-two">
+<div class="text-left mt-3 color-dark" id="painel-two">
   <hr>
 <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> FERRAMENTAS PARA MEDIAÇÃO DE CONFLITOS</h3>
 
@@ -129,7 +129,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
                             <div class="row painel-prin mt-5">
                               <!-- botão 01 -->
                                 <div class="col-sm-12 col-md-4 fs-5">
-                                <a href="#processo-abertura">
+                                <a href="#processo-abertura" class="color-dark">
                                         <section>
                                         <i class="fa-solid fa-chalkboard-user"></i>
                                         </section>
@@ -138,7 +138,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
                                 </div>
                               <!-- botão 02 -->
                                 <div class="col-sm-12 col-md-4 fs-5">
-                                <a href="#rapport">
+                                <a href="#rapport" class="color-dark">
                                         <section>
                                         <i class="fa-solid fa-eye-low-vision"></i>
                                         </section>
@@ -147,7 +147,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
                                 </div>
                               <!-- botão 03 -->
                                 <div class="col-sm-12 col-md-4 fs-5">
-                                <a href="#empowerment">
+                                <a href="#empowerment" class="color-dark">
                                         <section>
                                         <i class="fa-solid fa-hand-fist"></i>
                                         </section>
@@ -160,7 +160,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
                             <div class="row painel-prin mt-5 fs-5">
                               <!-- botão 01 -->
                                 <div class="col-sm-12 col-md-4">
-                                <a href="#escuta-ativa">
+                                <a href="#escuta-ativa" class="color-dark">
                                         <section>
                                         <i class="fa-solid fa-ear-listen"></i>
                                         </section>
@@ -169,7 +169,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
                                 </div>
                               <!-- botão 02 -->
                                 <div class="col-sm-12 col-md-4 fs-5">
-                                <a href="#caucus">
+                                <a href="#caucus" class="color-dark">
                                         <section>
                                         <i class="fa-solid fa-user-large"></i>
                                         </section>
@@ -178,7 +178,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
                                 </div>
                               <!-- botão 03 -->
                                 <div class="col-sm-12 col-md-4 fs-5">
-                                <a href="#ser-mediador">
+                                <a href="#ser-mediador" class="color-dark">
                                         <section>
                                         <i class="fa-solid fa-person-chalkboard"></i>
                                         </section>
@@ -190,7 +190,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
                         <!-- FIM DOS TÓPICOS -->
 
                           
-                        <div class="text-left mt-3" id="processo-abertura">
+                        <div class="text-left mt-3 color-dark" id="processo-abertura">
   <hr>
 <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> PROCESSO DE ABERTURA</h3>
 
@@ -207,7 +207,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
           </div>
 </div>
 
-<div class="text-left mt-3" id="rapport">
+<div class="text-left mt-3 color-dark" id="rapport">
 <hr>
 <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> RAPPORT</h3>
 
@@ -295,7 +295,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
 
 
       </div>
-<div class="text-left mt-4" id="escuta-ativa">
+<div class="text-left mt-4 color-dark" id="escuta-ativa">
   <hr>
 <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> ESCUTA ATIVA</h3>
 <p>Uma escuta ativa adequada é feita a partir da espontaneidade das partes, que depende da confiança que o mediador conseguiu estabelecer com os mediandos.</p>
@@ -372,7 +372,7 @@ Dentre as ferramentas para mediação de conflitos, essa ferramenta é muito vá
 
 
 
-<div class="text-left mt-4" id="caucus">
+<div class="text-left mt-4 color-dark" id="caucus">
   <hr>
   <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> CAUCUS</h3>
   <p>Vale destacar que, durante a mediação, pode haver a necessidade de se fazer reuniões individuais, também denominadas caucus, as quais devem ser realizadas com cautela e fins específicos, como por exemplo, a fim de possibilitar que fortes emoções sejam expostas, para esclarecer percepções inadequadas ou até modificar comportamento negativo e repetitivo, eventualmente podem reduzir algumas comunicações inúteis.</p>
@@ -493,7 +493,7 @@ Todas essas ferramentas para mediação de conflitos citadas são válidas, desd
 
 
 
-<div class="text-left mt-4" id="ser-mediador">
+<div class="text-left mt-4 color-dark" id="ser-mediador">
   <hr>
   <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> SER MEDIADOR</h3>
   <div class="alert alert-primary fs-5" role="alert"  data-aos="flip-up">

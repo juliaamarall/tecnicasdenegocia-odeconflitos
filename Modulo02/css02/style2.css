@@ -746,7 +746,7 @@ time {
 
 .botao-modal-blue{
   cursor: pointer;
-  background: rgb(23, 23, 204);
+  background: rgb(19, 19, 158);
   color: #f9f9f9;
   border: 0;
   border-radius: 40px;
@@ -936,7 +936,7 @@ body.open .modal-one {
 .info {
   display: flex;
   flex-direction: column;
-  background: #26a737;
+  background: #45b16e;
   color: white;
   border-radius: 10px;
   padding: 10px;
@@ -982,4 +982,17 @@ body.open .modal-one {
 
 [data-theme="dark"] .color-dark {
   color: white;
+}
+
+[data-theme="dark"] .tooltip-dark {
+  color: white;
+}
+
+
+[data-theme="dark"] .p-dark {
+  color: black;
+}
+
+[data-theme="dark"] .hr {
+  color: rgb(255, 255, 255);
 }

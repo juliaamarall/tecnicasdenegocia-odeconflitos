@@ -30,7 +30,7 @@ include( 'layout/menu.php' );
 <div class="text-left mt-3">
     <p>Eventualmente, <strong> um conflito é uma situação em que duas pessoas ou partes não concordam sobre algo. Em outras palavras, o conflito surge principalmente por causa das diferenças de opiniões ou perspectivas</strong>.</p>
 
-    <p> <span class="fst-italic">“A única forma de vencer uma discussão é evitá-la”</span>, essa famosa máxima de <span><a href="#" data-bs-toggle="tooltip" data-bs-title="Dale Carnegie foi um formador, escritor e orador norte-americano. Fundou o que é hoje uma rede mundial de mais de 3.000 instrutores e escritórios em aproximadamente 97 países que já formou mais de 9 milhões de pessoas no mundo. Fonte: Wikipédia" class="link-tooltip"><strong> Dale Carnegie</strong></a></span> esclarecerá de forma didática o que significa é um conselho infalível quando a pauta é evitar conflitos. Mas, algumas vezes, conflitos são inevitáveis.</p>
+    <p> <span class="fst-italic">“A única forma de vencer uma discussão é evitá-la”</span>, essa famosa máxima de <span><a href="#" data-bs-toggle="tooltip" data-bs-title="Dale Carnegie foi um formador, escritor e orador norte-americano. Fundou o que é hoje uma rede mundial de mais de 3.000 instrutores e escritórios em aproximadamente 97 países que já formou mais de 9 milhões de pessoas no mundo. Fonte: Wikipédia" class="link-tooltip"><strong class="tooltip-dark"> Dale Carnegie</strong></a></span> esclarecerá de forma didática o que significa é um conselho infalível quando a pauta é evitar conflitos. Mas, algumas vezes, conflitos são inevitáveis.</p>
 
     <p>Quando se trabalha com outras pessoas e, principalmente, quando se ocupa um cargo de liderança, dominar técnicas de gestão de conflitos é algo fundamental para um líder que deseja construir equipes mais fortes.</p>
 
@@ -66,22 +66,22 @@ include( 'layout/menu.php' );
             <section class="sessao" id="profile-section">
                 <span></span>
                 <h3>Conflitos de recursos</h3>
-                <p class="fs-5"> As pessoas da equipe podem precisar do mesmo recurso;</p>
+                <p class="fs-5 p-dark"> As pessoas da equipe podem precisar do mesmo recurso;</p>
             </section>
             <section class="sessao" id="Account-section">
                 <span></span>
                 <h3>Conflitos prioritários</h3>
-                <p class="fs-5">Prioridades conflitantes entre pessoas ou partes da equipe;</p>
+                <p class="fs-5 p-dark">Prioridades conflitantes entre pessoas ou partes da equipe;</p>
             </section>
             <section class="sessao" id="Posts-section">
                 <span></span>
                 <h3>Horários</h3>
-                <p class="fs-5">Semelhantes às prioridades. Mas isso surge quando algumas perguntas sobre cronogramas e por que uma entrega não é concluída a tempo, etc;</p>
+                <p class="fs-5 p-dark">Semelhantes às prioridades. Mas isso surge quando algumas perguntas sobre cronogramas e por que uma entrega não é concluída a tempo, etc;</p>
             </section>            
             <section class="sessao" id="Advanced-section">
                 <span></span>
                 <h3>Outras causas</h3>
-                <p class="fs-5">Personalidades e opiniões técnicas muito contrastantes, por exemplo, também causam conflitos em equipes.</p>
+                <p class="fs-5 p-dark">Personalidades e opiniões técnicas muito contrastantes, por exemplo, também causam conflitos em equipes.</p>
             </section>
         </div>
     </div>
@@ -90,7 +90,7 @@ include( 'layout/menu.php' );
 
 
 <div class="text-left mt-4">
-    <h3 class = "fw-semibold text-secondary"  id="space-letra"> TÉCNICAS DE RESOLUÇÃO DE CONFLITOS DE EQUIPES:</h3>
+    <h3 class = "fw-semibold color-dark" id="space-letra"> TÉCNICAS DE RESOLUÇÃO DE CONFLITOS DE EQUIPES:</h3>
     <hr>
     <p>Conflitos no local de trabalho surgem devido a muitas razões. Confira algumas estratégias de resolução de conflitos e saiba como resolver com eficácia quando eles surgirem:</p>
 </div>
@@ -216,68 +216,6 @@ include( 'layout/menu.php' );
           </div>
         </div>
 </section>
-            <!-- <div class="container">
-        <ul class="timelineul" id="timeLine">
-          <li>
-           
-            
-          </li>
-          <li>
-           
-          </li>
-          
-          <li>
-          
-  </div>
-</div>
-            </div>
-          </li>
-
-
-          <li>
-          
-          </li>
-          
-
-          <li>
-            
-          </li>
-
-          <li>
-            
-          </li>
-
-
-          <li>
-         
-          </li>
-
-          <li>
-           
-          </li>
-
-
-          <li>
-            <div class="back-green" data-aos="fade-up-left">
-              <time>Colaborando</time>
-             <p>Significa integrar as ideias de ambas as partes. O principal objetivo é formar uma solução criativa que seja aceitável por todos. Assim, o líder da organização deve colaborar com as ideias, crenças e opiniões de ambas as partes para que cheguem a uma solução comum, então a resolução do conflito será feita. Este processo de colaboração não só ajudará a resolver a questão de forma pacífica, como também não criará nenhum problema interno ao resolver o conflito</p>
-             <p>
-  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-   Clique para saber mais! <i class="bi bi-hand-index-thumb"></i>
-  </button>
-</p>
-<div style="min-height: 50px;">
-  <div class="collapse collapse-horizontal" id="collapseWidthExample">
-    <div class="card card-body card-body-blue" style="width: 300px;">
-    E lembre-se de algo essencial: se o conflito pode ser resolvido antes que tenha a oportunidade de aumentar, a produtividade vai florescer e o ânimo vai permanecer alto. Com um entendimento claro dos problemas e das personalidades envolvidas, um bom gerente consegue resolver um conflito rapidamente. A administração de conflito pronta e eficiente tem um efeito positivo no resultado final. Pois evita desperdiçar a energia do time em discussões, confrontos e “guerras” desnecessárias, já que em uma equipe saudável estamos todos lutando do mesmo lado e não uns contra os outros
-    </div>
-  </div>
-</div>
-</div>
-          </li>
-
-          
-        </ul> -->
         </div>
       
        
