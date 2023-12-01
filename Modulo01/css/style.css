@@ -1,5 +1,5 @@
-/* font relawey (para os conteúdos de textos dos parágrafos)  */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+/* font KANIT(para os conteúdos de textos dos parágrafos)  */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* OBS:
 A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
@@ -57,7 +57,7 @@ A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
     --CorAccordionImportanteMaisClaro: #ff7f0033;
     /* fontes */
     --FonteArial: Arial, Helvetica, sans-serif;
-    --FonteRaleway: 'Raleway', sans-serif;
+    --FonteKanit: 'Kanit', sans-serif;
     --FonteVerdana: Verdana, Geneva, Tahoma, sans-serif;
     /*  */
 }
@@ -146,7 +146,7 @@ ol {
 }
 
 ol li {
-    font-family: var(--FonteRaleway);
+    font-family: var(--FonteKanit);
     font-size: 18px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -161,7 +161,7 @@ ol li {
 }
 
 .list li {
-    font-family: var(--FonteRaleway);
+    font-family: var(--FonteKanit);
     font-size: 1.2rem;
     margin-top: 5px;
 }
@@ -175,13 +175,13 @@ ul li.menu a {
     color: #44833D;
     text-decoration: none;
     font-size: 1.1em;
-    padding: 30px 0%;
+    padding: 20px 0%;
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
     cursor: pointer;
     transition: 0.1s;
-    height: 4em;
+    height: 70px;
     width: 100%;
 }
 
@@ -214,6 +214,7 @@ ul li.menu a .txt {
 
 ul li.menu a {
     padding-left: 20px;
+    height: 12vh;
 }
 
 ul li.menu a .icon>i {
@@ -230,10 +231,6 @@ ul li.menu a:hover {
     background-color: #3be3e2;
 }
 
-/* (transition) no CONTEÚDO PRINCIPAL  */
-.all-conteudo {
-    transition: 0.1s;
-}
 
 .menulateral:hover~.all-conteudo {
     margin-left: 100px;
@@ -443,7 +440,7 @@ hr {
 
 .main-content p {
     font-size: 20px;
-    font-family: var(--FonteRaleway);
+    font-family: var(--FonteKanit);
     margin-left: 5px;
 }
 
@@ -478,7 +475,7 @@ hr {
     position: relative;
     display: flex;
     justify-content: center;
-    font-family: 'Raleway' !important;
+    font-family: 'Kanit' !important;
     margin-bottom: 2rem;
     cursor: pointer;
 }
@@ -710,11 +707,11 @@ hr {
 }
 
 [data-theme="dark"] .accordion #content .caixaprincipal#tituloDuvida {
-    background-color: #024059;
+    background-color: #33beaa;
 }
 
 [data-theme="dark"] #Duvida {
-    background-color: #309bc5e3;
+    background-color: #ade7df;
 }
 
 /*  FIM CAIXA DÚVIDA */
@@ -1088,7 +1085,7 @@ h2,
     display: flex;
     justify-content: center;
     padding-left: 30px;
-  
+    margin-left: 5px;
     border: none;
 }
 

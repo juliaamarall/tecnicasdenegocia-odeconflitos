@@ -51,8 +51,8 @@ include('layout/header.php');
                 <header>
                   <span class="material-symbols-outlined"> <i class="bi bi-x-lg"></i> </span>
                 </header>
-                <div class="text-left ">
-                  <p class="box-color"><strong>Primeiramente, antes de entrarmos nas Técnicas de Negociação de Conflitos propriamente ditas, urge a necessidade de compreendermos o que se entende por conflito e na sequência compreenderemos o conceito de negociação e assim estudaremos as técnicas.</strong></p>
+                <div class="text-left color-flip">
+                  <p><strong>Primeiramente, antes de entrarmos nas Técnicas de Negociação de Conflitos propriamente ditas, urge a necessidade de compreendermos o que se entende por conflito e na sequência compreenderemos o conceito de negociação e assim estudaremos as técnicas.</strong></p>
                 </div>
         
               </div>
@@ -75,8 +75,8 @@ include('layout/header.php');
 
      <!-- inicio do primeiro subtópico -->
      
-     <div class = "mt-5 text-left">
-              <h3 class = "fw-semibold text-secondary"  id="space-letra"> 1.1. Os principais tipos de conflitos</h3>
+     <div class = "mt-5 text-left color-dark">
+              <h3 class = "fw-semibold"  id="space-letra"> 1.1. Os principais tipos de conflitos</h3>
               <hr>
               <div class="text-center m-4">
                             <h4><span class="badge bg-warning text-dark-ênfase"><i class="fa fa-lightbulb"
@@ -165,8 +165,8 @@ include('layout/header.php');
 
              <!-- SEGUNDO SUBTÓPICO DO TÓPICO01 -->
 
-             <div class = "mt-5 text-left">
-              <h3 class ="fw-semibold text-secondary" id="space-letra"> 1.2. Os estágios dos conflitos</h3>
+             <div class = "mt-5 text-left color-dark">
+              <h3 class ="fw-semibold" id="space-letra"> 1.2. Os estágios dos conflitos</h3>
               <hr>
                 <p>Os conflitos costumam passar por diferentes estágios, e saber identificar esses estágios é extremamente importante para solucionar situações de conflitos: <strong>clique para saber mais!</strong></p>
 
@@ -236,8 +236,8 @@ include('layout/header.php');
 
               <!-- TERCEIRO SUBTÓPICO DO TÓPICO01 -->
 
-              <div class = "mt-5 text-left">
-              <h3 class = "fw-semibold text-secondary" id="space-letra">1.3 Os principais tipos de reações em uma situação de conflito</h3>
+              <div class = "mt-5 text-left color-dark">
+              <h3 class = "fw-semibold" id="space-letra">1.3 Os principais tipos de reações em uma situação de conflito</h3>
               <hr>
                 <p>Para uma boa negociação e gestão de conflitos, é necessário entender como as partes envolvidas podem reagir frente a uma situação conflituosa: <strong>clique para saber mais!</strong></p>
                 <div class="container">

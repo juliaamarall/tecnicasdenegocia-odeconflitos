@@ -28,7 +28,7 @@ include( 'layout/menu.php' );
 
 <!-- primeiro bloco do tópico 02 ( RESUMO ) -->
     <div class="text-left mt-1">
-        <p>O <span><a href="#" data-bs-toggle="tooltip" data-bs-title="O Harvard Negotiation Project é um projeto criado na Universidade de Harvard que trata de questões de negociações e resolução de conflitos." class="link-tooltip"><strong>Havard Negotiation Project</strong></a></span>, é um projeto criado pela Universidade de Harvard para orientar na resolução dos conflitos, define a negociação como a busca pelo “sim” conforme méritos e princípios, sem dureza ou prejuízo para as relações.</p>
+        <p>O <span><a href="#" data-bs-toggle="tooltip" data-bs-title="O Harvard Negotiation Project é um projeto criado na Universidade de Harvard que trata de questões de negociações e resolução de conflitos." class="link-tooltip"><strong class="color-dark">Havard Negotiation Project</strong></a></span>, é um projeto criado pela Universidade de Harvard para orientar na resolução dos conflitos, define a negociação como a busca pelo “sim” conforme méritos e princípios, sem dureza ou prejuízo para as relações.</p>
 
         <p>Entende-se então:</p>
 
@@ -79,11 +79,11 @@ include( 'layout/menu.php' );
            <div class="text-left">
            <p>Afirma Paulillo (2011), que negociar é uma parte importante do trabalho de todo profissional, seja ele da área de vendas ou qualquer outra, negociar verbas internas, prioridade em projetos, alocar mais recursos humanos, transferências, promoções ou até um aumento de remuneração faz parte do dia a dia corporativo.</p>
 
-           <p>Para compreensão de todo o <strong>processo de negociação</strong>, utilizaremos dos estudos e dicas práticas da  <span><a href="#" data-bs-toggle="tooltip" data-bs-title="Plataforma de CRM que funciona como um assistente pessoal para equipes de vendas." class="link-tooltip"><strong>Agendor</strong></a></span> que detalhou uma metodologia diferenciada e exclusiva, denominada a <span><a href="#" data-bs-toggle="tooltip" data-bs-title="Metodologia diferenciada que explica as 7 fases do processo de negociação que podem trazer melhores resultados." class="link-tooltip"><strong>PISTTAA</strong></a></span></p>
+           <p>Para compreensão de todo o <strong>processo de negociação</strong>, utilizaremos dos estudos e dicas práticas da  <span><a href="#" data-bs-toggle="tooltip" data-bs-title="Plataforma de CRM que funciona como um assistente pessoal para equipes de vendas." class="link-tooltip"><strong class="color-dark">Agendor</strong></a></span> que detalhou uma metodologia diferenciada e exclusiva, denominada a <span><a href="#" data-bs-toggle="tooltip" data-bs-title="Metodologia diferenciada que explica as 7 fases do processo de negociação que podem trazer melhores resultados." class="link-tooltip"><strong class="color-dark">PISTTAA</strong></a></span></p>
                 <hr>
            </div>
 
-              <div class="text-left m-4">
+              <div class="text-left m-4 color-dark">
               <h3 class = "fw-semibold mb-2 text-center"> Preparação <i class="bi bi-person-check-fill"></i></h3>
               <p>Vamos dividir em dois tipos: coleta de informações e preparação psicológica:</p>
 
@@ -137,12 +137,12 @@ include( 'layout/menu.php' );
 </div>
                     </div>
                     <hr>
-          <div class="text-left m-4">
+          <div class="text-left m-4 color-dark">
           <h3 class = "fw-semibold mb-2 text-center"> Investigação <i class="bi bi-incognito"></i></h3>
           <p>Agora você estará frente a frente com o cliente, a única coisa que você não deve fazer é partir direto para a negociação.</p>
 
           <p>Continue com a sua preparação e investigue mais sobre ele, depois de quebrar o gelo e fazer o rapport, você precisa entender a fundo as necessidades de seu cliente.
-          <span><a href="#" data-bs-toggle="tooltip" data-bs-title="É criar um clima agradável, de empatia entre os negociadores" class="link-tooltip"><strong>Rapport</strong></a></span> é criar um clima agradável, de empatia entre os negociadores</p>
+          <span><a href="#" data-bs-toggle="tooltip" data-bs-title="É criar um clima agradável, de empatia entre os negociadores" class="link-tooltip"><strong class="color-dark">Rapport</strong></a></span> é criar um clima agradável, de empatia entre os negociadores</p>
 
           <p>Comece dizendo quais são os objetivos da reunião, esclareça se há necessidade de confidencialidade e descubra, perguntando, qual o tempo disponível para tratarem do assunto.</p>
 
@@ -191,22 +191,22 @@ include( 'layout/menu.php' );
             <section class="sessao" id="profile-section">
                 <span></span>
                 <h3>Situação</h3>
-                <p class="fs-5">Para entender o contexto</p>
+                <p class="fs-5 p-dark">Para entender o contexto</p>
             </section>
             <section class="sessao" id="Account-section">
                 <span></span>
                 <h3>Problemas</h3>
-                <p class="fs-5">Para descobrir dificuldades e dúvidas do cliente</p>
+                <p class="fs-5 p-dark">Para descobrir dificuldades e dúvidas do cliente</p>
             </section>
             <section class="sessao" id="Posts-section">
                 <span></span>
                 <h3>Implicação</h3>
-                <p class="fs-5">Para desvendar as consequências de não se resolver o problema</p>
+                <p class="fs-5 p-dark">Para desvendar as consequências de não se resolver o problema</p>
             </section>            
             <section class="sessao" id="Advanced-section">
                 <span></span>
                 <h3>Necessidade</h3>
-                <p class="fs-5">Para mostrar como sua solução pode resolver tudo isso, mostrando seu valor ao cliente</p>
+                <p class="fs-5 p-dark">Para mostrar como sua solução pode resolver tudo isso, mostrando seu valor ao cliente</p>
             </section>
         </div>
     </div>

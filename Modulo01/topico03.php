@@ -28,40 +28,47 @@ include( 'layout/menu.php' );
 <!-- tirei o hr por que o menu não estava ficando sobreposto -->
 <!-- <hr> -->
 
-<div class="text-left mt-3">
-  <p>Tendo em vista tudo que mostramos, os tipos, os estágios e as reações dos conflitos, é hora de conferirmos algumas técnicas que podem ser utilizadas para solucionar situações desse tipo na sua empresa.</p>
+<div class="text-left mt-4">
+<p>Tendo em vista tudo que mostramos, os tipos, os estágios e as reações dos conflitos, é hora de conferirmos algumas técnicas que podem ser utilizadas para solucionar situações desse tipo na sua empresa.</p>
 </div>
 
-      <div class="container">
-        <ul class="timelineul" id="timeLine">
-          <li>
-            <div class="back-green">
-              <time>3.1 - Promova uma comunicação eficiente e facilite o diálogo</time>
-              <p>Os conflitos são causados pela falta de comunicação, portanto para administrar e até mesmo prevenir situações conflituosas, é necessário que haja diálogo entre colaboradores, equipes e líderes.</p>
+
+
+
+<section class="timelinemae">
+  <div class="timeline01">
+          <div class="outer">
+            <div class="card01">
+              <div class="info">
+                <h3 class="title01"> 3.1 - Promova uma comunicação eficiente e facilite o diálogo:</h3>
+                <p>Os conflitos são causados pela falta de comunicação, portanto para administrar e até mesmo prevenir situações conflituosas, é necessário que haja diálogo entre colaboradores, equipes e líderes.</p>
               <p>Uma cultura de <strong>comunicação</strong> aberta , com troca de informações de forma transparente já é um primeiro passo para até mesmo prevenir conflitos.</p>
+              </div>
             </div>
-            
-          </li>
-          <li>
-            <div class="back-green">
-              <time>3.2 - Dê preferência ao pronome “nós”</time>
-              <p>Uma técnica para negociação e administração de conflitos é a utilização da palavra nós.</p>
+            <div class="card01">
+              <div class="info">
+                <h3 class="title01"> 3.2 - Dê preferência ao pronome “nós”:</h3>
+                <p>Uma técnica para negociação e administração de conflitos é a utilização da palavra nós.</p>
               <p>Evite apontar o dedo para outras pessoas ou se colocar no centro de tudo, como se apenas o seu lado importasse, é importante entender que todos estão no mesmo barco.</p>
+              </div>
             </div>
-          </li>
-          <li>
-            <div class="back-green">
-              <time>3.3 - Faça pesquisas de clima organizacional</time>
-              <div >
-              <p>Os conflitos impactam diretamente no clima organizacional, nesse sentido a realização de pesquisas de clima ajuda a identificar eventuais conflitos que podem inclusive estar no estágio latente.</p>
+            <div class="card01">
+              <div class="info">
+                <h3 class="title01"> 3.3 - Faça pesquisas de clima organizacional:</h3>
+                <p>Os conflitos impactam diretamente no clima organizacional, nesse sentido a realização de pesquisas de clima ajuda a identificar eventuais conflitos que podem inclusive estar no estágio latente.</p>
               <p>Esse tipo de pesquisa vai ajudar a chegar na causa-raiz dos conflitos para, assim, solucioná-los de uma vez por todas e impedir que eles venham a repetir.</p>
-              </div> 
-             </div>
+                
+              </div>
             </div>
-          </li>
-        </ul>
-        
-      </div>
+
+            </div>
+          </div>
+        </div>
+</section>
+        </div>
+      
+       
+         <!-- fim da timeline -->
        
          <!-- fim da timeline -->
 
