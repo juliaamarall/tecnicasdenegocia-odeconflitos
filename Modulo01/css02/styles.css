@@ -92,9 +92,10 @@ footer{
 }
 
 .card-body{
-  background-color: rgba(140, 194, 140, 0.616);
+  background-color: #2db39e;
   margin-bottom: 1em;
   font-size: 1.2em;
+  color: white;
 }
 
 
@@ -247,6 +248,8 @@ article p {
  display: flex;
  justify-content: center;
 }
+
+
 /* flip-card menor */
 
 /* inicio flip-card subtópico */
@@ -271,9 +274,6 @@ margin-top: 1.5em;
 color: white;
 }
 
-
-
-
 .flip-mini{
 position: relative;
 perspective: 1000px;
@@ -281,7 +281,9 @@ width: 50vh;
 height: 300px;
 }
 
+/* responsividade do flip card  */
 
+/* fim da responsividade do flip card */
 /*  fim flip-card subtópico */
 
 

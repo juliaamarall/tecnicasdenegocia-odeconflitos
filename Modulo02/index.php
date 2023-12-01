@@ -51,7 +51,7 @@ include('layout/header.php');
 
 
 
-        <div class="text-left">
+        <div class="text-left wow fadeIn" data-wow-delay="0.3s">
             <p>Antes de prosseguirmos com a leitura do material, assista ao vídeo e entenda o significado de MEDIAÇÃO.</p>
 
              <!-- CAIXA DE TEXTO SAIBA-MAIS -->

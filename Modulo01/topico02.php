@@ -27,7 +27,7 @@ include( 'layout/menu.php' );
 <h2 class = 'Titulo fw-bolder'>Conceituando Negociação</h2>
 
 <!-- primeiro bloco do tópico 02 ( RESUMO ) -->
-    <div class="text-left mt-1">
+    <div class="text-left mt-1 wow fadeIn" data-wow-delay="0.3s">
         <p>O <span><a href="#" data-bs-toggle="tooltip" data-bs-title="O Harvard Negotiation Project é um projeto criado na Universidade de Harvard que trata de questões de negociações e resolução de conflitos." class="link-tooltip"><strong class="color-dark">Havard Negotiation Project</strong></a></span>, é um projeto criado pela Universidade de Harvard para orientar na resolução dos conflitos, define a negociação como a busca pelo “sim” conforme méritos e princípios, sem dureza ou prejuízo para as relações.</p>
 
         <p>Entende-se então:</p>
@@ -76,14 +76,14 @@ include( 'layout/menu.php' );
              <iframe width="560" height="315" src="https://www.youtube.com/embed/h4mPhttt458?si=XiosF7bySeT64d6e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
            <!-- fim do iframe -->
-           <div class="text-left">
+           <div class="text-left wow fadeIn" data-wow-delay="0.3s">
            <p>Afirma Paulillo (2011), que negociar é uma parte importante do trabalho de todo profissional, seja ele da área de vendas ou qualquer outra, negociar verbas internas, prioridade em projetos, alocar mais recursos humanos, transferências, promoções ou até um aumento de remuneração faz parte do dia a dia corporativo.</p>
 
            <p>Para compreensão de todo o <strong>processo de negociação</strong>, utilizaremos dos estudos e dicas práticas da  <span><a href="#" data-bs-toggle="tooltip" data-bs-title="Plataforma de CRM que funciona como um assistente pessoal para equipes de vendas." class="link-tooltip"><strong class="color-dark">Agendor</strong></a></span> que detalhou uma metodologia diferenciada e exclusiva, denominada a <span><a href="#" data-bs-toggle="tooltip" data-bs-title="Metodologia diferenciada que explica as 7 fases do processo de negociação que podem trazer melhores resultados." class="link-tooltip"><strong class="color-dark">PISTTAA</strong></a></span></p>
                 <hr>
            </div>
 
-              <div class="text-left m-4 color-dark">
+              <div class="text-left m-4 color-dark wow fadeIn" data-wow-delay="0.3s">
               <h3 class = "fw-semibold mb-2 text-center"> Preparação <i class="bi bi-person-check-fill"></i></h3>
               <p>Vamos dividir em dois tipos: coleta de informações e preparação psicológica:</p>
 
@@ -110,7 +110,7 @@ include( 'layout/menu.php' );
     </div>
   </div>
 
-  <div class="accordion-item mt-2" data-aos="zoom-out">
+  <div class="accordion-item mt-2">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
       Preparação psicológica para o processo de negociação:
@@ -137,7 +137,7 @@ include( 'layout/menu.php' );
 </div>
                     </div>
                     <hr>
-          <div class="text-left m-4 color-dark">
+          <div class="text-left m-4 color-dark wow fadeIn" data-wow-delay="0.3s">
           <h3 class = "fw-semibold mb-2 text-center"> Investigação <i class="bi bi-incognito"></i></h3>
           <p>Agora você estará frente a frente com o cliente, a única coisa que você não deve fazer é partir direto para a negociação.</p>
 
@@ -155,7 +155,7 @@ include( 'layout/menu.php' );
            </div>
       </div>
            <!-- fim do alert azul -->
-           <div class="text-center">
+           <div class="text-center wow fadeIn" data-wow-delay="0.3s">
                             <h4><span class="badge bg-warning text-dark-ênfase"><i class="fa fa-lightbulb"
                                         style="color:white"></i> Clique para entender sobre a técnica SPIN SELLING.</span></h4>
                         </div>
@@ -214,7 +214,7 @@ include( 'layout/menu.php' );
           </div>
              
           <!-- FASE 3 -->
-          <div class="text-left m-4">
+          <div class="text-left m-4 wow fadeIn" data-wow-delay="0.3s">
             <hr>
           <h3 class = "fw-semibold mb-2 text-center"> Sinalização <i class="bi bi-bell"></i></h3>
           <p>Depois de tudo isso, acho você entendeu o que seu cliente valoriza em sua solução.</p>
@@ -241,7 +241,7 @@ include( 'layout/menu.php' );
           <!-- FIM DA FASE 3 -->
 
           <!-- fase 4 -->
-          <div class="text-left m-4">
+          <div class="text-left m-4 wow fadeIn" data-wow-delay="0.3s">
           <hr>
           <h3 class = "fw-semibold mb-2 text-center"> Teste <i class="fa-solid fa-arrow-trend-up" style="color: #000000;"></i></h3>
           <p>Estando seguro e convicto das necessidades do cliente, você está quase chegando na fase do processo de negociação em que começarão as trocas de concessões, mesmo assim, seja cauteloso.</p>
@@ -274,7 +274,7 @@ include( 'layout/menu.php' );
 
 
           <!-- fase 5 -->
-          <div class="text-left m-3">
+          <div class="text-left m-3 wow fadeIn" data-wow-delay="0.3s">
             <hr>
           <h3 class = "fw-semibold mb-2 text-center"> Trocas <i class="bi bi-arrow-left-right"></i></h3>
           <p>Você deve ter percebido que todo processo de negociação caminha geralmente em uma crescente, na qual o vendedor se prepara e vai tateando enquanto interage com seu interlocutor para chegar em uma negociação em si com mais segurança e assertividade.</p>
@@ -285,7 +285,7 @@ include( 'layout/menu.php' );
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-md-6">
-              <div class="card" style="width: 18rem;" data-aos="fade-down-right">
+              <div class="card card-style" style="width: 18rem;" data-aos="fade-down-right">
   <ul class="list-group list-group-flush">
     <li class="list-group-item">Nunca interrompa quando seu interlocutor apresenta uma contraproposta;</li>
     <li class="list-group-item"> Não rejeite de imediato o que lhe foi proposto;</li>
@@ -296,7 +296,7 @@ include( 'layout/menu.php' );
               </div>
 
               <div class="col-sm-12 col-md-6">
-                <div class="card" style="width: 18rem;" data-aos="fade-down-left">
+                <div class="card card-style" style="width: 18rem;" data-aos="fade-down-left">
   <ul class="list-group list-group-flush">
     <li class="list-group-item"> Ao fazer concessões, estipule um limite;</li>
     <li class="list-group-item">Não tenha medo de parecer relutante;</li>
@@ -311,7 +311,7 @@ include( 'layout/menu.php' );
           <!-- fim fase 5 -->
 
           <!-- fase 6 -->
-          <div class="text-left m-3">
+          <div class="text-left m-3 wow fadeIn" data-wow-delay="0.3s">
             <hr>
           <h3 class = "fw-semibold mb-2 text-center"> Acordo <i class="fa-regular fa-handshake" style="color: #000000;"></i></h3>
           <p>O acordo foi praticamente fechado na fase anterior, mas é preciso que isso fique claro para ambos, pois às vezes é difícil perceber que já se chegou a um acordo, sabia?</p>
@@ -320,13 +320,13 @@ include( 'layout/menu.php' );
           <p> <strong>– Preciso ver se já estou atendendo a todas as suas expectativas.</strong> </p>
 
           <p class="btn-texto">
-            <button class="btn btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample" >
+            <button class="btn btn botao-modal" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample" >
                <span class="font-teste"> CLIQUE PARA VER MAIS <i class="fa-regular fa-hand-pointer fa-fade"></i> </span>
             </button>
           </p>
           <div style="min-height: 120px;" id="box-texto">
             <div class="collapse collapse-horizontal" id="collapseWidthExample">
-              <div class="card card-body" style="width: 800px;">
+              <div class="card card-body " style="width: 800px;">
                <p>As vezes o comprador se aproveita desse momento para pedir mais uma pequena concessão.</p>
 
                <p>Você pode sempre guardar uma pequena concessão final na manga, que não afeta seu objetivo inicial, para tentar fechar o acordo.</p>
@@ -340,7 +340,7 @@ include( 'layout/menu.php' );
           <!-- fim da fase 6 -->
 
           <!-- fase 7  -->
-          <div class="text-left m-3">
+          <div class="text-left m-3 wow fadeIn" data-wow-delay="0.3s">
           <hr>
           <h3 class = "fw-semibold mb-2 text-center "> Acerto final <i class="bi bi-check2-square"></i></h3>
           <p>Os acertos finais são parte do processo de vendas mais tranquila e agradável.</p>

@@ -37,7 +37,7 @@ include('layout/header.php');
 <div class="img_apresentacao wow animate__zoomIn">
     <img src="imgs-pessoas/Group 4.png" alt="">
 </div>
-<div>
+<div class="wow fadeIn" data-wow-delay="0.3s">
     <!-- Parágrafo com a biblioteca de animação  -->
     <p class="texto_apresentacao">
     Olá, <strong>Nome Completo</strong> estamos iniciando o Curso de <strong>Técnicas de Negociação de Conflitos</strong>, e como bem sabemos por nossas experiências e vivências pessoais e profissionais o campo das relações humanas é de uma complexidade ímpar, permeada por fatores intrapessoais e interpessoais.
@@ -51,7 +51,7 @@ include('layout/header.php');
 </div>
                         <div>
                         <p class="btn-texto">
-            <button class="btn btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample" >
+            <button class="btn btn botao-modal" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample" >
                <span class="font-teste"> CLIQUE PARA VER MAIS <i class="fa-regular fa-hand-pointer fa-fade"></i> </span>
             </button>
           </p>
@@ -66,7 +66,7 @@ include('layout/header.php');
           </div>
     </div>
 
-    <div class="text-left">
+    <div class="text-left wow fadeIn" data-wow-delay="0.3s">
     <p>Por fim, pretendemos no decorrer deste curso que você tenha a oportunidade de conhecer com propriedade os conceitos, os principais tipos de conflitos, o conceito de negociação na visão organizacional e as etapas do Processo de Negociação.</p>
 
         <p>Seja muito bem vindo(a), acredite no seu potencial de aprendizagem e não esqueça de que estamos juntos no processo.</p>

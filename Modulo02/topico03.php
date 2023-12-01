@@ -50,7 +50,7 @@ include( 'layout/menu.php' );
 </div>
 
 
-<div class="text-left mt-3 color-dark">
+<div class="text-left mt-3 color-dark wow fadeIn" data-wow-delay="0.3s">
   <hr>
   <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> MEDIAÇÃO DE CONFLITOS</h3>
 <div class="alert alert-primary fs-5" role="alert"  data-aos="flip-up">
@@ -108,7 +108,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
 <!-- Citação com borda verde (esquerda) -->
 </div>
 
-<div class="text-left mt-3 color-dark" id="painel-two">
+<div class="text-left mt-3 color-dark wow fadeIn" data-wow-delay="0.3s" id="painel-two">
   <hr>
 <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> FERRAMENTAS PARA MEDIAÇÃO DE CONFLITOS</h3>
 
@@ -190,7 +190,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
                         <!-- FIM DOS TÓPICOS -->
 
                           
-                        <div class="text-left mt-3 color-dark" id="processo-abertura">
+                        <div class="text-left mt-3 color-dark wow fadeIn" data-wow-delay="0.3s" id="processo-abertura">
   <hr>
 <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> PROCESSO DE ABERTURA</h3>
 
@@ -207,7 +207,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
           </div>
 </div>
 
-<div class="text-left mt-3 color-dark" id="rapport">
+<div class="text-left mt-3 color-dark wow fadeIn" data-wow-delay="0.3s" id="rapport">
 <hr>
 <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> RAPPORT</h3>
 
@@ -245,7 +245,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
 </div>
 
 
-<div class="text-left mt-3" id="empowerment">
+<div class="text-left mt-3 wow fadeIn" data-wow-delay="0.3s" id="empowerment">
   <hr>
   <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> EMPOWERMENT</h3>
   <p>No tocante ao empowerment ou o empoderamento, pode ser entendido como o ‘resgate do potencial e da competência do indivíduo, inserido no contexto da mediação, para gerenciar seus próprios conflitos’, (GROSMAN e MANDEL BAUM, 2011, p. 138).
@@ -295,7 +295,7 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
 
 
       </div>
-<div class="text-left mt-4 color-dark" id="escuta-ativa">
+<div class="text-left mt-4 color-dark wow fadeIn" data-wow-delay="0.3s" id="escuta-ativa">
   <hr>
 <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> ESCUTA ATIVA</h3>
 <p>Uma escuta ativa adequada é feita a partir da espontaneidade das partes, que depende da confiança que o mediador conseguiu estabelecer com os mediandos.</p>
@@ -372,7 +372,7 @@ Dentre as ferramentas para mediação de conflitos, essa ferramenta é muito vá
 
 
 
-<div class="text-left mt-4 color-dark" id="caucus">
+<div class="text-left mt-4 color-dark wow fadeIn" data-wow-delay="0.3s" id="caucus">
   <hr>
   <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> CAUCUS</h3>
   <p>Vale destacar que, durante a mediação, pode haver a necessidade de se fazer reuniões individuais, também denominadas caucus, as quais devem ser realizadas com cautela e fins específicos, como por exemplo, a fim de possibilitar que fortes emoções sejam expostas, para esclarecer percepções inadequadas ou até modificar comportamento negativo e repetitivo, eventualmente podem reduzir algumas comunicações inúteis.</p>
@@ -493,7 +493,7 @@ Todas essas ferramentas para mediação de conflitos citadas são válidas, desd
 
 
 
-<div class="text-left mt-4 color-dark" id="ser-mediador">
+<div class="text-left mt-4 color-dark wow fadeIn" data-wow-delay="0.3s" id="ser-mediador">
   <hr>
   <h3 class = "fw-semibold mb-2 text-center" id="space-letra"> SER MEDIADOR</h3>
   <div class="alert alert-primary fs-5" role="alert"  data-aos="flip-up">

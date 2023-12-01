@@ -64,7 +64,7 @@ include('layout/header.php');
 
                         
                        
-            <div class="text-left">
+            <div class="text-left wow fadeIn" data-wow-delay="0.3s">
               <p>Segundo Lima (2014), o conflito é algo que se tornou comum em todo e qualquer lugar do mundo, desde o início da humanidade fazem parte da evolução dos seres humanos e são necessários para a evolução e desenvolvimento de qualquer sistema, seja ele, familiar, social, político ou organizacional, eles são inevitáveis nas relações de trabalho, mas precisam ser compreendidos e administrados de forma eficaz, pois podem trazer sérios problemas para a organização, desde simples desentendimentos de colaboradores, até a falta de entrosamento entre áreas que precisam atuar de forma integrada.</p>
 
               <p>Sabemos que não são recentes os estudos em relação aos conceitos de conflito na literatura com foco no contexto da vida da sociedade contemporânea.</p>
@@ -83,9 +83,9 @@ include('layout/header.php');
                                         style="color:white"></i> Clique para entender sobre.</span></h4>
                         </div>
               <div class="container">
-                <div class="row">
+                <div class="row" id="card-responsivo">
                   <!-- PRIMEIRO FLIP CARD DO PRIMEIRO SUBTÓPICO -->
-                  <div class="col-sm-12 col-md-6">
+                  <div class="col-sm-12 col-md-6 card-res">
                   <div class="container">
                     
       <div class="cards">
@@ -165,7 +165,7 @@ include('layout/header.php');
 
              <!-- SEGUNDO SUBTÓPICO DO TÓPICO01 -->
 
-             <div class = "mt-5 text-left color-dark">
+             <div class = "mt-5 text-left color-dark wow fadeIn" data-wow-delay="0.3s">
               <h3 class ="fw-semibold" id="space-letra"> 1.2. Os estágios dos conflitos</h3>
               <hr>
                 <p>Os conflitos costumam passar por diferentes estágios, e saber identificar esses estágios é extremamente importante para solucionar situações de conflitos: <strong>clique para saber mais!</strong></p>
@@ -236,19 +236,19 @@ include('layout/header.php');
 
               <!-- TERCEIRO SUBTÓPICO DO TÓPICO01 -->
 
-              <div class = "mt-5 text-left color-dark">
+              <div class = "mt-5 text-left color-dark wow fadeIn" data-wow-delay="0.3s">
               <h3 class = "fw-semibold" id="space-letra">1.3 Os principais tipos de reações em uma situação de conflito</h3>
               <hr>
                 <p>Para uma boa negociação e gestão de conflitos, é necessário entender como as partes envolvidas podem reagir frente a uma situação conflituosa: <strong>clique para saber mais!</strong></p>
                 <div class="container">
-     <div class="accordion" id="accordionExample">
+     <div class="accordion" id="accordionTwo">
   <div class="accordion-item mt-2" data-aos="flip-down">
     <h2 class="accordion-header">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
       Reação divergente
       </button>
     </h2>
-    <div id="collapseFive" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+    <div id="collapseFive" class="accordion-collapse collapse show" data-bs-parent="#accordionTwo">
       <div class="accordion-body sem-borda">
         <p>As partes envolvidas apresentam opiniões, interesses e pontos de vista opostos e buscam fazer com que a sua opinião prevaleça.</p>
       </div>
@@ -261,7 +261,7 @@ include('layout/header.php');
       Reação conflitante 
       </button>
     </h2>
-    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionTwo">
       <div class="accordion-body sem-borda">
         <p> Há uma imposição de um interesse em detrimento dos interesses da outra parte, não é considerado a opinião dos outros envolvidos.</p>
       </div>
@@ -274,7 +274,7 @@ include('layout/header.php');
       Reação concorrente
       </button>
     </h2>
-    <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+    <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionTwo">
       <div class="accordion-body sem-borda">
         <p> A parte que sofreu imposição aceita, mas busca uma forma de revidar no futuro.</p>
       </div>
@@ -287,7 +287,7 @@ include('layout/header.php');
       Reação convergente
       </button>
     </h2>
-    <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+    <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionTwo">
       <div class="accordion-body sem-borda">
         <p>As partes em conflito buscam juntas chegar a uma solução para ambas benéfica.</p>
       </div>
@@ -301,7 +301,7 @@ include('layout/header.php');
 
                         
 
-  <div class="text-left">
+  <div class="text-left wow fadeIn" data-wow-delay="0.3s">
   <p>A partir de tais conceitos podemos entender que o conflito é parte importante nas relações humanas, fazendo com que cada profissional busque a melhor forma de compreender o potencial do mesmo e aprender a melhores técnicas para negociação, especialmente no âmbito organizacional.</p>
 </div>
             

@@ -93,7 +93,7 @@ include('layout/header.php');
                         </div>
 
                         <hr>
-                        <div class="text-left m-3 color-dark" id="escuta-ativa">
+                        <div class="text-left m-3 color-dark wow fadeIn" data-wow-delay="0.3s" id="escuta-ativa">
                         <h3 class = "fw-semibold text-center m-3" id="space-letra"> ESCUTA ATIVA <i class="fa-solid fa-ear-listen"></i></h3>
 
                         <p>Um dos principais trabalhos do mediador é esclarecer os conflitos trazidos a uma sessão, utilizando uma técnica específica para ouvir os fatos expostos por litigante.</p>
@@ -131,7 +131,7 @@ include('layout/header.php');
                         </div>
 
 
-            <div class="text-left m-3 color-dark" id="rapport">
+            <div class="text-left m-3 color-dark wow fadeIn" data-wow-delay="0.3s" id="rapport">
                 <hr>
             <h3 class = "fw-semibold text-center m-3" id="space-letra"> RAPPORT <i class="fa-solid fa-eye-low-vision"></i></h3>
 
@@ -214,7 +214,7 @@ include('layout/header.php');
             </div>
 
 
-            <div class="text-left m-3 color-dark" id="brains">
+            <div class="text-left m-3 color-dark wow fadeIn" data-wow-delay="0.3s" id="brains">
                 <hr>
                 <h3 class = "fw-semibold text-center m-3" id="space-letra"> BRAINSTORMING <i class="fa-solid fa-brain"></i> </h3>
 
@@ -247,7 +247,7 @@ include('layout/header.php');
             </div>
 
 
-            <div class="text-left m-3 color-dark" id="parafra">
+            <div class="text-left m-3 color-dark wow fadeIn" data-wow-delay="0.3s" id="parafra">
                 <hr>
                 <h3 class = "fw-semibold text-center m-3" id="space-letra"> PARAFRASEAMENTO <i class="fa-solid fa-arrows-turn-to-dots"></i></h3>
 
