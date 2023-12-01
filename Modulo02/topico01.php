@@ -94,7 +94,7 @@ include('layout/header.php');
 
                         <hr>
                         <div class="text-left m-3 color-dark" id="escuta-ativa">
-                        <h3 class = "fw-semibold text-center m-3"> Escuta ativa <i class="fa-solid fa-ear-listen"></i></h3>
+                        <h3 class = "fw-semibold text-center m-3" id="space-letra"> ESCUTA ATIVA <i class="fa-solid fa-ear-listen"></i></h3>
 
                         <p>Um dos principais trabalhos do mediador é esclarecer os conflitos trazidos a uma sessão, utilizando uma técnica específica para ouvir os fatos expostos por litigante.</p>
 
@@ -133,7 +133,7 @@ include('layout/header.php');
 
             <div class="text-left m-3 color-dark" id="rapport">
                 <hr>
-            <h3 class = "fw-semibold text-center m-3" > Rapport <i class="fa-solid fa-eye-low-vision"></i></h3>
+            <h3 class = "fw-semibold text-center m-3" id="space-letra"> RAPPORT <i class="fa-solid fa-eye-low-vision"></i></h3>
 
             <p>A mediação se pauta por um vínculo de confiança entre os mediadores e partes, ao ponto de elas ficarem à vontade para expor pontos de vista, necessidades, interesses e propostas para solucionar o conflito.</p>
 
@@ -180,7 +180,7 @@ include('layout/header.php');
 
             <div class="text-left m-3 color-dark" id="caucus">
                 <hr>
-                <h3 class = "fw-semibold text-center m-3"> Sessões Individuais (Caucus) <i class="fa-solid fa-user-large"></i>
+                <h3 class = "fw-semibold text-center m-3" id="space-letra"> SESSÕES INDIVIDUAIS (Caucus) <i class="fa-solid fa-user-large"></i>
 </h3>
 
                 <p><strong>
@@ -216,7 +216,7 @@ include('layout/header.php');
 
             <div class="text-left m-3 color-dark" id="brains">
                 <hr>
-                <h3 class = "fw-semibold text-center m-3"  > Brainstorming <i class="fa-solid fa-brain"></i> </h3>
+                <h3 class = "fw-semibold text-center m-3" id="space-letra"> BRAINSTORMING <i class="fa-solid fa-brain"></i> </h3>
 
                 <p>A mediação é, por vezes, definida como uma negociação facilitada por um terceiro imparcial. Significado que enfatiza seu aspecto de oferecer instrumentos para que as partes construam um acordo.</p>
 
@@ -249,7 +249,7 @@ include('layout/header.php');
 
             <div class="text-left m-3 color-dark" id="parafra">
                 <hr>
-                <h3 class = "fw-semibold text-center m-3"> Parafraseamento <i class="fa-solid fa-arrows-turn-to-dots"></i></h3>
+                <h3 class = "fw-semibold text-center m-3" id="space-letra"> PARAFRASEAMENTO <i class="fa-solid fa-arrows-turn-to-dots"></i></h3>
 
                 <p>É comum que as partes façam relatos longos, carregados de juízos de valor, agressividade e outros elementos que prejudicam o entendimento do cerne da questão.</p>
 

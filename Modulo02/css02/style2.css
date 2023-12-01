@@ -505,6 +505,24 @@ ul.nav li.active::after{
 }
 
 
+@media (max-width: 1300px) {
+
+  .timeline{
+    width: 80vw;
+  }
+  
+  ul.nav li .inner{
+    width: 100%;
+    bottom: 0;
+    font-size: 11px;
+    font-weight: bolder;
+  }
+  
+  
+  
+  
+  }
+
 @media (max-width: 900px) {
 
   .timeline{
@@ -514,7 +532,7 @@ ul.nav li.active::after{
   ul.nav li .inner{
     width: 100%;
     bottom: 0;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bolder;
   }
   
@@ -527,7 +545,7 @@ ul.nav li.active::after{
   
   
   @media (max-width: 700px) {
-   
+
     ul.nav li .inner{
       width: 100%;
       bottom: 0;
