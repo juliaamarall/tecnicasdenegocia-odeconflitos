@@ -79,13 +79,24 @@ include('layout/header.php');
                                     </a>
                                     </div>
 
-                                    <div class="col-sm-6 col-md-4 icon-painel fs-5">
-                                    <a href="#parafra" class="color-dark">
+                                    <div class="col-sm-6 col-md-2 icon-painel fs-5">
+                                    <a href="#parafra" class="color-dark ms-3">
                                         <section>
                                         <i class="fa-solid fa-arrows-turn-to-dots"></i>
                                         </section>
                                         <section>
                                           Parafraseamento
+                                        </section>
+                                    </a>
+                                    </div>
+
+                                    <div class="col-sm-6 col-md-2 icon-painel fs-5">
+                                    <a href="#resumo" class="color-dark">
+                                        <section>
+                                        <i class="fa-regular fa-bookmark"></i>
+                                        </section>
+                                        <section>
+                                         Resumo
                                         </section>
                                     </a>
                                     </div>
@@ -269,35 +280,52 @@ include('layout/header.php');
 
             </div>   
             
-            
-            <div class="text-center m-3">
+
+            <div class="text-left m-3 color-dark wow fadeIn" data-wow-delay="0.3s" id="resumo">
                 <hr>
+                <h3 class = "fw-semibold text-center m-3" id="space-letra"> RESUMO <i class="fa-regular fa-bookmark"></i></h3>
 
-                <div class="text-center m-4">
-                            <h4><span class="badge bg-warning text-dark-ênfase"><i class="fa fa-lightbulb"
-                                        style="color:white"></i> Clique para entender sobre.</span></h4>
-                        </div>
-            <p class="d-inline-flex gap-1">
-  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-   Resumo <i class="fa-regular fa-hand-pointer fa-beat"></i>
-  </a>
-</p>
-<div class="collapse" id="collapseExample">
-  <div class="card card-body text-left">
-    <p>Imagine que a demandante reclame de atrasos na pensão do filho, e o demandado do desempenho escolar durante a guarda materna. Como encontrar uma ponte para o diálogo nesse contexto?</p>
 
-    <p>Ora, na situação exposta, há um ponto em comum, o qual sintetiza o interesse dos litigantes. A mãe exige o pagamento por se preocupar com as necessidades do filho, assim como o pai o faz em relação às boas notas.</p>
+                <div class="apresentacao m-3">
 
-    <p>Então, o mediador poderia resumir os dois relatos em uma perspectiva que favoreça o diálogo. Uma possibilidade seria afirmar o seguinte: “vejo que ambos se preocupam com os cuidados do menor”.</p>
-
-    <p>Perceba que essa técnica modifica a forma de exposição dos relatos, embora seja ligeiramente diferente da re-contextualização por abordar os pontos em comum de duas ou mais falas.</p>
-
-    <p>Vale ressaltar também que o resumo é utilizado para construir uma agenda de mediação, em que constarão os temas a serem discutidos durante o procedimento. Logo, no exemplo mencionado, os cuidados do menor seriam um dos assuntos trabalhados nas sessões.</p>
-  </div>
+<div class="img_apresentacao" data-aos="zoom-in-down" >
+    <img src="imgs-pessoas/Group 3.png" alt="">
 </div>
+<div>
+<p>Imagine que a demandante reclame de atrasos na pensão do filho, e o demandado do desempenho escolar durante a guarda materna. Como encontrar uma ponte para o diálogo nesse contexto?</p>
 
+<p>Ora, na situação exposta, há um ponto em comum, o qual sintetiza o interesse dos litigantes. A mãe exige o pagamento por se preocupar com as necessidades do filho, assim como o pai o faz em relação às boas notas.</p>
+
+<p>Então, o mediador poderia resumir os dois relatos em uma perspectiva que favoreça o diálogo. Uma possibilidade seria afirmar o seguinte: “vejo que ambos se preocupam com os cuidados do menor”.</p>
+
+    <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+</div>
+</div>
+               
+
+<p>Perceba que essa técnica modifica a forma de exposição dos relatos, embora seja ligeiramente diferente da re-contextualização por abordar os pontos em comum de duas ou mais falas.</p>
+
+<p>Vale ressaltar também que o resumo é utilizado para construir uma agenda de mediação, em que constarão os temas a serem discutidos durante o procedimento. Logo, no exemplo mencionado, os cuidados do menor seriam um dos assuntos trabalhados nas sessões.</p>
+               
+
+                
+                <div class="buttons text-end">
+            <a href="#painel-inicio">
+            <button type="button" class="btn btn-outline-success">Voltar para as técnicas</button>
+            </a>
+          
+          </div>
+
+            </div>   
+            
             </div>
-        </section>
+         </div>
+       </div>
+     </div>
+   </section>
+ </div>
+ 
         <!-- Botões de navegação -->
         <div class="text-center" id="botoes-finais">
             <a href="index.php" class="btn btn-outline-success" role="button" aria-pressed="true"> <i

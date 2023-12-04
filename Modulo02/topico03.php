@@ -567,7 +567,134 @@ Como se pode observar, o trabalho do mediador começa a partir de uma acolhida a
 </div>
 
 </div>
-        </section>
+
+<!-- GAME -->
+<div class="tudo">
+                            <div class="row d-flex align-items-center justify-content-between">
+                                <div class="col-sm-12 col-md-5 img-index">
+                                    <img src="imgs-pessoas/Group 11.png" alt="ilustração" id="img-1" class="w-75 wow animate__zoomIn img-apresentacao">
+                                </div>
+
+                                <div class="col-sm-12 col-md-7 mt-5">
+                                    <div class="row container mt-6 wow animate__zoomIn">
+                                        <div class="mensagem md-5">
+                                        <p class=" text-left paragrafo mb-4">
+                                       Olá [Nome_Completo],
+                                       antes de avançar para o próximo módulo clique abaixo e participe de um jogo sobre o conteúdo apresentado para solidificar o seu aprendizado.
+                                        </p>
+                                    </div>
+                                         <!-- MODAL 1 - INSTRÇÕES DO JOGO -->
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+      tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-3" id="exampleModalToggleLabel"><i class="fa-solid fa-pen-clip"></i> Instruções do
+              Teste</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body fw-medium">
+            <ol>
+              <li>Você deverá descobrir a palavra embaralhada.</li>
+              <li>Ao concluir clique em confirmar.</li>
+              <li>Este teste não influenciará na avaliação final.</li>
+            </ol>
+          </div>
+          <div class="modal-footer">
+            <button class="btn" id="btn-game" data-bs-target="#exampleModalToggle2"
+              data-bs-toggle="modal">Continuar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 2 - INÍCIO DO JOGO -->
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+      tabindex="-1" data-bs-keyboard="false">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-3" id="exampleModalToggleLabel2"><i class="fa-solid fa-gamepad"></i> Palavra
+              Embaralhada</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="content">
+              <p class="word"></p>
+              <div class="details">
+                <p class="hint">Dica: BLBLABLABLA <span></span></p>
+              </div>
+              <input type="text" spellcheck="false" placeholder="Escreva a palavra">
+              <div class="buttons">
+                <button class="btn-game" id="refresh-word">Embaralhar</button>
+                <button class="btn-game" id="check-word">Confirmar</button>
+
+                <div id="divTransparente" class="escondida"></div>
+                <div id="d2" class="escondida" data-bs-dismiss="modal"></div>
+
+                <!-- MODAIS DAS RESPOSTAS -->
+                <!-- MODAL QUANDO A CAIXA DE RESPOSTA ESTIVER VAZIA -->
+                <div id="modal-js">
+                  <dialog class="modal01">
+                    <i id="close01" class="bi bi-x"></i>
+                    <div class="text-center">
+                      <img src="imgs/opps.png" class="img-fluid"
+                        alt="Imagem indicando que a caixa de resposta está vazia.">
+                    </div>
+                  </dialog>
+                </div>
+
+                <!-- MODAL QUANDO A RESPOSTA ESTIVER CORRETA -->
+                <div id="modal-js">
+                  <dialog class="modal02">
+                    <i id="close02" class="bi bi-x" data-bs-dismiss="modal"></i>
+                    <div class="text-center">
+                      <img src="imgs/parabens.png" class="img-fluid"
+                        alt="Imagem indicando que você acertou a resposta.">
+                    </div>
+                  </dialog>
+                </div>
+
+                <!-- MODAL QUANDO A RESPOSTA ESTIVER ERRADA-->
+                <div id="modal-js">
+                  <dialog class="modal03">
+                    <i id="close03" class="bi bi-x"></i>
+                    <div class="text-center">
+                      <img src="imgs/que-pena.png" class="img-fluid" alt="Imagem indicando que você errou a resposta.">
+                    </div>
+                  </dialog>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- <div class="modal-footer d-flex  justify-content-center">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Voltar</button>
+      </div> -->
+        </div>
+      </div>
+    </div>
+
+    <button class="btn d-flex align-items-center justify-content-evenly" data-bs-target="#exampleModalToggle"
+      id="btn-game" data-bs-toggle="modal"><i class="fa-solid fa-puzzle-piece" id="puzzle"></i>Teste Seus
+      Conhecimentos</i></button>
+  </div>
+                                    
+                                        
+                                  
+                                    </div>
+
+                                </div>
+                        </div>
+        <!-- FIM DO GAME -->
+
+
+        </div>
+         </div>
+       </div>
+     </div>
+   </section>
+ </div>
 
 
         <!-- Botões de navegação -->
