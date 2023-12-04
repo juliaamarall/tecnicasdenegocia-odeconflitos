@@ -148,7 +148,7 @@ include('layout/header.php');
                                                 <ul class="column-B">
                                                 <div id="item-B">
                                                     <p>
-                                                    <li class="dropzone" data-resposta="B"></li>
+                                                    <li class="dropzone" data-resposta="D"></li>
                                                     a situação conflituosa sai da esfera interpessoal e passa a afetar a organização negativamente ou equipe como um todo
                                                     </p>
                                                 </div>
