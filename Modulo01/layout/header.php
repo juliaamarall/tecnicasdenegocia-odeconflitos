@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="../css/style.css">
      <!-- css do curso -->
      <link rel="stylesheet" href="../css02/styles.css">
+      <!-- css da gameficação -->
+      <link rel="stylesheet" href="../cssGAME/style.css">
     <!-- link do font awesome  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <!-- link do script -->

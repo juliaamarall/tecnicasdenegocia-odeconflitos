@@ -50,22 +50,22 @@ include('layout/header.php');
 </div>
 </div>
                         <div>
-                        <p class="btn-texto">
-            <button class="btn btn botao-modal" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample" >
-               <span class="font-teste"> CLIQUE PARA VER MAIS <i class="fa-regular fa-hand-pointer fa-fade"></i> </span>
-            </button>
-          </p>
-          <div style="min-height: 120px;" id="box-texto">
-            <div class="collapse collapse-horizontal" id="collapseWidthExample">
-              <div class="card card-body" style="width: 800px;">
-               <p>Importante salientar que o processo de mudança não está definido por minha vontade ou a mercê de uma estratégia organizacional, o mesmo dependerá do contexto político, social e econômico no qual nos encontramos, especialmente no que se configura de “novo normal” no atual contexto pandêmico mundial. As relações intra e interpessoais jamais serão as mesmas, o que nos impulsiona a uma nova forma de enxergar as tradicionais estratégias de gestão de uma forma mais crítica.</p>
+                    <!-- botao CLIQUE PARA SABER MAIS! -->
+    <div class="text-center">
+        <p class="d-inline-flex gap-1 btn-texto">
+          <a class="btn  botao-modal" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Clique para saber mais!
+          </a>
+        </p>
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body text-left">
+          <p>Importante salientar que o processo de mudança não está definido por minha vontade ou a mercê de uma estratégia organizacional, o mesmo dependerá do contexto político, social e econômico no qual nos encontramos, especialmente no que se configura de “novo normal” no atual contexto pandêmico mundial. As relações intra e interpessoais jamais serão as mesmas, o que nos impulsiona a uma nova forma de enxergar as tradicionais estratégias de gestão de uma forma mais crítica.</p>
 
-               <p>Neste sentido, o que significa ser competente neste novo cenário? Quais os conhecimentos, as habilidades e as atitudes a desenvolvermos para a resolução e negociação de conflitos? Não tenhamos dúvidas que neste curso encontraremos algumas possibilidades, mas jamais exauriremos o manancial de potencialidades que ao longo da nossa trajetória humana iremos nos deparar.</p>
-              </div>
-            </div>
+<p>Neste sentido, o que significa ser competente neste novo cenário? Quais os conhecimentos, as habilidades e as atitudes a desenvolvermos para a resolução e negociação de conflitos? Não tenhamos dúvidas que neste curso encontraremos algumas possibilidades, mas jamais exauriremos o manancial de potencialidades que ao longo da nossa trajetória humana iremos nos deparar.</p>
           </div>
+        </div>
     </div>
-
+        <!-- FIM DO botao CLIQUE PARA SABER MAIS! -->
     <div class="text-left wow fadeIn" data-wow-delay="0.3s">
     <p>Por fim, pretendemos no decorrer deste curso que você tenha a oportunidade de conhecer com propriedade os conceitos, os principais tipos de conflitos, o conceito de negociação na visão organizacional e as etapas do Processo de Negociação.</p>
 
@@ -75,21 +75,6 @@ include('layout/header.php');
     <div class="text-right">
     <p><strong>Votos de muito Sucesso!</strong></p>
     </div>
-                        
-                       
-                        
-
-                        
-                    
-                        
-
-                        <ul class="none">
-                            <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i></i>
-                                <h4>
-                                    Olá, Nome_Completo bem-vindo ao módulo 01 do curso de Gestão do tempo. Bons estudos!
-                                </h4>
-                            </li>
-                        </ul>
                     </div>
 
                 </div>

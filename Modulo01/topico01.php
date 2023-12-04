@@ -26,9 +26,12 @@ include('layout/header.php');
                     <div class="col-md-10 col-sm-8 container-fluid">
 
                         <h2 class="Titulo fw-bolder">Introdução aos Conceitos Básicos: Conflito e Negociação</h2>
-                        
+                        <div class="text-center m-4">
+                            <h4><span class="badge bg-warning text-dark-ênfase"><i class="fa fa-lightbulb"
+                                        style="color:white"></i> Clique na imagem para saber mais!</span></h4>
+                        </div>
                         <!-- imagem com flip -->
-                        <div class="container">
+                        <div class="container d-flex justify-content-center">
         <div class="cards">
           <label id="summary">
             <input type="checkbox" />
@@ -39,15 +42,17 @@ include('layout/header.php');
                 </header>
                 
                <!-- IMAGEM 01 DO TÓPICO DE APRESENTAÇÃO -->
+
+
                             <div class="container img-flip">
                                 <img src="imgs/Figura01.png" alt="Imagem da capa do curso com o títilo ÉTICA E SERVIÇO PÚBLICO" class="img-fluid">
                                 <p class = "FonteFigura FonteMenor"><strong>Fonte:</strong>  https://www.bstorytelling.com.br/wp-content/uploads/2020/01/Capa-01-1.png</p>
-                                <p class = "FonteFigura FonteMenor"><strong>Clique para saber mais!</strong></p>
+                               
                                 </div>
                         <!-- FIM DA IMAGEM DE APRESENTAÇÃO   -->
         
               </div>
-              <div class="back flip-bordernone" id="gradient-flip">
+              <div class="back flip-bordernone back-img" id="gradient-flip">
                 <header>
                   <span class="material-symbols-outlined"> <i class="bi bi-x-lg"></i> </span>
                 </header>
@@ -68,10 +73,22 @@ include('layout/header.php');
               <p>Segundo Lima (2014), o conflito é algo que se tornou comum em todo e qualquer lugar do mundo, desde o início da humanidade fazem parte da evolução dos seres humanos e são necessários para a evolução e desenvolvimento de qualquer sistema, seja ele, familiar, social, político ou organizacional, eles são inevitáveis nas relações de trabalho, mas precisam ser compreendidos e administrados de forma eficaz, pois podem trazer sérios problemas para a organização, desde simples desentendimentos de colaboradores, até a falta de entrosamento entre áreas que precisam atuar de forma integrada.</p>
 
               <p>Sabemos que não são recentes os estudos em relação aos conceitos de conflito na literatura com foco no contexto da vida da sociedade contemporânea.</p>
-
-              <p>Na concepção de Chrispino (2007), o conflito faz parte da vida e do social, seja contemporânea ou antiga, ainda no esforço de entendimento do conceito, podemos dizer que o conflito origina da diferença de interesses, desejos e de aspirações, percebe-se que não existe aqui a noção estrita de erro e de acerto, mas de posições que são defendidas frente a outras, diferentes.</p>
+     <!-- botao CLIQUE PARA SABER MAIS! -->
+     <div class="text-center">
+        <p class="d-inline-flex gap-1 btn-texto">
+          <a class="btn  botao-modal" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Clique para saber mais!
+          </a>
+        </p>
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body text-left">
+          <p>Na concepção de Chrispino (2007), o conflito faz parte da vida e do social, seja contemporânea ou antiga, ainda no esforço de entendimento do conceito, podemos dizer que o conflito origina da diferença de interesses, desejos e de aspirações, percebe-se que não existe aqui a noção estrita de erro e de acerto, mas de posições que são defendidas frente a outras, diferentes.</p>
               
               <p>Vasconcelos (2018) afirma que o conflito se caracteriza como dissenso: fenômeno inerente às relações humanas. Ele não é algo que deva ser encarado negativamente. Abaixo apresentaremos alguns tipos de conflitos:</p>
+          </div>
+        </div>
+    </div>
+        <!-- FIM DO botao CLIQUE PARA SABER MAIS! -->
 
      <!-- inicio do primeiro subtópico -->
      
@@ -83,9 +100,9 @@ include('layout/header.php');
                                         style="color:white"></i> Clique para entender sobre.</span></h4>
                         </div>
               <div class="container">
-                <div class="row" id="card-responsivo">
+                <div class="row card-responsivo">
                   <!-- PRIMEIRO FLIP CARD DO PRIMEIRO SUBTÓPICO -->
-                  <div class="col-sm-12 col-md-6 card-res">
+                  <div class="col-sm-12 col-md-6" id="card-res">
                   <div class="container">
                     
       <div class="cards">
@@ -119,7 +136,7 @@ include('layout/header.php');
 
                   <!-- FIM DO PRIMEIRO FLIP CARD DO SUBTÓPICO -->
                     <!-- SEGUNDO FLIP CARD DO PRIMEIRO SUBTÓPICO -->
-                  <div class="col-sm-12 col-md-6">
+                  <div class="col-sm-12 col-md-6" id="card-res">
                   <div class="container">
       <div class="cards">
         <label id="summary">

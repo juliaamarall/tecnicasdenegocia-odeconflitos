@@ -159,7 +159,8 @@ article header h2 {
 }
 
 .color-flip > p {
-  color: white !important;
+  color: rgb(0, 0, 0) !important;
+  font-weight: 900;
 }
 
 article .front,
@@ -185,6 +186,7 @@ article .back {
 article #gradient-flip {
   background-color: #2db39e;
   margin-top: 1em;
+  margin-bottom: 20em;
 }
 
 #box-color{
@@ -242,14 +244,6 @@ article p {
   margin-top: 0.5em;
 }
 
-
-
-.container{
- display: flex;
- justify-content: center;
-}
-
-
 /* flip-card menor */
 
 /* inicio flip-card subtópico */
@@ -281,9 +275,7 @@ width: 50vh;
 height: 300px;
 }
 
-/* responsividade do flip card  */
 
-/* fim da responsividade do flip card */
 /*  fim flip-card subtópico */
 
 
@@ -291,7 +283,7 @@ height: 300px;
 .timeline{
 margin-top: 2em;
 margin-left: auto;
-margin-bottom: 20em;
+margin-bottom: 15em;
 margin-right: auto;
 width: 90vw;
 
@@ -669,6 +661,16 @@ height: fit-content;
 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.texto_apresentacao-verdeagua {
+  background-color: #2db39e;
+    border-radius: 100px 100px 100px 0;
+    padding: 40px;
+    margin-top: 1rem;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
 .border-dif{
 border-top-left-radius: 100px;  
  border-top-right-radius: 0px;   
@@ -764,6 +766,7 @@ border: 0;
 border-radius: 40px;
 padding: 20px 20px;
 font-size: 16px;
+box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 transition: 0.5s;
 }
 
@@ -1018,4 +1021,37 @@ color: black;
 
 [data-theme="dark"] .hr {
 color: rgb(255, 255, 255);
+
 }
+
+
+
+/* responsividade do flip-card */
+
+@media screen and (max-width: 1060px){
+  .card-responsivo{
+    display: flex;
+  }
+  .card-responsivo > div{
+    width: 60vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column !important;
+  }
+
+}
+
+
+@media screen and (max-width: 1000px){
+  .cards{
+    display: flex;
+    justify-content: center;
+  }
+
+ .back-img{
+    width: 60vh;
+    height:55vh;
+    margin: auto;
+  }
+}
+
