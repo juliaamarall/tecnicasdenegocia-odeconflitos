@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <!-- css do módulo02 -->
     <link rel="stylesheet" href="../css02/style2.css">
-    <!-- nosso css -->
+    <!-- css da gameficação -->
     <link rel="stylesheet" href="../cssGAME/style.css">
     <!-- link do script -->
     <script src="js/script.js" defer></script>

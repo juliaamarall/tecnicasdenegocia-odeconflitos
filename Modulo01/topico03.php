@@ -41,7 +41,9 @@ include('layout/header.php');
               <div class="timeline01">
                 <div class="outer">
                   <div class="card01">
-                    <div class="info wow fadeIn" data-wow-delay="0.3s">
+                    <div class="info"data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000">
                       <h3 class="title01"> 3.1 - Promova uma comunicação eficiente e facilite o diálogo:</h3>
                       <p>Os conflitos são causados pela falta de comunicação, portanto para administrar e até mesmo
                         prevenir situações conflituosas, é necessário que haja diálogo entre colaboradores, equipes e
@@ -51,7 +53,9 @@ include('layout/header.php');
                     </div>
                   </div>
                   <div class="card01">
-                    <div class="info wow fadeIn" data-wow-delay="0.3s">
+                    <div class="info" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000">
                       <h3 class="title01"> 3.2 - Dê preferência ao pronome “nós”:</h3>
                       <p>Uma técnica para negociação e administração de conflitos é a utilização da palavra nós.</p>
                       <p>Evite apontar o dedo para outras pessoas ou se colocar no centro de tudo, como se apenas o seu
@@ -59,7 +63,9 @@ include('layout/header.php');
                     </div>
                   </div>
                   <div class="card01">
-                    <div class="info wow fadeIn" data-wow-delay="0.3s">
+                    <div class="info" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000">
                       <h3 class="title01"> 3.3 - Faça pesquisas de clima organizacional:</h3>
                       <p>Os conflitos impactam diretamente no clima organizacional, nesse sentido a realização de
                         pesquisas de clima ajuda a identificar eventuais conflitos que podem inclusive estar no estágio
@@ -226,6 +232,10 @@ include('layout/header.php');
   <?php
   include('layout/footer.php');
   ?>
+
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>

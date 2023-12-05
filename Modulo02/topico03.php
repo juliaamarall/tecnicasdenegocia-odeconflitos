@@ -66,30 +66,19 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
 </div>
 
 <div class="text-center">
-  <button type="button" class="btn botao-modal m-3" data-bs-toggle="modal" data-bs-target="#modalTwo" data-aos="zoom-in-up">
+    <p class="d-inline-flex gap-1">
+  <a class="btn botao-modal" data-bs-toggle="collapse" href="#collapseOne" role="button" aria-expanded="false" aria-controls="collapseOne">
   Clique para saber mais!
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="modalTwo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content modal-w">
-      <div class="modal-header">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body text-left">
-        <p>Ante um conflito é importante que se observe e identifique não só os conteúdos daquilo que está sendo dito e reclamado, mas também o que perfaz a raiz da problemática, ou seja, a real necessidade existente no conflito que nem sempre vem à tona ou é percebida pelas próprias partes. Por isso, a necessidade das <strong>ferramentas para mediação de conflitos</strong>.</p>
+  </a>
+</p>
+<div class="collapse" id="collapseOne">
+  <div class="card card-body text-left">
+  <p>Ante um conflito é importante que se observe e identifique não só os conteúdos daquilo que está sendo dito e reclamado, mas também o que perfaz a raiz da problemática, ou seja, a real necessidade existente no conflito que nem sempre vem à tona ou é percebida pelas próprias partes. Por isso, a necessidade das <strong>ferramentas para mediação de conflitos</strong>.</p>
         <p>Muitas vezes, se faz necessário que um terceiro interceda na relação conflituosa, podendo, então, surgir a figura do mediador, do negociador e até mesmo do juiz ou árbitro.</p>
         <p>O papel do terceiro imparcial, nesse momento de solução de conflitos, pode ser essencial, uma vez que ele pode ajudar a organizar as ideias que se contrapõem, auxiliar as partes a se entenderem e a se expressarem. Pode estabelecer a equanimidade, possibilitar o reconhecimento da identidade, a fim de restabelecer a boa comunicação e auxiliar na condução pacífica em relação aos ânimos aflorados, facilitando assim, a autocomposição.</p>
-      </div>
-    </div>
-  </div>
 </div>
-      <!-- end modals -->
-
-
-
-  
+</div> 
+</div> 
 <p class="text-left">No tocante a arbitragem, ressalta-se a citação de Calmon (2008), ‘nada obsta que as partes promovam a autocomposição enquanto participam do procedimento arbitral’. Especifica ainda a existência dos métodos med/arb e arb/med, citados a seguir:</p>
 
  <!-- Citação com borda verde (esquerda) -->
@@ -259,32 +248,20 @@ Vale destacar que nos conflitos, geralmente, existem uma disputa entre o binômi
         Essa é a fase em que os litigantes têm a oportunidade de serem ouvidos de maneira objetiva. À medida que os mediandos conseguem estabelecer um mínimo de comunicação, sentem-se mais empoderados para resolverem seus conflitos e passam a se entender melhor, a se respeitar mais, se reconhecem como seres humanos possuidores de necessidades e merecedores de respeito e confiança.
         </p>
 
-    <!-- botão (clique para saber mais!) -->
-      <!-- modals -->
-      <!-- Vertically centered scrollable modal -->
-  <!-- Button trigger modal -->
-
-  <div class="text-center">
-  <button type="button" class="btn botao-modal m-2" data-bs-toggle="modal" data-bs-target="#modalTwo" data-aos="zoom-in-up">
+        <div class="text-center">
+    <p class="d-inline-flex gap-1">
+  <a class="btn botao-modal" data-bs-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="false" aria-controls="collapseTwo">
   Clique para saber mais!
-</button>
+  </a>
+</p>
+<div class="collapse" id="collapseTwo">
+  <div class="card card-body text-left">
+  <p>Ainda sobre as ferramentas para mediação de conflitos, Lia Regina Castaldi Sampaio e Adolfo Braga Neto(2014) defendem que ao dar voz aos mediandos, para que expliquem o motivo que os levou a buscar seus serviços, já se inicia a escuta ativa.</p>
 
-
-<div class="modal fade" id="modalTwo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content modal-w">
-      <div class="modal-header">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body text-left">
-        <p>Ainda sobre as ferramentas para mediação de conflitos, Lia Regina Castaldi Sampaio e Adolfo Braga Neto(2014) defendem que ao dar voz aos mediandos, para que expliquem o motivo que os levou a buscar seus serviços, já se inicia a escuta ativa.</p>
-
-        <p>Trata-se da observação permanente desse terceiro com relação à comunicação entre as partes, sem nenhuma associação de ideias a situações ou a momentos por ele vivenciados, sem julgar as partes e, sobretudo, sem despojar-se de sua realidade rotineira, a fim de escutá-las da forma e com a intenção em que desejam ser ouvidas. O mediador verificará a existência de pouca ou de muita assertividade em relação à comunicação verbal e não verbal. Essa atitude de escuta, deve ser empregada ao longo de todo o processo, sob pena de o mediador não conquistar a confiança das partes, nem auxiliá-las na resolução ou na transformação do conflito. (SAMPAIO e NETO, 2014, p. 56)</p>
-      </div>
-    </div>
-  </div>
+<p>Trata-se da observação permanente desse terceiro com relação à comunicação entre as partes, sem nenhuma associação de ideias a situações ou a momentos por ele vivenciados, sem julgar as partes e, sobretudo, sem despojar-se de sua realidade rotineira, a fim de escutá-las da forma e com a intenção em que desejam ser ouvidas. O mediador verificará a existência de pouca ou de muita assertividade em relação à comunicação verbal e não verbal. Essa atitude de escuta, deve ser empregada ao longo de todo o processo, sob pena de o mediador não conquistar a confiança das partes, nem auxiliá-las na resolução ou na transformação do conflito. (SAMPAIO e NETO, 2014, p. 56)</p>
 </div>
-      <!-- end modals -->
+</div> 
+</div> 
 <!-- voltar para as ferramentas -->
 <div class="buttons text-end">
             <a href="#painel-two">
@@ -451,33 +428,23 @@ Todas essas ferramentas para mediação de conflitos citadas são válidas, desd
 </div>
 <!-- Citação com borda verde (esquerda) -->
 
-      <!-- modals -->
-      <!-- Vertically centered scrollable modal -->
-  <!-- Button trigger modal -->
-  <div class="text-center">
-  <button type="button" class="btn botao-modal m-2" data-bs-toggle="modal" data-bs-target="#modalThree" data-aos="zoom-in-up">
+<div class="text-center">
+    <p class="d-inline-flex gap-1">
+  <a class="btn botao-modal" data-bs-toggle="collapse" href="#collapseETheree" role="button" aria-expanded="false" aria-controls="collapseTheree">
   Clique para saber mais!
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="modalThree" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content modal-w">
-      <div class="modal-header">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body text-left">
-        <p>Ante o exposto, identifica-se a necessidade do mediador desenvolver um vasto vocabulário de nomenclatura dos sentimentos.</p>
+  </a>
+</p>
+<div class="collapse" id="collapseTheree">
+  <div class="card card-body text-left">
+  <p>Ante o exposto, identifica-se a necessidade do mediador desenvolver um vasto vocabulário de nomenclatura dos sentimentos.</p>
         <p>Ao ouvir um sentimento negativo trazido pelo mediando, é importante trazer o foco para os sentimentos traduzidos em palavras, bem como para a necessidade que está por trás do que foi expresso.</p>
         <p>A mediação encerra quando as partes assim dispuserem ou evidenciarem acerca da solução ou não do conflito em questão. Caso cheguem a um acordo, poderá ser escrito e, para tanto, a redação deverá ser clara e objetiva.</p>
         <p>O acordo pode ser total ou parcial, caso algum item não se resolva, o mediador poderá orientar os mediandos a optarem por outros métodos de resolução de conflito, como o judiciário ou a arbitragem, por exemplo.</p>
-      </div>
-    </div>
-  </div>
 </div>
-      <!-- end modals -->
+</div> 
+</div>   
 
-  </div>
+
 <!-- botao voltar para as ferramentas -->
   <div class="buttons text-end">
             <a href="#painel-two">
@@ -552,11 +519,11 @@ Como se pode observar, o trabalho do mediador começa a partir de uma acolhida a
 
   <div class="text-center">
     <p class="d-inline-flex gap-1">
-  <a class="btn btn-primary botao-color" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+  <a class="btn botao-modal" data-bs-toggle="collapse" href="#collapseFour" role="button" aria-expanded="false" aria-controls="collapseFour">
    Resumo <i class="fa-regular fa-hand-pointer fa-beat"></i>
   </a>
 </p>
-<div class="collapse" id="collapseExample">
+<div class="collapse" id="collapseFour">
   <div class="card card-body text-left">
     <p>Cabe ao mediador ser ponte e saber-se um eterno aprendiz. Destaca-se que os conhecimentos das técnicas da mediação e do uso adequado são aprimorados com o tempo e, para tanto, caberá ao mediador sempre buscar se especializar em diversas áreas que vão muito além das técnicas.</p>
 
@@ -583,22 +550,31 @@ Como se pode observar, o trabalho do mediador começa a partir de uma acolhida a
                                        antes de avançar para o próximo módulo clique abaixo e participe de um jogo sobre o conteúdo apresentado para solidificar o seu aprendizado.
                                         </p>
                                     </div>
-                                         <!-- MODAL 1 - INSTRÇÕES DO JOGO -->
+                                       <!-- começo do Quiz botao -->
+  <div class="start_btn wow animate__bounceInLeft" data-wow-delay="0.4s"><button data-bs-target="#exampleModalToggle"
+      id="btn-game" data-bs-toggle="modal"><i class="icone fa-solid fa-puzzle-piece"></i>TESTE SEUS
+      CONHECIMENTOS</button></div>
+
+  <!-- ######################################## GAME DE EMBARALHAR PALAVRAS ##################################### -->
+  <div id="game" class="wow fadeIn" data-wow-delay="0.3s">
+    <!-- MODAL 1 - INSTRUÇÕES DO JOGO -->
     <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
       tabindex="-1">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-3" id="exampleModalToggleLabel"><i class="fa-solid fa-pen-clip"></i> Instruções do
+            <h1 class="modal-title fs-3" id="exampleModalToggleLabel"><i class="fa-solid fa-pen-clip"></i>
+              Instruções do
               Teste</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body fw-medium">
-            <ol>
-              <li>Você deverá descobrir a palavra embaralhada.</li>
-              <li>Ao concluir clique em confirmar.</li>
-              <li>Este teste não influenciará na avaliação final.</li>
-            </ol>
+          <div class="modal-body fw-normal" id="instrucoes">
+
+            1. Você deverá descobrir qual é a palavra que está embaralhada;<br><br>
+            2. Haverá uma dica para lhe auxiliar;<br><br>
+            3. Ao concluir clique em confirmar;<br><br>
+            4. Este teste não influenciará na avaliação final.<br><br>
+
           </div>
           <div class="modal-footer">
             <button class="btn" id="btn-game" data-bs-target="#exampleModalToggle2"
@@ -614,18 +590,21 @@ Como se pode observar, o trabalho do mediador começa a partir de uma acolhida a
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-3" id="exampleModalToggleLabel2"><i class="fa-solid fa-gamepad"></i> Palavra
+            <h1 class="modal-title fs-3" id="exampleModalToggleLabel2"><i class="fa-solid fa-gamepad"></i>
+              Palavra
               Embaralhada</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <div class="content">
-              <p class="word"></p>
+            <div class="container cont-game">
+              <div class="word"></div>
               <div class="details">
-                <p class="hint">Dica: BLBLABLABLA <span></span></p>
+                <div class="hint"> <span></span></div>
               </div>
-              <input type="text" spellcheck="false" placeholder="Escreva a palavra">
-              <div class="buttons">
+
+              <input type="text" spellcheck="false" placeholder="Escreva a palavra" id="palavras-respostas">
+
+              <div class="buttons01">
                 <button class="btn-game" id="refresh-word">Embaralhar</button>
                 <button class="btn-game" id="check-word">Confirmar</button>
 
@@ -668,26 +647,11 @@ Como se pode observar, o trabalho do mediador começa a partir de uma acolhida a
               </div>
             </div>
           </div>
-          <!-- <div class="modal-footer d-flex  justify-content-center">
-        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Voltar</button>
-      </div> -->
         </div>
       </div>
     </div>
-
-    <button class="btn d-flex align-items-center justify-content-evenly" data-bs-target="#exampleModalToggle"
-      id="btn-game" data-bs-toggle="modal"><i class="fa-solid fa-puzzle-piece" id="puzzle"></i>Teste Seus
-      Conhecimentos</i></button>
-  </div>
-                                    
-                                        
-                                  
-                                    </div>
-
-                                </div>
-                        </div>
-        <!-- FIM DO GAME -->
-
+  </div> <br><br>
+  <!-- ######################################## GAME DE EMBARALHAR PALAVRAS END ##################################### 
 
         </div>
          </div>
