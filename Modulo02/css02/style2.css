@@ -1,4 +1,4 @@
-/* estilização para o footer da página index */
+estilização para o footer da página index
 footer{
   margin-top: 10vh;
 }
@@ -203,11 +203,6 @@ article #gradient-flip {
 }
 
 
-input {
-  position: absolute;
-  scale: 0;
-}
-
 input:checked ~ article .back {
   transform: rotateY(0);
 }
@@ -287,11 +282,6 @@ margin-bottom: 15em;
 margin-right: auto;
 width: 90vw;
 
-}
-
-input{
-display: none;
-position: absolute;
 }
 .topo{
 position: relative;
@@ -885,9 +875,7 @@ color: rgba(255, 255, 255, 0.5);
 
 /* cor do botao */
 
-.botao-color{
-padding: 0.5em;
-}
+
 
 
 
@@ -1025,33 +1013,4 @@ color: rgb(255, 255, 255);
 }
 
 
-
-/* responsividade do flip-card */
-
-@media screen and (max-width: 1060px){
-  .card-responsivo{
-    display: flex;
-  }
-  .card-responsivo > div{
-    width: 60vh;
-    margin: auto;
-    display: flex;
-    flex-direction: column !important;
-  }
-
-}
-
-
-@media screen and (max-width: 1000px){
-  .cards{
-    display: flex;
-    justify-content: center;
-  }
-
- .back-img{
-    width: 70vh;
-    height:60vh;
-    margin: auto;
-  }
-}
 

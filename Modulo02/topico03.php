@@ -532,25 +532,12 @@ Como se pode observar, o trabalho do mediador começa a partir de uma acolhida a
     <p>Por fim, a mediação é um encontro de, no mínimo três mundos, em que duas partes em conflito se sentem profundamente acolhidas por um terceiro, que as escutas e procura compreendê-los na integralidade, a fim de que possam buscar recursos para desatarem seus próprios nós.</p>
 </div>
 </div>
-
 </div>
 
-<!-- GAME -->
-<div class="tudo">
-                            <div class="row d-flex align-items-center justify-content-between">
-                                <div class="col-sm-12 col-md-5 img-index">
-                                    <img src="imgs-pessoas/Group 11.png" alt="ilustração" id="img-1" class="w-75 wow animate__zoomIn img-apresentacao">
-                                </div>
 
-                                <div class="col-sm-12 col-md-7 mt-5">
-                                    <div class="row container mt-6 wow animate__zoomIn">
-                                        <div class="mensagem md-5">
-                                        <p class=" text-left paragrafo mb-4">
-                                       Olá [Nome_Completo],
-                                       antes de avançar para o próximo módulo clique abaixo e participe de um jogo sobre o conteúdo apresentado para solidificar o seu aprendizado.
-                                        </p>
-                                    </div>
-                                       <!-- começo do Quiz botao -->
+<!-- teste -->
+
+  <!-- começo do Quiz botao -->
   <div class="start_btn wow animate__bounceInLeft" data-wow-delay="0.4s"><button data-bs-target="#exampleModalToggle"
       id="btn-game" data-bs-toggle="modal"><i class="icone fa-solid fa-puzzle-piece"></i>TESTE SEUS
       CONHECIMENTOS</button></div>
@@ -570,7 +557,7 @@ Como se pode observar, o trabalho do mediador começa a partir de uma acolhida a
           </div>
           <div class="modal-body fw-normal" id="instrucoes">
 
-            1. Você deverá descobrir qual é a palavra que está embaralhada;<br><br>
+            1. Você deverá descobrir qual é a palavraque está embaralhada;<br><br>
             2. Haverá uma dica para lhe auxiliar;<br><br>
             3. Ao concluir clique em confirmar;<br><br>
             4. Este teste não influenciará na avaliação final.<br><br>
@@ -596,15 +583,15 @@ Como se pode observar, o trabalho do mediador começa a partir de uma acolhida a
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <div class="container">
+            <div class="content-game">
               <div class="word"></div>
               <div class="details">
                 <div class="hint"> <span></span></div>
               </div>
 
-              <input type="text" spellcheck="false" placeholder="Escreva a palavra" id="palavras-respostas">
+              <input type="text" spellcheck="false" placeholder="Escreva a palavra" id="palavras-respostas" class="input-game">
 
-              <div class="buttons01">
+              <div class="buttons">
                 <button class="btn-game" id="refresh-word">Embaralhar</button>
                 <button class="btn-game" id="check-word">Confirmar</button>
 
@@ -651,14 +638,19 @@ Como se pode observar, o trabalho do mediador começa a partir de uma acolhida a
       </div>
     </div>
   </div> <br><br>
-  <!-- ######################################## GAME DE EMBARALHAR PALAVRAS END ##################################### 
+  <!-- ######################################## GAME DE EMBARALHAR PALAVRAS END ##################################### -->
 
+
+
+
+
+</div>
+            </div>
+          </div>
         </div>
-         </div>
-       </div>
-     </div>
-   </section>
- </div>
+</section>
+        </div>
+      
 
 
         <!-- Botões de navegação -->
