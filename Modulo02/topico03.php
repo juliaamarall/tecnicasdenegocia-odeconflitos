@@ -596,7 +596,7 @@ Como se pode observar, o trabalho do mediador começa a partir de uma acolhida a
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <div class="container cont-game">
+            <div class="container">
               <div class="word"></div>
               <div class="details">
                 <div class="hint"> <span></span></div>

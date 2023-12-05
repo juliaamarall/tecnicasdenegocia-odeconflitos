@@ -30,6 +30,8 @@
     <link rel="stylesheet" href="../cssGAME/style.css">
     <!-- link do script -->
     <script src="js/script.js" defer></script>
+     <!-- link do script -->
+     <script src="jsGAME/scriptGame.js" defer></script>
     <!-- Favicon -->
     <link rel="shortcut icon" href="http://ava.egp.ce.gov.br/2018/desv/logo/favicon.png" />
 
