@@ -122,27 +122,22 @@ include( 'layout/menu.php' );
                 <h3 class="title01">3 - Comunicando com Clareza:</h3>
                 <p>Garantir a boa comunicação ao longo da resolução de um conflito é fundamental. A comunicação deve ser mantida aberta e clara — isso significa evitar ironias, ambiguidades e explicações insuficientes, tudo o que produz desentendimentos e atrapalha a resolução de um conflito. Os membros da equipe devem falar sobre o assunto abertamente também com participação ativa.</p>
 
-                <!-- Button trigger modal -->
-<div class="text-center m-3">
-  <button type="button" class="btn botao-modal-blue" data-bs-toggle="modal" data-bs-target="#modal-timeline01">
-    Clique para saber mais!
-  </button>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="modal-timeline01" tabindex="-1" aria-labelledby="modal-timeline01Label" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content modal-w">
-        <div class="modal-header">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        
+
+                <!-- botao CLIQUE PARA SABER MAIS! -->
+    <div class="text-center mb-3">
+        <p class="d-inline-flex gap-1 btn-texto">
+          <a class="btn  botao-modal" data-bs-toggle="collapse" href="#collapseOne" role="button" aria-expanded="false" aria-controls="collapseOne">
+        Clique para saber mais!
+          </a>
+        </p>
+        <div class="collapse" id="collapseOne">
+          <div class="card card-body-claro text-left">
+          <p> E, para se comunicar bem, é preciso ser um bom ouvinte, como recomendava Dale Carnegie: “Seja um bom ouvinte, incentive as pessoas a falar sobre elas mesmas.” Ouça o que os outros dizem e depois responda de acordo, mas de acordo com o que foi discutido. O modo em que ouvimos reflete na forma em que pensamos. Esteja focado, engaje-se e seja sincero! Uma boa cultura de comunicação ajudará todos os membros a evitar e resolver conflitos com mais rapidez.</p>
+          </div>
         </div>
-        <div class="modal-body text-left">
-            <p> E, para se comunicar bem, é preciso ser um bom ouvinte, como recomendava Dale Carnegie: “Seja um bom ouvinte, incentive as pessoas a falar sobre elas mesmas.” Ouça o que os outros dizem e depois responda de acordo, mas de acordo com o que foi discutido. O modo em que ouvimos reflete na forma em que pensamos. Esteja focado, engaje-se e seja sincero! Uma boa cultura de comunicação ajudará todos os membros a evitar e resolver conflitos com mais rapidez.</p>
-        </div>
-      </div>
     </div>
-  </div>
-</div>
-                
+        <!-- FIM DO botao CLIQUE PARA SABER MAIS! -->   
               </div>
             </div>
             <div class="card01">
@@ -187,26 +182,24 @@ include( 'layout/menu.php' );
                 <h3 class="title01"> 9 - Colaborando:</h3>
                 <p>Significa integrar as ideias de ambas as partes. O principal objetivo é formar uma solução criativa que seja aceitável por todos. Assim, o líder da organização deve colaborar com as ideias, crenças e opiniões de ambas as partes para que cheguem a uma solução comum, então a resolução do conflito será feita. Este processo de colaboração não só ajudará a resolver a questão de forma pacífica, como também não criará nenhum problema interno ao resolver o conflito</p>
 
+                  <!-- botao CLIQUE PARA SABER MAIS! -->
+    <div class="text-center mb-3">
+        <p class="d-inline-flex gap-1 btn-texto">
+          <a class="btn  botao-modal" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Clique para saber mais!
+          </a>
+        </p>
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body-claro text-left">
+          <p>Importante salientar que o processo de mudança não está definido por minha vontade ou a mercê de uma estratégia organizacional, o mesmo dependerá do contexto político, social e econômico no qual nos encontramos, especialmente no que se configura de “novo normal” no atual contexto pandêmico mundial. As relações intra e interpessoais jamais serão as mesmas, o que nos impulsiona a uma nova forma de enxergar as tradicionais estratégias de gestão de uma forma mais crítica.</p>
 
-                
-                <!-- Button trigger modal -->
-<div class="text-center m-3">
-  <button type="button" class="btn botao-modal-blue" data-bs-toggle="modal" data-bs-target="#modal-timeline01">
-    Clique para saber mais!
-  </button>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="modal-timeline01" tabindex="-1" aria-labelledby="modal-timeline01Label" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content modal-w">
-        <div class="modal-header">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+<p>Neste sentido, o que significa ser competente neste novo cenário? Quais os conhecimentos, as habilidades e as atitudes a desenvolvermos para a resolução e negociação de conflitos? Não tenhamos dúvidas que neste curso encontraremos algumas possibilidades, mas jamais exauriremos o manancial de potencialidades que ao longo da nossa trajetória humana iremos nos deparar.</p>
+          </div>
         </div>
-        <div class="modal-body text-left">
-          <p>E lembre-se de algo essencial: se o conflito pode ser resolvido antes que tenha a oportunidade de aumentar, a produtividade vai florescer e o ânimo vai permanecer alto. Com um entendimento claro dos problemas e das personalidades envolvidas, um bom gerente consegue resolver um conflito rapidamente. A administração de conflito pronta e eficiente tem um efeito positivo no resultado final. Pois evita desperdiçar a energia do time em discussões, confrontos e “guerras” desnecessárias, já que em uma equipe saudável estamos todos lutando do mesmo lado e não uns contra os outros.</p>
-        </div>
-      </div>
     </div>
+        <!-- FIM DO botao CLIQUE PARA SABER MAIS! -->
+    </div> 
+
   </div>
 </div>
 

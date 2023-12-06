@@ -62,7 +62,7 @@ include('layout/header.php');
                                         <i class="fa-solid fa-user-large"></i>
                                         </section>
                                         <section>
-                                           Caucaus
+                                           <p>Caucaus</p>
                                         </section>
                                     </a>
                                     </div>
@@ -74,7 +74,7 @@ include('layout/header.php');
                                         <i class="fa-solid fa-brain"></i>
                                                                         </section>
                                         <section>
-                                           Brainstorming
+                                           <p>Brainstorming</p>
                                         </section>
                                     </a>
                                     </div>
@@ -85,7 +85,7 @@ include('layout/header.php');
                                         <i class="fa-solid fa-arrows-turn-to-dots"></i>
                                         </section>
                                         <section>
-                                          Parafraseamento
+                                          <p>Parafraseamento</p>
                                         </section>
                                     </a>
                                     </div>
@@ -96,7 +96,7 @@ include('layout/header.php');
                                         <i class="fa-regular fa-bookmark"></i>
                                         </section>
                                         <section>
-                                         Resumo
+                                         <p>Resumo</p>
                                         </section>
                                     </a>
                                     </div>

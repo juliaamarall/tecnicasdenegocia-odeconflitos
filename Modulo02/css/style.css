@@ -420,7 +420,7 @@ ul li.menu a.ativo {
 
 /* estilo do container de apresentação */
 
-h2 {
+.Titulo{
     margin-left: 5px;
     padding-bottom: 10px;
     border-bottom: 1px solid #ccc;
@@ -980,7 +980,6 @@ form {
     color: var(--color-light-50);
 }
 
-h2,
 .Titulo {
     color: var(--color-green);
 }

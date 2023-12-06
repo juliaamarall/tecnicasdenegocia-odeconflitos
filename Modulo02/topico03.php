@@ -553,7 +553,7 @@ Como se pode observar, o trabalho do mediador começa a partir de uma acolhida a
                                     </div>
 
                                    <!-- começo do Quiz botao -->
-  <div class="start_btn wow animate__bounceInLeft" data-wow-delay="0.4s"><button data-bs-target="#exampleModalToggle"
+  <div class="start_btn wow animate__bounceInRight" data-wow-delay="0.4s" ><button data-bs-target="#exampleModalToggle"
       id="btn-game" data-bs-toggle="modal"><i class="icone fa-solid fa-puzzle-piece"></i>TESTE SEUS
       CONHECIMENTOS</button></div>
 
