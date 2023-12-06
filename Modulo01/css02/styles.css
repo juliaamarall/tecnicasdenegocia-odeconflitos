@@ -222,32 +222,13 @@ article h3 {
   font-weight: 500;
  
 }
-
-#summary :is(var, h3) {
-  color: #3b82f6;
-}
-
-#overdue :is(var, h3) {
-  color: #ef4444;
-}
-
-#features :is(var, h3) {
-  color: #22c55e;
-}
-
-article :is(h4, p) {
-  opacity: 0.5;
-  font-size: 20px;
-}
-
 article p {
   margin-top: 0.5em;
 }
+/* fim do flip card da imagem */
+
 
 /* flip-card menor */
-
-/* inicio flip-card subtópico */
-
 article #card-front,
 article #card-back {
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -279,7 +260,7 @@ height: 300px;
 /*  fim flip-card subtópico */
 
 
-/* timeline */
+/* timeline estilo storyteller */
 .timeline{
 margin-top: 2em;
 margin-left: auto;
@@ -515,9 +496,6 @@ ul.nav li .inner{
   font-weight: bolder;
 }
 
-
-
-
 }
 
 @media (max-width: 900px) {
@@ -533,13 +511,7 @@ ul.nav li .inner{
   font-weight: bolder;
 }
 
-
-
-
 }
-
- /* timeline fim */
-
 
 @media (max-width: 700px) {
 
@@ -568,88 +540,19 @@ ul.nav{
 }
  /* timeline fim */
 
+
+
  .card-style{
   box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
  }
 
- /* segunda timeline */
- /* timeline */
-
-
-
-.timelineul {
-padding: 5px 0;
-}
-
-.timelineul li {
-position:relative;
-list-style-type: none;
-width: 6px;
-background-color:#03cc65;
-padding-top: 50px;
-
-}
-
-.timelineul li::after {
-background:green;
-content: '';
-width: 25px;
-height: 25px;
-border-radius: 50%;
-position:absolute;
-left:50%;
-transform: translateX(-50%);
-bottom: 0;
-}
-
-
-.timelineul li .back-green{
-position: relative;
-width: 400px;
-padding: 15px;
-border-radius: 5px;
-bottom: 0;
-background: #45b16e91;
-}
-
-.timelineul li:nth-child(odd) div {
-left: 45px;
-}
-
-.timelineul li:nth-child(even) div {
-left: -445px;
-}
-
-time {
-font-weight: bold;
-font-size: 18px;
-display: block;
-margin-bottom: 10px;
-}
-
-
-@media screen and (max-width: 900px) {
-.timelineul li div {
-  width: 250px;
-}
-.timelineul li:nth-child(even) div {
-  left: -289px;
-  
-}
-}
-
-
-
 #space-letra{
 letter-spacing: 2px;
 }
-/* fim da timeline */
 
 
- /* fim da segunda timeline */
 
-
- /* apresentação */
+ /* apresentação do index */
  
  /* IMAGEM E TEXTO NO TÓPICO APRESENTAÇÃO */
 .texto_apresentacao {
@@ -780,15 +683,6 @@ padding: 20px 20px;
 font-size: 16px;
 }
 
-.modal-header{
-border-bottom: none;
-}
-
-.modal-w{
-border: none;
-background-color: #1da850;
-color: white;
-}
 
 .botao-modal:hover{
 border: 1px solid #2db39e;
@@ -798,15 +692,6 @@ transition: 0.5s;
 .botao-modal-blue:hover{
 border: 1px solid  rgb(23, 23, 204) ;
 transition: 0.5s;
-}
-
-
-
-
-
-.button-modal {
-font-family: inherit;
-
 }
 
 .color-modal {
@@ -881,12 +766,6 @@ font-size: 21px;
 #p-modal {
 margin: 0;
 color: rgba(255, 255, 255, 0.5);
-}
-
-/* cor do botao */
-
-.botao-color{
-padding: 0.5em;
 }
 
 
@@ -1023,8 +902,6 @@ color: black;
 color: rgb(255, 255, 255);
 
 }
-
-
 
 /* responsividade do flip-card */
 
