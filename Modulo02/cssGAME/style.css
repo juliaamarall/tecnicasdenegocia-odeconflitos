@@ -1,4 +1,18 @@
-
+.mensagem {
+  perspective: 1000px;
+  width: 100vh;
+  height: auto;
+  /* min-height: 150px; */
+  background-color: #e06a0c;
+  /* background-color: #26a737; */
+  border-radius: 10px;
+  padding: 1em;
+  border-bottom-right-radius: 2em;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  border-bottom-left-radius: 0;
+  color: white;
+}
 
 /* ESTILIZAÇÃO DO BOTÃO TESTE SEUS CONHECIMENTOS */
 .start_btn {
@@ -212,7 +226,7 @@ dialog {
   color: white;
 }
 
-.buttons button {
+.buttons .btn-game {
   border: none;
   outline: none;
   color: #fff;

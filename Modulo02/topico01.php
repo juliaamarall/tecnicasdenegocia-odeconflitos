@@ -189,7 +189,7 @@ include('layout/header.php');
           </div>
             </div>
 
-            <div class="text-left m-3 color-dark" id="caucus">
+            <div class="text-left m-3 color-dark wow fadeIn" data-wow-delay="0.3s" id="caucus">
                 <hr>
                 <h3 class = "fw-semibold text-center m-3" id="space-letra"> SESSÕES INDIVIDUAIS (Caucus) <i class="fa-solid fa-user-large"></i>
 </h3>

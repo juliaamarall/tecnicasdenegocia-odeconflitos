@@ -4,10 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!--AOS  -->
-     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- AOS -->
+    <!-- AOS ANIMATE CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- AOS ANIMATE JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <!-- link do wow.js -->
+ <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <!-- CDN DO BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -16,22 +20,23 @@
         crossorigin="anonymous"></script>
     <!-- Cdn do bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <!-- link do font awesome  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-       <!-- cdn jquery  -->
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <!-- nosso css -->
     <link rel="stylesheet" href="../css/style.css">
-    <!-- css do módulo02 -->
-    <link rel="stylesheet" href="../css02/style2.css">
-    <!-- css do módulo02 GAME -->
-    <link rel="stylesheet" href="../cssGAME/style.css">
+     <!-- css do curso -->
+     <link rel="stylesheet" href="../css02/style2.css">
+      <!-- css da gameficação -->
+      <link rel="stylesheet" href="../cssGAME/style.css">
+    <!-- link do font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <!-- link do script -->
-    <script src="js/script.js" defer></script>
+    <script src="../js/script.js" defer></script>
+
     <!-- Favicon -->
     <link rel="shortcut icon" href="http://ava.egp.ce.gov.br/2018/desv/logo/favicon.png" />
-
-    <title>EGPCE | Eventos Digitais Como Ferramenta de Educação</title>
+    <script>
+        new WOW().init();
+    </script>
+    <title>EGPCE | Técnicas de Negociação de Conflitos - Módulo 01</title>
 </head>

@@ -283,6 +283,16 @@ margin-right: auto;
 width: 90vw;
 
 }
+
+.timeline input{
+  display: none;
+  position: absolute;
+  }
+
+  .timeline input {
+    position: absolute;
+    scale: 0;
+  }
 .topo{
 position: relative;
 width: 90%;

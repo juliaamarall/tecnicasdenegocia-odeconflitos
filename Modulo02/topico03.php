@@ -535,9 +535,24 @@ Como se pode observar, o trabalho do mediador começa a partir de uma acolhida a
 </div>
 
 
-<!-- teste -->
 
-  <!-- começo do Quiz botao -->
+ <!-- GAME -->
+ <div class="tudo">
+                            <div class="row d-flex align-items-center justify-content-between">
+                                <div class="col-sm-12 col-md-5 img-index">
+                                    <img src="imgs-pessoas/Group 11.png" alt="ilustração" id="img-1" class="w-75 wow animate__zoomIn img-apresentacao">
+                                </div>
+
+                                <div class="col-sm-12 col-md-7 mt-5">
+                                    <div class="row container mt-6 wow animate__zoomIn">
+                                        <div class="mensagem md-5">
+                                        <p class=" text-left paragrafo mb-4">
+                                       Olá [Nome_Completo],
+                                       antes de avançar para o próximo módulo clique abaixo e participe de um jogo sobre o conteúdo apresentado para solidificar o seu aprendizado.
+                                        </p>
+                                    </div>
+
+                                   <!-- começo do Quiz botao -->
   <div class="start_btn wow animate__bounceInLeft" data-wow-delay="0.4s"><button data-bs-target="#exampleModalToggle"
       id="btn-game" data-bs-toggle="modal"><i class="icone fa-solid fa-puzzle-piece"></i>TESTE SEUS
       CONHECIMENTOS</button></div>
@@ -639,6 +654,22 @@ Como se pode observar, o trabalho do mediador começa a partir de uma acolhida a
     </div>
   </div> <br><br>
   <!-- ######################################## GAME DE EMBARALHAR PALAVRAS END ##################################### -->
+                                        
+
+                                      
+                                        
+                                    </div>
+                                    </div>
+
+                                 
+                                    </div>
+                                    </div>
+
+                                </div>
+                        </div>
+        <!-- FIM DO GAME -->
+
+  
 
 
 
